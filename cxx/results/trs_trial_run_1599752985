@@ -1,0 +1,17 @@
+timestamp: 1599752985
+name: trs_trial_run
+dataset: /home/ubuntu/correlations/continuous/stocks/stocks_data_sort_btree4.bin
+index_spec: /home/ubuntu/correlations/continuous/stocks/index_trs_btree4.build
+index_size: 124250780
+workload: /home/ubuntu/correlations/continuous/stocks/queries_2_3_4_5_s001.dat
+num_queries: 1000
+visitor: index
+total_pts: 153808640
+aggregate: 0
+primary_index_type: rbinary_search_index_4
+avg_scanned_points_in_range: 8.01443e+07
+avg_scanned_points_in_list: 580.904
+avg_indexing_time_ns: 951821
+avg_range_scan_time_ns: 3.77627e+08
+avg_list_scan_time_ns: 23660.2
+avg_query_time_ns: 3.78634e+08

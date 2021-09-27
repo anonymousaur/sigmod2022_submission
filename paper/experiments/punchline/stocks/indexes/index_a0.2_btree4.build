@@ -1,0 +1,36 @@
+CompositeIndex {
+	BinarySearchIndex { 4 }
+	CombinedCorrelationIndex {
+		MappedCorrelationIndex {
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a0.2_btree4.k1.2_4.mapping
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a0.2_btree4.k1.2_4.targets
+		}
+		BucketedSecondaryIndex {
+			2
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a0.2_btree4.k1.2_4.mapping
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a0.2_btree4.k1.2_4.outliers
+		}
+	}
+	CombinedCorrelationIndex {
+		MappedCorrelationIndex {
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a0.2_btree4.k1.3_4.mapping
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a0.2_btree4.k1.3_4.targets
+		}
+		BucketedSecondaryIndex {
+			3
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a0.2_btree4.k1.3_4.mapping
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a0.2_btree4.k1.3_4.outliers
+		}
+	}
+	CombinedCorrelationIndex {
+		MappedCorrelationIndex {
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a0.2_btree4.k1.5_4.mapping
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a0.2_btree4.k1.5_4.targets
+		}
+		BucketedSecondaryIndex {
+			5
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a0.2_btree4.k1.5_4.mapping
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a0.2_btree4.k1.5_4.outliers
+		}
+	}
+}

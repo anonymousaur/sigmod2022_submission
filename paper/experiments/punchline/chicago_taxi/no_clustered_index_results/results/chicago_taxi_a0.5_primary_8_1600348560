@@ -1,0 +1,17 @@
+timestamp: 1600348560
+name: chicago_taxi_a0.5_primary_8
+dataset: /home/ubuntu/correlations/continuous/chicago_taxi/chicago_taxi_sort_primary_8.bin
+index_spec: /home/ubuntu/correlations/paper/experiments/punchline/chicago_taxi/indexes/index_a0.5_primary_8.build
+index_size: 165849670
+workload: /home/ubuntu/correlations/paper/experiments/punchline/chicago_taxi/queries/queries_4_5_s0001.dat
+num_queries: 1000
+visitor: index
+total_pts: 17693287
+aggregate: 0
+primary_index_type: rbinary_search_index_8
+avg_scanned_points_in_range: 57859.6
+avg_scanned_points_in_list: 5758.93
+avg_indexing_time_ns: 293099
+avg_range_scan_time_ns: 473846
+avg_list_scan_time_ns: 298414
+avg_query_time_ns: 1.08038e+06

@@ -1,0 +1,17 @@
+timestamp: 1617307437488
+name: measure_beta_stocks_flood
+dataset: /home/ubuntu/correlations/continuous/stocks/stocks_data_sort_flood_0_4.bin
+index_spec: /home/ubuntu/correlations/paper/experiments/punchline/stocks/indexes/index_measure_beta_stocks.build
+index_size: 0
+workload: /home/ubuntu/correlations/paper/experiments/punchline/stocks/queries/measure_beta_stocks_queries.dat
+num_queries: 1000
+visitor: index
+total_pts: 878221980
+aggregate: 0
+primary_index_type: measure_beta_index_ with primary_index:  and secondary index: 
+avg_scanned_points_in_range: 9.29022e+06
+avg_scanned_points_in_list: 9.20701e+06
+avg_indexing_time_ns: 1.29866e+09
+avg_range_scan_time_ns: 1.26978e+08
+avg_list_scan_time_ns: 1.63689e+08
+avg_query_time_ns: 1.59345e+09

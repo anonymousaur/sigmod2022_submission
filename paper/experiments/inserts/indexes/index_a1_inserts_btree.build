@@ -1,0 +1,16 @@
+CompositeIndex {
+	BinarySearchIndex { 
+        1
+	    /home/ubuntu/correlations/paper/experiments/inserts/laplace_injected_noise_augmented.targets	
+    }
+	CombinedCorrelationIndex {
+		MappedCorrelationIndex {
+			/home/ubuntu/correlations/continuous/synthetic/injected_noise/injected_noise_a1_f0.20.k1.0_1.mapping
+			/home/ubuntu/correlations/continuous/synthetic/injected_noise/injected_noise_a1_f0.20.k1.0_1.targets
+		}
+        SecondaryBTreeIndex {		
+			0
+            /home/ubuntu/correlations/paper/experiments/inserts/empty.bin			
+		}
+	}
+}

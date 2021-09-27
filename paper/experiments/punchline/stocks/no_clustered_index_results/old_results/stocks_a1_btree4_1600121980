@@ -1,0 +1,17 @@
+timestamp: 1600121980
+name: stocks_a1_btree4
+dataset: /home/ubuntu/correlations/continuous/stocks/stocks_data_sort_btree4.bin
+index_spec: /home/ubuntu/correlations/paper/experiments/punchline/stocks/indexes/index_a1_mb100k_tb100k_btree4.build
+index_size: 493947040
+workload: /home/ubuntu/correlations/paper/experiments/punchline/stocks/queries/queries_2_3_5_s0001.dat
+num_queries: 1000
+visitor: index
+total_pts: 16147021
+aggregate: 0
+primary_index_type: rbinary_search_index_4
+avg_scanned_points_in_range: 40949.5
+avg_scanned_points_in_list: 377.883
+avg_indexing_time_ns: 3.10498e+06
+avg_range_scan_time_ns: 303681
+avg_list_scan_time_ns: 21890.4
+avg_query_time_ns: 3.4421e+06

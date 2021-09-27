@@ -1,0 +1,17 @@
+timestamp: 1600303070
+name: target_buckets_a1_mb10000
+dataset: /home/ubuntu/correlations/continuous/synthetic/target_buckets/laplace_injected_noise_f0.20.bin
+index_spec: /home/ubuntu/correlations/paper/experiments/scalability/target_buckets/indexes/index_a1_mb10000.build
+index_size: 160696920
+workload: /home/ubuntu/correlations/continuous/synthetic/target_buckets/queries/queries_0_s001.dat
+num_queries: 1000
+visitor: index
+total_pts: 99466174
+aggregate: 0
+primary_index_type: rbinary_search_index_1
+avg_scanned_points_in_range: 107470
+avg_scanned_points_in_list: 21830.5
+avg_indexing_time_ns: 419942
+avg_range_scan_time_ns: 974979
+avg_list_scan_time_ns: 1.56857e+06
+avg_query_time_ns: 2.98083e+06

@@ -1,0 +1,3028 @@
+found flag name = chicago_taxi_secondary_q3_s05
+found flag dataset = /home/ubuntu/correlations/continuous/chicago_taxi/chicago_taxi_sort_octree_0_2_4.bin
+found flag workload = /home/ubuntu/correlations/continuous/chicago_taxi/queries_3_s05.dat
+found flag visitor = index
+found flag indexer-spec = /home/ubuntu/correlations/continuous/chicago_taxi/index_secondary.build
+found flag save = results/chicago_taxi_secondary_q3_s05.dat
+Dimension is 9
+Loaded 1000 queries
+Loaded dataset and workload
+Setting primary index for CompositeIndex
+Adding secondary index to CompositeIndex
+Adding secondary index to CompositeIndex
+Adding secondary index to CompositeIndex
+Building CompositeIndex
+Sorting data...
+Building Octree with page size 10000 on dimensions: 0 4 
+Data was modified
+Time to sort and finalize data: 382.944s
+Not using datacubes
+Compression time: 19.2181s
+Leaf nodes: 41380, inner nodes: 13793, max page size: 17250
+Indexer sizei (B): 4665925656
+Index creation time: 432.257s
+Starting queries...
+Scan time (us): ranges = 0.22, list = 381096, total = 381096
+True: 9782616, scanned range = 0, scanned list = 10328993
+Query time (ms): 1174.27
+Scan time (us): ranges = 0.22, list = 381772, total = 381772
+True: 9760511, scanned range = 0, scanned list = 10137755
+Query time (ms): 1185.78
+Scan time (us): ranges = 0.22, list = 311923, total = 311923
+True: 9439347, scanned range = 0, scanned list = 9439351
+Query time (ms): 962.774
+Scan time (us): ranges = 0.23, list = 389148, total = 389148
+True: 10230828, scanned range = 0, scanned list = 10826187
+Query time (ms): 1185.86
+Scan time (us): ranges = 0.22, list = 357340, total = 357340
+True: 10078869, scanned range = 0, scanned list = 10196124
+Query time (ms): 1096.72
+Scan time (us): ranges = 0.22, list = 374973, total = 374973
+True: 10610980, scanned range = 0, scanned list = 10707170
+Query time (ms): 1126.53
+Scan time (us): ranges = 0.22, list = 337801, total = 337802
+True: 9032038, scanned range = 0, scanned list = 9156776
+Query time (ms): 1061.23
+Scan time (us): ranges = 0.26, list = 374164, total = 374164
+True: 9553512, scanned range = 0, scanned list = 9873691
+Query time (ms): 1165.08
+Scan time (us): ranges = 0.26, list = 344448, total = 344448
+True: 9466747, scanned range = 0, scanned list = 9601978
+Query time (ms): 1078.77
+Scan time (us): ranges = 0.22, list = 374090, total = 374091
+True: 10610980, scanned range = 0, scanned list = 10707170
+Query time (ms): 1125.79
+Scan time (us): ranges = 0.23, list = 340156, total = 340157
+True: 10435936, scanned range = 0, scanned list = 10878513
+Query time (ms): 1010.44
+Scan time (us): ranges = 0.23, list = 344729, total = 344729
+True: 8943356, scanned range = 0, scanned list = 9070834
+Query time (ms): 1081.18
+Scan time (us): ranges = 0.21, list = 350866, total = 350866
+True: 9692956, scanned range = 0, scanned list = 9833888
+Query time (ms): 1093.99
+Scan time (us): ranges = 0.23, list = 375846, total = 375846
+True: 10543037, scanned range = 0, scanned list = 10749864
+Query time (ms): 1130.77
+Scan time (us): ranges = 0.22, list = 381584, total = 381584
+True: 9760511, scanned range = 0, scanned list = 10137755
+Query time (ms): 1185.4
+Scan time (us): ranges = 0.33, list = 368413, total = 368413
+True: 10309093, scanned range = 0, scanned list = 10503125
+Query time (ms): 1146.74
+Scan time (us): ranges = 0.22, list = 339248, total = 339248
+True: 9059214, scanned range = 0, scanned list = 9189232
+Query time (ms): 1061.81
+Scan time (us): ranges = 0.22, list = 341969, total = 341969
+True: 8989171, scanned range = 0, scanned list = 9533334
+Query time (ms): 1035.57
+Scan time (us): ranges = 0.23, list = 310640, total = 310640
+True: 10118859, scanned range = 0, scanned list = 11676914
+Query time (ms): 920.331
+Scan time (us): ranges = 0.21, list = 351217, total = 351217
+True: 9817258, scanned range = 0, scanned list = 9930722
+Query time (ms): 1076.44
+Scan time (us): ranges = 0.21, list = 313250, total = 313250
+True: 9823889, scanned range = 0, scanned list = 10463946
+Query time (ms): 922.654
+Scan time (us): ranges = 0.21, list = 360052, total = 360052
+True: 10048315, scanned range = 0, scanned list = 10215541
+Query time (ms): 1121.79
+Scan time (us): ranges = 0.22, list = 333368, total = 333368
+True: 8567267, scanned range = 0, scanned list = 9148031
+Query time (ms): 1010.67
+Scan time (us): ranges = 0.21, list = 334413, total = 334413
+True: 11128354, scanned range = 0, scanned list = 12816962
+Query time (ms): 986.153
+Scan time (us): ranges = 0.24, list = 352833, total = 352833
+True: 9081743, scanned range = 0, scanned list = 9261850
+Query time (ms): 1104.38
+Scan time (us): ranges = 0.24, list = 309703, total = 309703
+True: 10025486, scanned range = 0, scanned list = 12723589
+Query time (ms): 905.294
+Scan time (us): ranges = 0.24, list = 341315, total = 341315
+True: 9238980, scanned range = 0, scanned list = 9381650
+Query time (ms): 1067.62
+Scan time (us): ranges = 0.3, list = 361003, total = 361004
+True: 10048315, scanned range = 0, scanned list = 10215541
+Query time (ms): 1124.73
+Scan time (us): ranges = 0.22, list = 323236, total = 323237
+True: 9905982, scanned range = 0, scanned list = 10416019
+Query time (ms): 953.496
+Scan time (us): ranges = 0.23, list = 312520, total = 312520
+True: 9297339, scanned range = 0, scanned list = 9692177
+Query time (ms): 925.19
+Scan time (us): ranges = 0.22, list = 373665, total = 373665
+True: 10423344, scanned range = 0, scanned list = 10678268
+Query time (ms): 1122.62
+Scan time (us): ranges = 0.21, list = 331598, total = 331598
+True: 10018923, scanned range = 0, scanned list = 10448496
+Query time (ms): 979.844
+Scan time (us): ranges = 0.21, list = 327042, total = 327042
+True: 10607793, scanned range = 0, scanned list = 11669707
+Query time (ms): 963.062
+Scan time (us): ranges = 0.22, list = 359278, total = 359278
+True: 10801078, scanned range = 0, scanned list = 10802584
+Query time (ms): 1107.15
+Scan time (us): ranges = 0.22, list = 353674, total = 353674
+True: 9081743, scanned range = 0, scanned list = 9261850
+Query time (ms): 1106.23
+Scan time (us): ranges = 0.22, list = 360405, total = 360405
+True: 10048315, scanned range = 0, scanned list = 10215541
+Query time (ms): 1123.74
+Scan time (us): ranges = 0.22, list = 340307, total = 340307
+True: 9238980, scanned range = 0, scanned list = 9381650
+Query time (ms): 1065.7
+Scan time (us): ranges = 0.2, list = 340792, total = 340793
+True: 9283364, scanned range = 0, scanned list = 9425188
+Query time (ms): 1067.84
+Scan time (us): ranges = 0.24, list = 340074, total = 340074
+True: 9238980, scanned range = 0, scanned list = 9381650
+Query time (ms): 1065.34
+Scan time (us): ranges = 0.22, list = 354766, total = 354766
+True: 9860134, scanned range = 0, scanned list = 10013553
+Query time (ms): 1106.69
+Scan time (us): ranges = 0.24, list = 331125, total = 331125
+True: 10927247, scanned range = 0, scanned list = 13959574
+Query time (ms): 968.033
+Scan time (us): ranges = 0.3, list = 340411, total = 340411
+True: 11024931, scanned range = 0, scanned list = 11717326
+Query time (ms): 1002.92
+Scan time (us): ranges = 0.22, list = 348403, total = 348403
+True: 9611461, scanned range = 0, scanned list = 9748530
+Query time (ms): 1088.65
+Scan time (us): ranges = 0.22, list = 374763, total = 374763
+True: 10851434, scanned range = 0, scanned list = 10973980
+Query time (ms): 1127.39
+Scan time (us): ranges = 0.23, list = 368743, total = 368743
+True: 9484917, scanned range = 0, scanned list = 10067812
+Query time (ms): 1123.63
+Scan time (us): ranges = 0.2, list = 310061, total = 310061
+True: 10025486, scanned range = 0, scanned list = 12723589
+Query time (ms): 906.551
+Scan time (us): ranges = 0.22, list = 342486, total = 342486
+True: 8582670, scanned range = 0, scanned list = 9129047
+Query time (ms): 1041.28
+Scan time (us): ranges = 0.22, list = 366207, total = 366208
+True: 10224394, scanned range = 0, scanned list = 10409593
+Query time (ms): 1140.16
+Scan time (us): ranges = 0.21, list = 373711, total = 373711
+True: 10423344, scanned range = 0, scanned list = 10678268
+Query time (ms): 1122.72
+Scan time (us): ranges = 0.23, list = 357354, total = 357354
+True: 9039306, scanned range = 0, scanned list = 9537470
+Query time (ms): 1094.33
+Scan time (us): ranges = 0.22, list = 377782, total = 377782
+True: 10082757, scanned range = 0, scanned list = 10626920
+Query time (ms): 1147.17
+Scan time (us): ranges = 0.24, list = 323257, total = 323257
+True: 9905982, scanned range = 0, scanned list = 10416019
+Query time (ms): 954.022
+Scan time (us): ranges = 0.2, list = 389246, total = 389246
+True: 10230828, scanned range = 0, scanned list = 10826187
+Query time (ms): 1186.66
+Scan time (us): ranges = 0.22, list = 322734, total = 322735
+True: 9905982, scanned range = 0, scanned list = 10416019
+Query time (ms): 952.322
+Scan time (us): ranges = 0.23, list = 325801, total = 325802
+True: 10607793, scanned range = 0, scanned list = 11669707
+Query time (ms): 962.014
+Scan time (us): ranges = 0.23, list = 345153, total = 345154
+True: 10081917, scanned range = 0, scanned list = 10290963
+Query time (ms): 1024.79
+Scan time (us): ranges = 0.22, list = 357845, total = 357846
+True: 9039306, scanned range = 0, scanned list = 9537470
+Query time (ms): 1095.36
+Scan time (us): ranges = 0.23, list = 377304, total = 377305
+True: 10082757, scanned range = 0, scanned list = 10626920
+Query time (ms): 1145.81
+Scan time (us): ranges = 0.22, list = 361045, total = 361045
+True: 10814602, scanned range = 0, scanned list = 10814603
+Query time (ms): 1111.67
+Scan time (us): ranges = 0.24, list = 369913, total = 369913
+True: 10257991, scanned range = 0, scanned list = 10566377
+Query time (ms): 1114.57
+Scan time (us): ranges = 0.23, list = 358220, total = 358221
+True: 9491119, scanned range = 0, scanned list = 10035282
+Query time (ms): 1086.75
+Scan time (us): ranges = 0.2, list = 391610, total = 391611
+True: 12583724, scanned range = 0, scanned list = 18554645
+Query time (ms): 1175.96
+Scan time (us): ranges = 0.23, list = 365421, total = 365422
+True: 10224394, scanned range = 0, scanned list = 10409593
+Query time (ms): 1137.95
+Scan time (us): ranges = 0.21, list = 339501, total = 339501
+True: 8951419, scanned range = 0, scanned list = 9065099
+Query time (ms): 1066.06
+Scan time (us): ranges = 0.23, list = 387749, total = 387749
+True: 10230828, scanned range = 0, scanned list = 10826187
+Query time (ms): 1182.97
+Scan time (us): ranges = 0.22, list = 345933, total = 345933
+True: 10340162, scanned range = 0, scanned list = 10640724
+Query time (ms): 1024.09
+Scan time (us): ranges = 0.23, list = 349656, total = 349656
+True: 9095554, scanned range = 0, scanned list = 9676318
+Query time (ms): 1062.06
+Scan time (us): ranges = 0.22, list = 342955, total = 342955
+True: 9398968, scanned range = 0, scanned list = 9536197
+Query time (ms): 1074.71
+Scan time (us): ranges = 0.2, list = 319694, total = 319694
+True: 10248927, scanned range = 0, scanned list = 11505592
+Query time (ms): 942.452
+Scan time (us): ranges = 0.21, list = 329167, total = 329167
+True: 9213233, scanned range = 0, scanned list = 9315549
+Query time (ms): 992.315
+Scan time (us): ranges = 0.22, list = 337908, total = 337908
+True: 9032038, scanned range = 0, scanned list = 9156776
+Query time (ms): 1061.09
+Scan time (us): ranges = 0.2, list = 350810, total = 350810
+True: 8941012, scanned range = 0, scanned list = 9523907
+Query time (ms): 1068.47
+Scan time (us): ranges = 0.29, list = 381315, total = 381316
+True: 9782616, scanned range = 0, scanned list = 10328993
+Query time (ms): 1165.35
+Scan time (us): ranges = 0.21, list = 368601, total = 368601
+True: 9384485, scanned range = 0, scanned list = 9662878
+Query time (ms): 1146.84
+Scan time (us): ranges = 0.24, list = 392083, total = 392083
+True: 12483730, scanned range = 0, scanned list = 18863155
+Query time (ms): 1178.48
+Scan time (us): ranges = 0.22, list = 353525, total = 353525
+True: 10436596, scanned range = 0, scanned list = 10652366
+Query time (ms): 1051.33
+Scan time (us): ranges = 0.2, list = 340400, total = 340400
+True: 9796817, scanned range = 0, scanned list = 9844947
+Query time (ms): 1030.57
+Scan time (us): ranges = 0.26, list = 352015, total = 352015
+True: 9775524, scanned range = 0, scanned list = 9922053
+Query time (ms): 1097.88
+Scan time (us): ranges = 0.22, list = 328832, total = 328832
+True: 9213233, scanned range = 0, scanned list = 9315549
+Query time (ms): 991.241
+Scan time (us): ranges = 0.24, list = 351410, total = 351411
+True: 11802903, scanned range = 0, scanned list = 15187894
+Query time (ms): 1022.92
+Scan time (us): ranges = 0.24, list = 310875, total = 310875
+True: 10025486, scanned range = 0, scanned list = 12723589
+Query time (ms): 906.348
+Scan time (us): ranges = 0.26, list = 361132, total = 361133
+True: 10275273, scanned range = 0, scanned list = 10326542
+Query time (ms): 1088.55
+Scan time (us): ranges = 0.23, list = 361740, total = 361740
+True: 9257624, scanned range = 0, scanned list = 9490319
+Query time (ms): 1128.47
+Scan time (us): ranges = 0.54, list = 343832, total = 343832
+True: 8690452, scanned range = 0, scanned list = 8923147
+Query time (ms): 1065.68
+Scan time (us): ranges = 0.21, list = 367875, total = 367875
+True: 9384485, scanned range = 0, scanned list = 9662878
+Query time (ms): 1146.08
+Scan time (us): ranges = 0.24, list = 348481, total = 348482
+True: 10292007, scanned range = 0, scanned list = 10305939
+Query time (ms): 1071.79
+Scan time (us): ranges = 0.23, list = 359246, total = 359246
+True: 9066154, scanned range = 0, scanned list = 9505351
+Query time (ms): 1103.13
+Scan time (us): ranges = 0.21, list = 345918, total = 345919
+True: 9831662, scanned range = 0, scanned list = 9938343
+Query time (ms): 1041.66
+Scan time (us): ranges = 0.24, list = 367060, total = 367060
+True: 9384485, scanned range = 0, scanned list = 9662878
+Query time (ms): 1144.47
+Scan time (us): ranges = 0.24, list = 337905, total = 337905
+True: 9022080, scanned range = 0, scanned list = 9144526
+Query time (ms): 1061.96
+Scan time (us): ranges = 0.46, list = 352523, total = 352523
+True: 10900655, scanned range = 0, scanned list = 11358506
+Query time (ms): 1043.52
+Scan time (us): ranges = 0.23, list = 337208, total = 337209
+True: 9508770, scanned range = 0, scanned list = 9625039
+Query time (ms): 1015.92
+Scan time (us): ranges = 0.23, list = 380363, total = 380363
+True: 10702187, scanned range = 0, scanned list = 10903572
+Query time (ms): 1183.99
+Scan time (us): ranges = 0.23, list = 363931, total = 363931
+True: 10025770, scanned range = 0, scanned list = 10395060
+Query time (ms): 1097.59
+Scan time (us): ranges = 0.2, list = 337207, total = 337208
+True: 9508770, scanned range = 0, scanned list = 9625039
+Query time (ms): 1016.44
+Scan time (us): ranges = 0.23, list = 338962, total = 338962
+True: 9159931, scanned range = 0, scanned list = 9301425
+Query time (ms): 1060.75
+Scan time (us): ranges = 0.22, list = 327436, total = 327436
+True: 10411137, scanned range = 0, scanned list = 11080554
+Query time (ms): 961.457
+Scan time (us): ranges = 0.24, list = 363985, total = 363985
+True: 10704428, scanned range = 0, scanned list = 10717919
+Query time (ms): 1124.53
+Scan time (us): ranges = 0.23, list = 374702, total = 374703
+True: 10851434, scanned range = 0, scanned list = 10973980
+Query time (ms): 1126.22
+Scan time (us): ranges = 0.21, list = 346754, total = 346754
+True: 10472763, scanned range = 0, scanned list = 10473043
+Query time (ms): 1070.1
+Scan time (us): ranges = 0.52, list = 343066, total = 343066
+True: 10185256, scanned range = 0, scanned list = 10198711
+Query time (ms): 1056.23
+Scan time (us): ranges = 0.24, list = 311079, total = 311079
+True: 9996982, scanned range = 0, scanned list = 11405166
+Query time (ms): 922.32
+Scan time (us): ranges = 0.22, list = 365112, total = 365112
+True: 10025770, scanned range = 0, scanned list = 10395060
+Query time (ms): 1098.61
+Scan time (us): ranges = 0.22, list = 323055, total = 323056
+True: 9905982, scanned range = 0, scanned list = 10416019
+Query time (ms): 952.254
+Scan time (us): ranges = 0.22, list = 348168, total = 348168
+True: 9611461, scanned range = 0, scanned list = 9748530
+Query time (ms): 1087.54
+Scan time (us): ranges = 0.43, list = 356686, total = 356686
+True: 10078869, scanned range = 0, scanned list = 10196124
+Query time (ms): 1095.59
+Scan time (us): ranges = 0.21, list = 352176, total = 352176
+True: 10900655, scanned range = 0, scanned list = 11358506
+Query time (ms): 1043.45
+Scan time (us): ranges = 0.23, list = 336858, total = 336858
+True: 9107289, scanned range = 0, scanned list = 9244593
+Query time (ms): 1058.67
+Scan time (us): ranges = 0.22, list = 325784, total = 325784
+True: 10607793, scanned range = 0, scanned list = 11669707
+Query time (ms): 960.692
+Scan time (us): ranges = 0.22, list = 362390, total = 362390
+True: 9137393, scanned range = 0, scanned list = 9514637
+Query time (ms): 1117.7
+Scan time (us): ranges = 0.23, list = 344016, total = 344016
+True: 10324370, scanned range = 0, scanned list = 15575671
+Query time (ms): 1009.72
+Scan time (us): ranges = 0.23, list = 346619, total = 346619
+True: 9532760, scanned range = 0, scanned list = 9675793
+Query time (ms): 1083.67
+Scan time (us): ranges = 0.22, list = 335355, total = 335355
+True: 9319580, scanned range = 0, scanned list = 9427150
+Query time (ms): 1031.7
+Scan time (us): ranges = 0.23, list = 337477, total = 337477
+True: 9032038, scanned range = 0, scanned list = 9156776
+Query time (ms): 1060.05
+Scan time (us): ranges = 0.22, list = 314783, total = 314784
+True: 10185413, scanned range = 0, scanned list = 11166085
+Query time (ms): 923.555
+Scan time (us): ranges = 0.24, list = 345232, total = 345232
+True: 10340162, scanned range = 0, scanned list = 10640724
+Query time (ms): 1022.52
+Scan time (us): ranges = 0.21, list = 340365, total = 340365
+True: 9283364, scanned range = 0, scanned list = 9425188
+Query time (ms): 1067.24
+Scan time (us): ranges = 0.24, list = 353102, total = 353103
+True: 9081743, scanned range = 0, scanned list = 9261850
+Query time (ms): 1104.1
+Scan time (us): ranges = 0.22, list = 347547, total = 347547
+True: 9831662, scanned range = 0, scanned list = 9938343
+Query time (ms): 1044.13
+Scan time (us): ranges = 0.2, list = 354579, total = 354579
+True: 8940448, scanned range = 0, scanned list = 9260627
+Query time (ms): 1096.46
+Scan time (us): ranges = 0.21, list = 338206, total = 338207
+True: 11025616, scanned range = 0, scanned list = 12165848
+Query time (ms): 996.269
+Scan time (us): ranges = 0.21, list = 332311, total = 332311
+True: 10037914, scanned range = 0, scanned list = 10037919
+Query time (ms): 1024.21
+Scan time (us): ranges = 0.22, list = 340213, total = 340214
+True: 11024931, scanned range = 0, scanned list = 11717326
+Query time (ms): 1002.54
+Scan time (us): ranges = 0.22, list = 376349, total = 376349
+True: 10638530, scanned range = 0, scanned list = 10753650
+Query time (ms): 1131.02
+Scan time (us): ranges = 0.22, list = 352073, total = 352073
+True: 9775524, scanned range = 0, scanned list = 9922053
+Query time (ms): 1098.87
+Scan time (us): ranges = 0.24, list = 364881, total = 364882
+True: 10501123, scanned range = 0, scanned list = 10620658
+Query time (ms): 1098.46
+Scan time (us): ranges = 0.22, list = 369437, total = 369437
+True: 9709392, scanned range = 0, scanned list = 10290156
+Query time (ms): 1122.67
+Scan time (us): ranges = 0.22, list = 357077, total = 357077
+True: 9159243, scanned range = 0, scanned list = 9361677
+Query time (ms): 1116.29
+Scan time (us): ranges = 0.22, list = 339009, total = 339010
+True: 8980194, scanned range = 0, scanned list = 9095904
+Query time (ms): 1064.57
+Scan time (us): ranges = 0.21, list = 376665, total = 376666
+True: 10612635, scanned range = 0, scanned list = 10780902
+Query time (ms): 1132.69
+Scan time (us): ranges = 0.22, list = 341501, total = 341501
+True: 9238980, scanned range = 0, scanned list = 9381650
+Query time (ms): 1067.69
+Scan time (us): ranges = 0.22, list = 361527, total = 361527
+True: 10275273, scanned range = 0, scanned list = 10326542
+Query time (ms): 1090.36
+Scan time (us): ranges = 0.23, list = 357115, total = 357115
+True: 9159243, scanned range = 0, scanned list = 9361677
+Query time (ms): 1116.32
+Scan time (us): ranges = 0.22, list = 380616, total = 380616
+True: 12251555, scanned range = 0, scanned list = 18455854
+Query time (ms): 1138.09
+Scan time (us): ranges = 0.21, list = 355731, total = 355731
+True: 10162807, scanned range = 0, scanned list = 10274239
+Query time (ms): 1071.75
+Scan time (us): ranges = 0.22, list = 356196, total = 356197
+True: 10698110, scanned range = 0, scanned list = 10701418
+Query time (ms): 1098.19
+Scan time (us): ranges = 0.21, list = 340760, total = 340760
+True: 8945233, scanned range = 0, scanned list = 9067709
+Query time (ms): 1069.97
+Scan time (us): ranges = 0.25, list = 342566, total = 342566
+True: 8989171, scanned range = 0, scanned list = 9533334
+Query time (ms): 1037.94
+Scan time (us): ranges = 0.22, list = 364634, total = 364634
+True: 10025770, scanned range = 0, scanned list = 10395060
+Query time (ms): 1098.51
+Scan time (us): ranges = 0.11, list = 358486, total = 358486
+True: 9039306, scanned range = 0, scanned list = 9537470
+Query time (ms): 1094.79
+Scan time (us): ranges = 0.24, list = 338211, total = 338211
+True: 9075112, scanned range = 0, scanned list = 9207589
+Query time (ms): 1060.5
+Scan time (us): ranges = 0.25, list = 340975, total = 340975
+True: 8694227, scanned range = 0, scanned list = 9289586
+Query time (ms): 1035.66
+Scan time (us): ranges = 0.24, list = 388614, total = 388615
+True: 10230828, scanned range = 0, scanned list = 10826187
+Query time (ms): 1185.05
+Scan time (us): ranges = 0.23, list = 351438, total = 351439
+True: 8941012, scanned range = 0, scanned list = 9523907
+Query time (ms): 1069.54
+Scan time (us): ranges = 0.21, list = 375902, total = 375902
+True: 10638530, scanned range = 0, scanned list = 10753650
+Query time (ms): 1131.69
+Scan time (us): ranges = 0.2, list = 348232, total = 348232
+True: 9950794, scanned range = 0, scanned list = 9994884
+Query time (ms): 1052
+Scan time (us): ranges = 0.21, list = 328699, total = 328699
+True: 9213233, scanned range = 0, scanned list = 9315549
+Query time (ms): 991.263
+Scan time (us): ranges = 0.2, list = 350940, total = 350940
+True: 9095554, scanned range = 0, scanned list = 9676318
+Query time (ms): 1063.69
+Scan time (us): ranges = 0.22, list = 380983, total = 380983
+True: 9782616, scanned range = 0, scanned list = 10328993
+Query time (ms): 1165.11
+Scan time (us): ranges = 0.24, list = 369886, total = 369886
+True: 9709392, scanned range = 0, scanned list = 10290156
+Query time (ms): 1122.37
+Scan time (us): ranges = 0.48, list = 380078, total = 380079
+True: 9723115, scanned range = 0, scanned list = 10221279
+Query time (ms): 1169.39
+Scan time (us): ranges = 0.23, list = 340784, total = 340784
+True: 8945233, scanned range = 0, scanned list = 9067709
+Query time (ms): 1070.49
+Scan time (us): ranges = 0.25, list = 378010, total = 378010
+True: 10638530, scanned range = 0, scanned list = 10753650
+Query time (ms): 1133.38
+Scan time (us): ranges = 0.23, list = 348530, total = 348530
+True: 9611461, scanned range = 0, scanned list = 9748530
+Query time (ms): 1088.26
+Scan time (us): ranges = 0.21, list = 337034, total = 337034
+True: 9971307, scanned range = 0, scanned list = 10261680
+Query time (ms): 998.854
+Scan time (us): ranges = 0.22, list = 377966, total = 377966
+True: 9796369, scanned range = 0, scanned list = 10379264
+Query time (ms): 1154.84
+Scan time (us): ranges = 0.2, list = 334667, total = 334667
+True: 11128354, scanned range = 0, scanned list = 12816962
+Query time (ms): 985.669
+Scan time (us): ranges = 0.22, list = 361407, total = 361407
+True: 10275273, scanned range = 0, scanned list = 10326542
+Query time (ms): 1089.72
+Scan time (us): ranges = 0.23, list = 338414, total = 338414
+True: 9075112, scanned range = 0, scanned list = 9207589
+Query time (ms): 1061.49
+Scan time (us): ranges = 0.23, list = 359620, total = 359621
+True: 10603275, scanned range = 0, scanned list = 10617043
+Query time (ms): 1111.35
+Scan time (us): ranges = 0.21, list = 315304, total = 315304
+True: 10185413, scanned range = 0, scanned list = 11166085
+Query time (ms): 924.333
+Scan time (us): ranges = 0.26, list = 337280, total = 337281
+True: 9084994, scanned range = 0, scanned list = 9228029
+Query time (ms): 1058.17
+Scan time (us): ranges = 0.21, list = 357790, total = 357790
+True: 9734166, scanned range = 0, scanned list = 10166702
+Query time (ms): 1081.56
+Scan time (us): ranges = 0.22, list = 344381, total = 344381
+True: 10324370, scanned range = 0, scanned list = 15575671
+Query time (ms): 1009.35
+Scan time (us): ranges = 0.22, list = 356117, total = 356117
+True: 10503363, scanned range = 0, scanned list = 10517182
+Query time (ms): 1098.04
+Scan time (us): ranges = 0.22, list = 325454, total = 325455
+True: 10607793, scanned range = 0, scanned list = 11669707
+Query time (ms): 961.074
+Scan time (us): ranges = 0.21, list = 344243, total = 344243
+True: 8943356, scanned range = 0, scanned list = 9070834
+Query time (ms): 1078.92
+Scan time (us): ranges = 0.22, list = 358245, total = 358245
+True: 10801078, scanned range = 0, scanned list = 10802584
+Query time (ms): 1104.19
+Scan time (us): ranges = 0.25, list = 338202, total = 338202
+True: 8980194, scanned range = 0, scanned list = 9095904
+Query time (ms): 1062.25
+Scan time (us): ranges = 0.21, list = 356266, total = 356266
+True: 10698110, scanned range = 0, scanned list = 10701418
+Query time (ms): 1097.41
+Scan time (us): ranges = 0.23, list = 370908, total = 370908
+True: 10509858, scanned range = 0, scanned list = 10578408
+Query time (ms): 1115.1
+Scan time (us): ranges = 0.22, list = 341119, total = 341119
+True: 10435936, scanned range = 0, scanned list = 10878513
+Query time (ms): 1011.64
+Scan time (us): ranges = 0.22, list = 380042, total = 380042
+True: 9782616, scanned range = 0, scanned list = 10328993
+Query time (ms): 1163.96
+Scan time (us): ranges = 0.22, list = 350387, total = 350387
+True: 9022326, scanned range = 0, scanned list = 9184059
+Query time (ms): 1096.03
+Scan time (us): ranges = 0.23, list = 344638, total = 344638
+True: 10185256, scanned range = 0, scanned list = 10198711
+Query time (ms): 1058.7
+Scan time (us): ranges = 0.22, list = 330628, total = 330629
+True: 10018923, scanned range = 0, scanned list = 10448496
+Query time (ms): 979.142
+Scan time (us): ranges = 0.23, list = 365762, total = 365762
+True: 10501123, scanned range = 0, scanned list = 10620658
+Query time (ms): 1100.02
+Scan time (us): ranges = 0.21, list = 346879, total = 346879
+True: 10340162, scanned range = 0, scanned list = 10640724
+Query time (ms): 1025.45
+Scan time (us): ranges = 0.22, list = 331424, total = 331425
+True: 10927247, scanned range = 0, scanned list = 13959574
+Query time (ms): 968.602
+Scan time (us): ranges = 0.22, list = 380110, total = 380111
+True: 12251555, scanned range = 0, scanned list = 18455854
+Query time (ms): 1138.21
+Scan time (us): ranges = 0.27, list = 367425, total = 367426
+True: 9391611, scanned range = 0, scanned list = 9937988
+Query time (ms): 1122.78
+Scan time (us): ranges = 0.22, list = 377505, total = 377506
+True: 10612635, scanned range = 0, scanned list = 10780902
+Query time (ms): 1133.4
+Scan time (us): ranges = 0.23, list = 364533, total = 364533
+True: 10025770, scanned range = 0, scanned list = 10395060
+Query time (ms): 1099.5
+Scan time (us): ranges = 0.22, list = 343468, total = 343468
+True: 9398968, scanned range = 0, scanned list = 9536197
+Query time (ms): 1075.95
+Scan time (us): ranges = 0.22, list = 362918, total = 362918
+True: 10137765, scanned range = 0, scanned list = 10313627
+Query time (ms): 1130.71
+Scan time (us): ranges = 0.21, list = 377690, total = 377690
+True: 9892483, scanned range = 0, scanned list = 10487842
+Query time (ms): 1150.41
+Scan time (us): ranges = 0.23, list = 292830, total = 292830
+True: 9239114, scanned range = 0, scanned list = 10098704
+Query time (ms): 854.125
+Scan time (us): ranges = 0.22, list = 389283, total = 389284
+True: 10230828, scanned range = 0, scanned list = 10826187
+Query time (ms): 1186.01
+Scan time (us): ranges = 0.24, list = 377752, total = 377752
+True: 9796369, scanned range = 0, scanned list = 10379264
+Query time (ms): 1154.64
+Scan time (us): ranges = 0.24, list = 343062, total = 343063
+True: 8942208, scanned range = 0, scanned list = 9062891
+Query time (ms): 1076.1
+Scan time (us): ranges = 0.21, list = 361675, total = 361675
+True: 10275273, scanned range = 0, scanned list = 10326542
+Query time (ms): 1090.16
+Scan time (us): ranges = 0.31, list = 360788, total = 360788
+True: 11223425, scanned range = 0, scanned list = 17502856
+Query time (ms): 1086.2
+Scan time (us): ranges = 0.28, list = 318184, total = 318185
+True: 9284933, scanned range = 0, scanned list = 9556761
+Query time (ms): 942.148
+Scan time (us): ranges = 0.26, list = 342168, total = 342168
+True: 9336760, scanned range = 0, scanned list = 9475664
+Query time (ms): 1071.63
+Scan time (us): ranges = 0.21, list = 339674, total = 339674
+True: 9189597, scanned range = 0, scanned list = 9332160
+Query time (ms): 1063.81
+Scan time (us): ranges = 0.25, list = 342425, total = 342426
+True: 10435936, scanned range = 0, scanned list = 10878513
+Query time (ms): 1013.32
+Scan time (us): ranges = 0.21, list = 367228, total = 367228
+True: 9391611, scanned range = 0, scanned list = 9937988
+Query time (ms): 1122.8
+Scan time (us): ranges = 0.23, list = 316587, total = 316588
+True: 9903942, scanned range = 0, scanned list = 14164589
+Query time (ms): 913.662
+Scan time (us): ranges = 0.23, list = 360037, total = 360037
+True: 9734166, scanned range = 0, scanned list = 10166702
+Query time (ms): 1083.42
+Scan time (us): ranges = 0.21, list = 338945, total = 338945
+True: 8998120, scanned range = 0, scanned list = 9116807
+Query time (ms): 1063.25
+Scan time (us): ranges = 0.21, list = 365588, total = 365588
+True: 10501123, scanned range = 0, scanned list = 10620658
+Query time (ms): 1098.46
+Scan time (us): ranges = 0.21, list = 350914, total = 350914
+True: 10030331, scanned range = 0, scanned list = 10075532
+Query time (ms): 1060.41
+Scan time (us): ranges = 0.22, list = 340747, total = 340747
+True: 8582670, scanned range = 0, scanned list = 9129047
+Query time (ms): 1037.87
+Scan time (us): ranges = 0.21, list = 355055, total = 355055
+True: 10111864, scanned range = 0, scanned list = 10157885
+Query time (ms): 1070.66
+Scan time (us): ranges = 0.2, list = 342151, total = 342151
+True: 9567380, scanned range = 0, scanned list = 9677574
+Query time (ms): 1051.66
+Scan time (us): ranges = 0.26, list = 353752, total = 353752
+True: 10652870, scanned range = 0, scanned list = 10653150
+Query time (ms): 1090.1
+Scan time (us): ranges = 0.22, list = 342978, total = 342978
+True: 9567380, scanned range = 0, scanned list = 9677574
+Query time (ms): 1052.66
+Scan time (us): ranges = 0.42, list = 354940, total = 354941
+True: 9860134, scanned range = 0, scanned list = 10013553
+Query time (ms): 1105.92
+Scan time (us): ranges = 0.23, list = 347843, total = 347844
+True: 9950794, scanned range = 0, scanned list = 9994884
+Query time (ms): 1051.73
+Scan time (us): ranges = 0.24, list = 340993, total = 340994
+True: 8948251, scanned range = 0, scanned list = 9064754
+Query time (ms): 1071.71
+Scan time (us): ranges = 0.22, list = 338190, total = 338190
+True: 8998120, scanned range = 0, scanned list = 9116807
+Query time (ms): 1062.91
+Scan time (us): ranges = 0.26, list = 317970, total = 317970
+True: 9903942, scanned range = 0, scanned list = 14164589
+Query time (ms): 916.033
+Scan time (us): ranges = 0.21, list = 331876, total = 331877
+True: 10775429, scanned range = 0, scanned list = 12081618
+Query time (ms): 979.236
+Scan time (us): ranges = 0.21, list = 316839, total = 316839
+True: 9903942, scanned range = 0, scanned list = 14164589
+Query time (ms): 914.075
+Scan time (us): ranges = 0.23, list = 325554, total = 325554
+True: 9603148, scanned range = 0, scanned list = 15575272
+Query time (ms): 941.091
+Scan time (us): ranges = 0.22, list = 350841, total = 350841
+True: 9095554, scanned range = 0, scanned list = 9676318
+Query time (ms): 1063.85
+Scan time (us): ranges = 0.2, list = 369685, total = 369685
+True: 9709392, scanned range = 0, scanned list = 10290156
+Query time (ms): 1122.52
+Scan time (us): ranges = 0.23, list = 353469, total = 353470
+True: 9081743, scanned range = 0, scanned list = 9261850
+Query time (ms): 1105.44
+Scan time (us): ranges = 0.21, list = 338929, total = 338930
+True: 8962682, scanned range = 0, scanned list = 9077326
+Query time (ms): 1065.7
+Scan time (us): ranges = 0.21, list = 340115, total = 340115
+True: 10270609, scanned range = 0, scanned list = 10270614
+Query time (ms): 1048.32
+Scan time (us): ranges = 0.23, list = 348621, total = 348621
+True: 8726621, scanned range = 0, scanned list = 9165818
+Query time (ms): 1067.04
+Scan time (us): ranges = 0.22, list = 366622, total = 366623
+True: 10714303, scanned range = 0, scanned list = 10886532
+Query time (ms): 1088.94
+Scan time (us): ranges = 0.1, list = 305242, total = 305242
+True: 9724728, scanned range = 0, scanned list = 10647298
+Query time (ms): 892.853
+Scan time (us): ranges = 0.22, list = 328032, total = 328032
+True: 10411137, scanned range = 0, scanned list = 11080554
+Query time (ms): 963.343
+Scan time (us): ranges = 0.24, list = 360480, total = 360481
+True: 11223425, scanned range = 0, scanned list = 17502856
+Query time (ms): 1086.58
+Scan time (us): ranges = 0.23, list = 382884, total = 382884
+True: 9760511, scanned range = 0, scanned list = 10137755
+Query time (ms): 1187.43
+Scan time (us): ranges = 0.21, list = 375946, total = 375946
+True: 10543037, scanned range = 0, scanned list = 10749864
+Query time (ms): 1129.96
+Scan time (us): ranges = 0.21, list = 337415, total = 337415
+True: 9971307, scanned range = 0, scanned list = 10261680
+Query time (ms): 998.891
+Scan time (us): ranges = 0.21, list = 343080, total = 343081
+True: 10435936, scanned range = 0, scanned list = 10878513
+Query time (ms): 1014.01
+Scan time (us): ranges = 0.23, list = 337992, total = 337992
+True: 9676750, scanned range = 0, scanned list = 9836349
+Query time (ms): 1002.62
+Scan time (us): ranges = 0.21, list = 319520, total = 319520
+True: 10248927, scanned range = 0, scanned list = 11505592
+Query time (ms): 941.572
+Scan time (us): ranges = 0.21, list = 375777, total = 375777
+True: 10851434, scanned range = 0, scanned list = 10973980
+Query time (ms): 1127.12
+Scan time (us): ranges = 0.23, list = 341111, total = 341111
+True: 11543115, scanned range = 0, scanned list = 13721004
+Query time (ms): 998.884
+Scan time (us): ranges = 0.22, list = 348269, total = 348270
+True: 8989672, scanned range = 0, scanned list = 9138595
+Query time (ms): 1091.12
+Scan time (us): ranges = 0.23, list = 344546, total = 344546
+True: 8943356, scanned range = 0, scanned list = 9070834
+Query time (ms): 1079.25
+Scan time (us): ranges = 0.22, list = 373994, total = 373994
+True: 10564607, scanned range = 0, scanned list = 10651352
+Query time (ms): 1123.44
+Scan time (us): ranges = 0.21, list = 312961, total = 312962
+True: 9439347, scanned range = 0, scanned list = 9439351
+Query time (ms): 963.899
+Scan time (us): ranges = 0.22, list = 364978, total = 364979
+True: 10025770, scanned range = 0, scanned list = 10395060
+Query time (ms): 1099.82
+Scan time (us): ranges = 0.24, list = 328770, total = 328770
+True: 10411137, scanned range = 0, scanned list = 11080554
+Query time (ms): 963.763
+Scan time (us): ranges = 0.21, list = 342375, total = 342375
+True: 9567380, scanned range = 0, scanned list = 9677574
+Query time (ms): 1051.91
+Scan time (us): ranges = 0.47, list = 314277, total = 314278
+True: 10336013, scanned range = 0, scanned list = 12327990
+Query time (ms): 922.564
+Scan time (us): ranges = 0.23, list = 339183, total = 339183
+True: 8962682, scanned range = 0, scanned list = 9077326
+Query time (ms): 1064.46
+Scan time (us): ranges = 0.22, list = 343074, total = 343074
+True: 8942208, scanned range = 0, scanned list = 9062891
+Query time (ms): 1074.97
+Scan time (us): ranges = 0.24, list = 357898, total = 357899
+True: 10078869, scanned range = 0, scanned list = 10196124
+Query time (ms): 1096.47
+Scan time (us): ranges = 0.23, list = 380459, total = 380459
+True: 9723115, scanned range = 0, scanned list = 10221279
+Query time (ms): 1169.83
+Scan time (us): ranges = 0.25, list = 319690, total = 319691
+True: 9284933, scanned range = 0, scanned list = 9556761
+Query time (ms): 943.045
+Scan time (us): ranges = 0.22, list = 369833, total = 369833
+True: 9397382, scanned range = 0, scanned list = 9836579
+Query time (ms): 1140.47
+Scan time (us): ranges = 0.22, list = 374044, total = 374044
+True: 9553512, scanned range = 0, scanned list = 9873691
+Query time (ms): 1163.65
+Scan time (us): ranges = 0.21, list = 364210, total = 364210
+True: 10362648, scanned range = 0, scanned list = 10418308
+Query time (ms): 1099
+Scan time (us): ranges = 0.21, list = 337751, total = 337751
+True: 9059214, scanned range = 0, scanned list = 9189232
+Query time (ms): 1059
+Scan time (us): ranges = 0.241, list = 356810, total = 356810
+True: 10936394, scanned range = 0, scanned list = 14263476
+Query time (ms): 1100.12
+Scan time (us): ranges = 0.21, list = 324106, total = 324106
+True: 9905982, scanned range = 0, scanned list = 10416019
+Query time (ms): 952.733
+Scan time (us): ranges = 0.57, list = 337469, total = 337470
+True: 9032038, scanned range = 0, scanned list = 9156776
+Query time (ms): 1060.65
+Scan time (us): ranges = 0.25, list = 330067, total = 330067
+True: 10733514, scanned range = 0, scanned list = 12174871
+Query time (ms): 974.09
+Scan time (us): ranges = 0.24, list = 343761, total = 343761
+True: 8943356, scanned range = 0, scanned list = 9070834
+Query time (ms): 1078.81
+Scan time (us): ranges = 0.24, list = 342431, total = 342431
+True: 8942208, scanned range = 0, scanned list = 9062891
+Query time (ms): 1075.14
+Scan time (us): ranges = 0.25, list = 344313, total = 344313
+True: 8690452, scanned range = 0, scanned list = 8923147
+Query time (ms): 1066.82
+Scan time (us): ranges = 0.21, list = 388592, total = 388592
+True: 10230828, scanned range = 0, scanned list = 10826187
+Query time (ms): 1184.25
+Scan time (us): ranges = 0.22, list = 348835, total = 348835
+True: 9950794, scanned range = 0, scanned list = 9994884
+Query time (ms): 1052.32
+Scan time (us): ranges = 0.23, list = 309934, total = 309934
+True: 10025486, scanned range = 0, scanned list = 12723589
+Query time (ms): 906.033
+Scan time (us): ranges = 0.23, list = 321764, total = 321764
+True: 9643032, scanned range = 0, scanned list = 10054838
+Query time (ms): 950.746
+Scan time (us): ranges = 0.22, list = 312119, total = 312120
+True: 10118859, scanned range = 0, scanned list = 11676914
+Query time (ms): 921.654
+Scan time (us): ranges = 0.2, list = 350133, total = 350133
+True: 9095554, scanned range = 0, scanned list = 9676318
+Query time (ms): 1062.2
+Scan time (us): ranges = 0.26, list = 338197, total = 338197
+True: 11025616, scanned range = 0, scanned list = 12165848
+Query time (ms): 995.268
+Scan time (us): ranges = 0.22, list = 332182, total = 332182
+True: 10927247, scanned range = 0, scanned list = 13959574
+Query time (ms): 967.465
+Scan time (us): ranges = 0.22, list = 292356, total = 292356
+True: 9239114, scanned range = 0, scanned list = 10098704
+Query time (ms): 853.301
+Scan time (us): ranges = 0.21, list = 319025, total = 319025
+True: 9284933, scanned range = 0, scanned list = 9556761
+Query time (ms): 941.774
+Scan time (us): ranges = 0.23, list = 388743, total = 388743
+True: 10230828, scanned range = 0, scanned list = 10826187
+Query time (ms): 1184.43
+Scan time (us): ranges = 0.21, list = 343062, total = 343062
+True: 8943356, scanned range = 0, scanned list = 9070834
+Query time (ms): 1078.01
+Scan time (us): ranges = 0.22, list = 338595, total = 338595
+True: 8980194, scanned range = 0, scanned list = 9095904
+Query time (ms): 1062.8
+Scan time (us): ranges = 0.21, list = 337984, total = 337984
+True: 9084994, scanned range = 0, scanned list = 9228029
+Query time (ms): 1060.83
+Scan time (us): ranges = 0.21, list = 336446, total = 336447
+True: 10439917, scanned range = 0, scanned list = 10967896
+Query time (ms): 993.526
+Scan time (us): ranges = 0.22, list = 360466, total = 360466
+True: 9066154, scanned range = 0, scanned list = 9505351
+Query time (ms): 1106.14
+Scan time (us): ranges = 0.29, list = 367670, total = 367670
+True: 10714303, scanned range = 0, scanned list = 10886532
+Query time (ms): 1090.28
+Scan time (us): ranges = 0.22, list = 337957, total = 337957
+True: 9075112, scanned range = 0, scanned list = 9207589
+Query time (ms): 1060.5
+Scan time (us): ranges = 0.2, list = 323505, total = 323505
+True: 9643032, scanned range = 0, scanned list = 10054838
+Query time (ms): 953.694
+Scan time (us): ranges = 0.22, list = 356891, total = 356891
+True: 10358553, scanned range = 0, scanned list = 10527123
+Query time (ms): 1059.28
+Scan time (us): ranges = 0.23, list = 347893, total = 347894
+True: 9611461, scanned range = 0, scanned list = 9748530
+Query time (ms): 1087.24
+Scan time (us): ranges = 0.23, list = 367828, total = 367828
+True: 9859420, scanned range = 0, scanned list = 10360200
+Query time (ms): 1114.52
+Scan time (us): ranges = 0.23, list = 352589, total = 352589
+True: 10394706, scanned range = 0, scanned list = 10408510
+Query time (ms): 1085.32
+Scan time (us): ranges = 0.22, list = 333119, total = 333119
+True: 10037914, scanned range = 0, scanned list = 10037919
+Query time (ms): 1024.63
+Scan time (us): ranges = 0.21, list = 358818, total = 358818
+True: 10801078, scanned range = 0, scanned list = 10802584
+Query time (ms): 1106.36
+Scan time (us): ranges = 0.22, list = 370148, total = 370148
+True: 9396893, scanned range = 0, scanned list = 9895057
+Query time (ms): 1133.81
+Scan time (us): ranges = 0.2, list = 375785, total = 375786
+True: 10480222, scanned range = 0, scanned list = 10687621
+Query time (ms): 1165.73
+Scan time (us): ranges = 0.21, list = 356844, total = 356844
+True: 10162807, scanned range = 0, scanned list = 10274239
+Query time (ms): 1072.23
+Scan time (us): ranges = 0.23, list = 381405, total = 381405
+True: 9723115, scanned range = 0, scanned list = 10221279
+Query time (ms): 1171.29
+Scan time (us): ranges = 0.24, list = 358012, total = 358012
+True: 10698110, scanned range = 0, scanned list = 10701418
+Query time (ms): 1100.4
+Scan time (us): ranges = 0.22, list = 314980, total = 314981
+True: 8739981, scanned range = 0, scanned list = 13091828
+Query time (ms): 947.406
+Scan time (us): ranges = 0.21, list = 338718, total = 338719
+True: 9022080, scanned range = 0, scanned list = 9144526
+Query time (ms): 1063.34
+Scan time (us): ranges = 0.22, list = 375079, total = 375079
+True: 10851434, scanned range = 0, scanned list = 10973980
+Query time (ms): 1126.87
+Scan time (us): ranges = 0.22, list = 338457, total = 338457
+True: 8951419, scanned range = 0, scanned list = 9065099
+Query time (ms): 1064.99
+Scan time (us): ranges = 0.26, list = 373678, total = 373678
+True: 9553512, scanned range = 0, scanned list = 9873691
+Query time (ms): 1163.75
+Scan time (us): ranges = 0.3, list = 355249, total = 355249
+True: 10436596, scanned range = 0, scanned list = 10652366
+Query time (ms): 1052.89
+Scan time (us): ranges = 0.22, list = 323454, total = 323454
+True: 9905982, scanned range = 0, scanned list = 10416019
+Query time (ms): 953.047
+Scan time (us): ranges = 0.22, list = 338191, total = 338191
+True: 9107289, scanned range = 0, scanned list = 9244593
+Query time (ms): 1059.33
+Scan time (us): ranges = 0.24, list = 371249, total = 371249
+True: 10509858, scanned range = 0, scanned list = 10578408
+Query time (ms): 1116.02
+Scan time (us): ranges = 0.22, list = 325698, total = 325698
+True: 9603148, scanned range = 0, scanned list = 15575272
+Query time (ms): 939.345
+Scan time (us): ranges = 0.29, list = 350930, total = 350930
+True: 8941012, scanned range = 0, scanned list = 9523907
+Query time (ms): 1069.15
+Scan time (us): ranges = 0.2, list = 345556, total = 345556
+True: 10081917, scanned range = 0, scanned list = 10290963
+Query time (ms): 1024.52
+Scan time (us): ranges = 0.23, list = 352952, total = 352952
+True: 9775524, scanned range = 0, scanned list = 9922053
+Query time (ms): 1099.26
+Scan time (us): ranges = 0.22, list = 351369, total = 351369
+True: 9379915, scanned range = 0, scanned list = 9880695
+Query time (ms): 1062.3
+Scan time (us): ranges = 0.22, list = 319641, total = 319641
+True: 10248927, scanned range = 0, scanned list = 11505592
+Query time (ms): 942.32
+Scan time (us): ranges = 0.23, list = 337382, total = 337382
+True: 9107289, scanned range = 0, scanned list = 9244593
+Query time (ms): 1059.14
+Scan time (us): ranges = 0.22, list = 338085, total = 338086
+True: 9676750, scanned range = 0, scanned list = 9836349
+Query time (ms): 1003.09
+Scan time (us): ranges = 0.21, list = 341696, total = 341696
+True: 11543115, scanned range = 0, scanned list = 13721004
+Query time (ms): 1000.6
+Scan time (us): ranges = 0.27, list = 313718, total = 313719
+True: 9297339, scanned range = 0, scanned list = 9692177
+Query time (ms): 925.388
+Scan time (us): ranges = 0.23, list = 339984, total = 339985
+True: 8951419, scanned range = 0, scanned list = 9065099
+Query time (ms): 1067.64
+Scan time (us): ranges = 0.23, list = 337955, total = 337955
+True: 10439917, scanned range = 0, scanned list = 10967896
+Query time (ms): 995.429
+Scan time (us): ranges = 0.21, list = 349753, total = 349753
+True: 11030481, scanned range = 0, scanned list = 11580149
+Query time (ms): 1031.49
+Scan time (us): ranges = 0.23, list = 370664, total = 370664
+True: 10257991, scanned range = 0, scanned list = 10566377
+Query time (ms): 1115.51
+Scan time (us): ranges = 0.22, list = 368737, total = 368737
+True: 9484917, scanned range = 0, scanned list = 10067812
+Query time (ms): 1123.1
+Scan time (us): ranges = 0.21, list = 355358, total = 355358
+True: 9860134, scanned range = 0, scanned list = 10013553
+Query time (ms): 1106.97
+Scan time (us): ranges = 0.21, list = 338137, total = 338137
+True: 9084994, scanned range = 0, scanned list = 9228029
+Query time (ms): 1060.59
+Scan time (us): ranges = 0.22, list = 353562, total = 353562
+True: 11802903, scanned range = 0, scanned list = 15187894
+Query time (ms): 1026.77
+Scan time (us): ranges = 0.24, list = 371570, total = 371570
+True: 10509858, scanned range = 0, scanned list = 10578408
+Query time (ms): 1116.61
+Scan time (us): ranges = 0.21, list = 377111, total = 377111
+True: 10638530, scanned range = 0, scanned list = 10753650
+Query time (ms): 1133.45
+Scan time (us): ranges = 0.22, list = 338914, total = 338915
+True: 8962682, scanned range = 0, scanned list = 9077326
+Query time (ms): 1065.41
+Scan time (us): ranges = 0.22, list = 361872, total = 361872
+True: 9257624, scanned range = 0, scanned list = 9490319
+Query time (ms): 1128.75
+Scan time (us): ranges = 0.21, list = 359529, total = 359529
+True: 10048315, scanned range = 0, scanned list = 10215541
+Query time (ms): 1121.23
+Scan time (us): ranges = 0.22, list = 315809, total = 315809
+True: 10185413, scanned range = 0, scanned list = 11166085
+Query time (ms): 926.004
+Scan time (us): ranges = 0.24, list = 375571, total = 375571
+True: 10851434, scanned range = 0, scanned list = 10973980
+Query time (ms): 1128.79
+Scan time (us): ranges = 0.23, list = 368325, total = 368325
+True: 10714303, scanned range = 0, scanned list = 10886532
+Query time (ms): 1091.59
+Scan time (us): ranges = 0.22, list = 335731, total = 335731
+True: 11128354, scanned range = 0, scanned list = 12816962
+Query time (ms): 987.522
+Scan time (us): ranges = 0.32, list = 348004, total = 348005
+True: 8726621, scanned range = 0, scanned list = 9165818
+Query time (ms): 1066.26
+Scan time (us): ranges = 0.23, list = 258675, total = 258675
+True: 7678929, scanned range = 0, scanned list = 12930230
+Query time (ms): 796.359
+Scan time (us): ranges = 0.24, list = 341554, total = 341554
+True: 9796817, scanned range = 0, scanned list = 9844947
+Query time (ms): 1032.28
+Scan time (us): ranges = 0.21, list = 343292, total = 343292
+True: 8943356, scanned range = 0, scanned list = 9070834
+Query time (ms): 1078.53
+Scan time (us): ranges = 0.23, list = 342113, total = 342113
+True: 8582670, scanned range = 0, scanned list = 9129047
+Query time (ms): 1039.66
+Scan time (us): ranges = 0.21, list = 360213, total = 360213
+True: 10603275, scanned range = 0, scanned list = 10617043
+Query time (ms): 1112.58
+Scan time (us): ranges = 0.6, list = 345422, total = 345422
+True: 8959402, scanned range = 0, scanned list = 9096353
+Query time (ms): 1082.75
+Scan time (us): ranges = 0.22, list = 338853, total = 338854
+True: 8980194, scanned range = 0, scanned list = 9095904
+Query time (ms): 1063.51
+Scan time (us): ranges = 0.21, list = 344948, total = 344948
+True: 9466747, scanned range = 0, scanned list = 9601978
+Query time (ms): 1079.62
+Scan time (us): ranges = 0.23, list = 318248, total = 318249
+True: 9903942, scanned range = 0, scanned list = 14164589
+Query time (ms): 916.511
+Scan time (us): ranges = 0.22, list = 344756, total = 344756
+True: 8690452, scanned range = 0, scanned list = 8923147
+Query time (ms): 1067.81
+Scan time (us): ranges = 0.22, list = 348839, total = 348840
+True: 8799206, scanned range = 0, scanned list = 9077599
+Query time (ms): 1082.41
+Scan time (us): ranges = 0.2, list = 393689, total = 393689
+True: 12583724, scanned range = 0, scanned list = 18554645
+Query time (ms): 1179.17
+Scan time (us): ranges = 0.21, list = 331713, total = 331713
+True: 10775429, scanned range = 0, scanned list = 12081618
+Query time (ms): 979.905
+Scan time (us): ranges = 0.25, list = 375801, total = 375801
+True: 10610980, scanned range = 0, scanned list = 10707170
+Query time (ms): 1128.03
+Scan time (us): ranges = 0.22, list = 378068, total = 378069
+True: 9892483, scanned range = 0, scanned list = 10487842
+Query time (ms): 1152.33
+Scan time (us): ranges = 0.22, list = 368122, total = 368122
+True: 9391611, scanned range = 0, scanned list = 9937988
+Query time (ms): 1123.22
+Scan time (us): ranges = 0.55, list = 357620, total = 357621
+True: 10162807, scanned range = 0, scanned list = 10274239
+Query time (ms): 1073.81
+Scan time (us): ranges = 0.22, list = 377260, total = 377260
+True: 10612635, scanned range = 0, scanned list = 10780902
+Query time (ms): 1133.23
+Scan time (us): ranges = 0.21, list = 365517, total = 365517
+True: 10501123, scanned range = 0, scanned list = 10620658
+Query time (ms): 1099.37
+Scan time (us): ranges = 0.21, list = 335912, total = 335912
+True: 10439917, scanned range = 0, scanned list = 10967896
+Query time (ms): 992.954
+Scan time (us): ranges = 0.09, list = 1.1347e+06, total = 1.1347e+06
+True: 50831096, scanned range = 0, scanned list = 53476537
+Query time (ms): 3157.18
+Scan time (us): ranges = 0.21, list = 329261, total = 329261
+True: 9213233, scanned range = 0, scanned list = 9315549
+Query time (ms): 993.184
+Scan time (us): ranges = 0.23, list = 334896, total = 334896
+True: 11128354, scanned range = 0, scanned list = 12816962
+Query time (ms): 986.34
+Scan time (us): ranges = 0.23, list = 343999, total = 344000
+True: 9398968, scanned range = 0, scanned list = 9536197
+Query time (ms): 1076.97
+Scan time (us): ranges = 0.24, list = 350066, total = 350066
+True: 9692956, scanned range = 0, scanned list = 9833888
+Query time (ms): 1093.49
+Scan time (us): ranges = 0.22, list = 365296, total = 365296
+True: 10025770, scanned range = 0, scanned list = 10395060
+Query time (ms): 1100.26
+Scan time (us): ranges = 0.24, list = 357163, total = 357164
+True: 10936394, scanned range = 0, scanned list = 14263476
+Query time (ms): 1101.55
+Scan time (us): ranges = 0.24, list = 367429, total = 367429
+True: 9859420, scanned range = 0, scanned list = 10360200
+Query time (ms): 1114.32
+Scan time (us): ranges = 0.21, list = 339197, total = 339197
+True: 9059214, scanned range = 0, scanned list = 9189232
+Query time (ms): 1062.11
+Scan time (us): ranges = 0.23, list = 347352, total = 347353
+True: 10340162, scanned range = 0, scanned list = 10640724
+Query time (ms): 1026.38
+Scan time (us): ranges = 0.22, list = 381655, total = 381655
+True: 9723115, scanned range = 0, scanned list = 10221279
+Query time (ms): 1172.2
+Scan time (us): ranges = 0.23, list = 376233, total = 376233
+True: 10543037, scanned range = 0, scanned list = 10749864
+Query time (ms): 1130.61
+Scan time (us): ranges = 0.21, list = 327153, total = 327153
+True: 9621623, scanned range = 0, scanned list = 9900354
+Query time (ms): 969.563
+Scan time (us): ranges = 0.22, list = 332095, total = 332095
+True: 10927247, scanned range = 0, scanned list = 13959574
+Query time (ms): 968.758
+Scan time (us): ranges = 0.23, list = 356861, total = 356861
+True: 10698110, scanned range = 0, scanned list = 10701418
+Query time (ms): 1099.72
+Scan time (us): ranges = 0.22, list = 341453, total = 341453
+True: 9283364, scanned range = 0, scanned list = 9425188
+Query time (ms): 1069.34
+Scan time (us): ranges = 0.2, list = 346620, total = 346620
+True: 10340162, scanned range = 0, scanned list = 10640724
+Query time (ms): 1025.65
+Scan time (us): ranges = 0.21, list = 340548, total = 340548
+True: 8945233, scanned range = 0, scanned list = 9067709
+Query time (ms): 1070.43
+Scan time (us): ranges = 0.24, list = 345506, total = 345506
+True: 8690452, scanned range = 0, scanned list = 8923147
+Query time (ms): 1069.39
+Scan time (us): ranges = 0.21, list = 375270, total = 375270
+True: 10480222, scanned range = 0, scanned list = 10687621
+Query time (ms): 1165.76
+Scan time (us): ranges = 0.24, list = 375942, total = 375942
+True: 10610980, scanned range = 0, scanned list = 10707170
+Query time (ms): 1128.49
+Scan time (us): ranges = 0.23, list = 357713, total = 357714
+True: 10078869, scanned range = 0, scanned list = 10196124
+Query time (ms): 1097.53
+Scan time (us): ranges = 0.22, list = 364045, total = 364045
+True: 10025770, scanned range = 0, scanned list = 10395060
+Query time (ms): 1098.65
+Scan time (us): ranges = 0.21, list = 357755, total = 357755
+True: 10078869, scanned range = 0, scanned list = 10196124
+Query time (ms): 1097.87
+Scan time (us): ranges = 0.23, list = 323992, total = 323993
+True: 9905982, scanned range = 0, scanned list = 10416019
+Query time (ms): 954.013
+Scan time (us): ranges = 0.2, list = 331181, total = 331182
+True: 10018923, scanned range = 0, scanned list = 10448496
+Query time (ms): 978.97
+Scan time (us): ranges = 0.22, list = 346106, total = 346107
+True: 8959402, scanned range = 0, scanned list = 9096353
+Query time (ms): 1084.79
+Scan time (us): ranges = 0.22, list = 350361, total = 350361
+True: 8799206, scanned range = 0, scanned list = 9077599
+Query time (ms): 1084.36
+Scan time (us): ranges = 0.22, list = 340222, total = 340222
+True: 10270609, scanned range = 0, scanned list = 10270614
+Query time (ms): 1049.18
+Scan time (us): ranges = 0.22, list = 360559, total = 360559
+True: 10048315, scanned range = 0, scanned list = 10215541
+Query time (ms): 1123.66
+Scan time (us): ranges = 0.21, list = 352443, total = 352443
+True: 10900655, scanned range = 0, scanned list = 11358506
+Query time (ms): 1045.52
+Scan time (us): ranges = 0.23, list = 362889, total = 362889
+True: 10137765, scanned range = 0, scanned list = 10313627
+Query time (ms): 1131.49
+Scan time (us): ranges = 0.21, list = 339057, total = 339057
+True: 9189597, scanned range = 0, scanned list = 9332160
+Query time (ms): 1064.24
+Scan time (us): ranges = 0.22, list = 316548, total = 316549
+True: 9903942, scanned range = 0, scanned list = 14164589
+Query time (ms): 915.896
+Scan time (us): ranges = 0.22, list = 318210, total = 318210
+True: 9903942, scanned range = 0, scanned list = 14164589
+Query time (ms): 916.448
+Scan time (us): ranges = 0.21, list = 341699, total = 341699
+True: 8948251, scanned range = 0, scanned list = 9064754
+Query time (ms): 1073.92
+Scan time (us): ranges = 0.29, list = 392937, total = 392937
+True: 12483730, scanned range = 0, scanned list = 18863155
+Query time (ms): 1182
+Scan time (us): ranges = 0.22, list = 345494, total = 345494
+True: 9872438, scanned range = 0, scanned list = 9915504
+Query time (ms): 1044.4
+Scan time (us): ranges = 0.21, list = 338343, total = 338343
+True: 9159931, scanned range = 0, scanned list = 9301425
+Query time (ms): 1062.43
+Scan time (us): ranges = 0.23, list = 376955, total = 376955
+True: 10851434, scanned range = 0, scanned list = 10973980
+Query time (ms): 1130.55
+Scan time (us): ranges = 0.22, list = 392509, total = 392510
+True: 12583724, scanned range = 0, scanned list = 18554645
+Query time (ms): 1180.5
+Scan time (us): ranges = 0.24, list = 391010, total = 391010
+True: 10111085, scanned range = 0, scanned list = 10657462
+Query time (ms): 1202.92
+Scan time (us): ranges = 0.21, list = 358195, total = 358195
+True: 9491119, scanned range = 0, scanned list = 10035282
+Query time (ms): 1087.72
+Scan time (us): ranges = 0.41, list = 338720, total = 338720
+True: 9059214, scanned range = 0, scanned list = 9189232
+Query time (ms): 1060.49
+Scan time (us): ranges = 0.23, list = 347573, total = 347573
+True: 10017086, scanned range = 0, scanned list = 10182078
+Query time (ms): 1031.69
+Scan time (us): ranges = 0.22, list = 346524, total = 346524
+True: 9532760, scanned range = 0, scanned list = 9675793
+Query time (ms): 1083.92
+Scan time (us): ranges = 0.23, list = 355336, total = 355337
+True: 10162807, scanned range = 0, scanned list = 10274239
+Query time (ms): 1070.92
+Scan time (us): ranges = 0.22, list = 357252, total = 357253
+True: 10194065, scanned range = 0, scanned list = 10241882
+Query time (ms): 1079.29
+Scan time (us): ranges = 0.23, list = 357941, total = 357941
+True: 10194065, scanned range = 0, scanned list = 10241882
+Query time (ms): 1080.08
+Scan time (us): ranges = 0.24, list = 355316, total = 355316
+True: 10436596, scanned range = 0, scanned list = 10652366
+Query time (ms): 1053.84
+Scan time (us): ranges = 0.21, list = 381347, total = 381347
+True: 9723115, scanned range = 0, scanned list = 10221279
+Query time (ms): 1171.49
+Scan time (us): ranges = 0.22, list = 375365, total = 375365
+True: 10610980, scanned range = 0, scanned list = 10707170
+Query time (ms): 1127.17
+Scan time (us): ranges = 0.22, list = 322908, total = 322908
+True: 9759526, scanned range = 0, scanned list = 9759530
+Query time (ms): 994.963
+Scan time (us): ranges = 0.22, list = 350678, total = 350678
+True: 9095554, scanned range = 0, scanned list = 9676318
+Query time (ms): 1063.84
+Scan time (us): ranges = 0.23, list = 347736, total = 347736
+True: 8989672, scanned range = 0, scanned list = 9138595
+Query time (ms): 1090.21
+Scan time (us): ranges = 0.23, list = 341050, total = 341051
+True: 8694227, scanned range = 0, scanned list = 9289586
+Query time (ms): 1035.98
+Scan time (us): ranges = 0.24, list = 344942, total = 344942
+True: 10324370, scanned range = 0, scanned list = 15575671
+Query time (ms): 1011.18
+Scan time (us): ranges = 0.23, list = 324963, total = 324963
+True: 9603148, scanned range = 0, scanned list = 15575272
+Query time (ms): 940.351
+Scan time (us): ranges = 0.23, list = 341666, total = 341667
+True: 9336760, scanned range = 0, scanned list = 9475664
+Query time (ms): 1071.5
+Scan time (us): ranges = 0.22, list = 359592, total = 359592
+True: 9491119, scanned range = 0, scanned list = 10035282
+Query time (ms): 1088.78
+Scan time (us): ranges = 0.2, list = 368304, total = 368304
+True: 9484917, scanned range = 0, scanned list = 10067812
+Query time (ms): 1122.83
+Scan time (us): ranges = 0.21, list = 339111, total = 339111
+True: 9189597, scanned range = 0, scanned list = 9332160
+Query time (ms): 1063.33
+Scan time (us): ranges = 0.23, list = 358061, total = 358062
+True: 9959745, scanned range = 0, scanned list = 10118605
+Query time (ms): 1114.78
+Scan time (us): ranges = 0.22, list = 361021, total = 361021
+True: 10814602, scanned range = 0, scanned list = 10814603
+Query time (ms): 1111.69
+Scan time (us): ranges = 0.22, list = 313321, total = 313321
+True: 9823889, scanned range = 0, scanned list = 10463946
+Query time (ms): 923.675
+Scan time (us): ranges = 0.19, list = 346450, total = 346450
+True: 9532760, scanned range = 0, scanned list = 9675793
+Query time (ms): 1083.74
+Scan time (us): ranges = 0.21, list = 357470, total = 357471
+True: 10936394, scanned range = 0, scanned list = 14263476
+Query time (ms): 1100.99
+Scan time (us): ranges = 0.22, list = 353239, total = 353239
+True: 10652870, scanned range = 0, scanned list = 10653150
+Query time (ms): 1092
+Scan time (us): ranges = 0.21, list = 344913, total = 344913
+True: 8959402, scanned range = 0, scanned list = 9096353
+Query time (ms): 1082.6
+Scan time (us): ranges = 0.24, list = 351562, total = 351562
+True: 9095554, scanned range = 0, scanned list = 9676318
+Query time (ms): 1064.34
+Scan time (us): ranges = 0.23, list = 365369, total = 365369
+True: 10501123, scanned range = 0, scanned list = 10620658
+Query time (ms): 1098.95
+Scan time (us): ranges = 0.2, list = 362943, total = 362943
+True: 10137765, scanned range = 0, scanned list = 10313627
+Query time (ms): 1130.64
+Scan time (us): ranges = 0.23, list = 364080, total = 364080
+True: 10704428, scanned range = 0, scanned list = 10717919
+Query time (ms): 1125.52
+Scan time (us): ranges = 0.21, list = 345766, total = 345766
+True: 10081917, scanned range = 0, scanned list = 10290963
+Query time (ms): 1024.98
+Scan time (us): ranges = 0.22, list = 334657, total = 334657
+True: 11128354, scanned range = 0, scanned list = 12816962
+Query time (ms): 986.518
+Scan time (us): ranges = 0.24, list = 392905, total = 392905
+True: 12483730, scanned range = 0, scanned list = 18863155
+Query time (ms): 1180.52
+Scan time (us): ranges = 0.22, list = 377948, total = 377948
+True: 10612635, scanned range = 0, scanned list = 10780902
+Query time (ms): 1134.71
+Scan time (us): ranges = 0.23, list = 370892, total = 370892
+True: 10509858, scanned range = 0, scanned list = 10578408
+Query time (ms): 1116.63
+Scan time (us): ranges = 0.26, list = 345291, total = 345291
+True: 8959402, scanned range = 0, scanned list = 9096353
+Query time (ms): 1083.77
+Scan time (us): ranges = 0.22, list = 360199, total = 360200
+True: 10048315, scanned range = 0, scanned list = 10215541
+Query time (ms): 1122.7
+Scan time (us): ranges = 0.41, list = 356299, total = 356299
+True: 10721838, scanned range = 0, scanned list = 11032557
+Query time (ms): 1057.47
+Scan time (us): ranges = 0.22, list = 368369, total = 368369
+True: 9484917, scanned range = 0, scanned list = 10067812
+Query time (ms): 1121.98
+Scan time (us): ranges = 0.22, list = 349825, total = 349826
+True: 9022326, scanned range = 0, scanned list = 9184059
+Query time (ms): 1095.89
+Scan time (us): ranges = 0.21, list = 350545, total = 350545
+True: 11030481, scanned range = 0, scanned list = 11580149
+Query time (ms): 1032.64
+Scan time (us): ranges = 0.29, list = 355254, total = 355254
+True: 8940448, scanned range = 0, scanned list = 9260627
+Query time (ms): 1098.55
+Scan time (us): ranges = 0.23, list = 339044, total = 339044
+True: 9032038, scanned range = 0, scanned list = 9156776
+Query time (ms): 1063.85
+Scan time (us): ranges = 0.22, list = 360138, total = 360138
+True: 9066154, scanned range = 0, scanned list = 9505351
+Query time (ms): 1106.47
+Scan time (us): ranges = 0.19, list = 337616, total = 337616
+True: 9084994, scanned range = 0, scanned list = 9228029
+Query time (ms): 1060.15
+Scan time (us): ranges = 0.23, list = 338824, total = 338824
+True: 9059214, scanned range = 0, scanned list = 9189232
+Query time (ms): 1061.91
+Scan time (us): ranges = 0.22, list = 337892, total = 337893
+True: 9508770, scanned range = 0, scanned list = 9625039
+Query time (ms): 1017.73
+Scan time (us): ranges = 0.22, list = 347591, total = 347591
+True: 9831662, scanned range = 0, scanned list = 9938343
+Query time (ms): 1044.06
+Scan time (us): ranges = 0.43, list = 360402, total = 360403
+True: 10603275, scanned range = 0, scanned list = 10617043
+Query time (ms): 1113.13
+Scan time (us): ranges = 0.22, list = 336084, total = 336084
+True: 10439917, scanned range = 0, scanned list = 10967896
+Query time (ms): 992.96
+Scan time (us): ranges = 0.22, list = 341185, total = 341185
+True: 8694227, scanned range = 0, scanned list = 9289586
+Query time (ms): 1036.46
+Scan time (us): ranges = 0.22, list = 349121, total = 349121
+True: 11030481, scanned range = 0, scanned list = 11580149
+Query time (ms): 1031.23
+Scan time (us): ranges = 0.24, list = 331025, total = 331025
+True: 10018923, scanned range = 0, scanned list = 10448496
+Query time (ms): 979.006
+Scan time (us): ranges = 0.21, list = 346499, total = 346499
+True: 9532760, scanned range = 0, scanned list = 9675793
+Query time (ms): 1083.95
+Scan time (us): ranges = 0.23, list = 350820, total = 350820
+True: 11802903, scanned range = 0, scanned list = 15187894
+Query time (ms): 1024.17
+Scan time (us): ranges = 0.24, list = 365394, total = 365395
+True: 10501123, scanned range = 0, scanned list = 10620658
+Query time (ms): 1099.81
+Scan time (us): ranges = 0.23, list = 351924, total = 351924
+True: 10030331, scanned range = 0, scanned list = 10075532
+Query time (ms): 1063.65
+Scan time (us): ranges = 0.21, list = 314714, total = 314715
+True: 9823889, scanned range = 0, scanned list = 10463946
+Query time (ms): 925.887
+Scan time (us): ranges = 0.22, list = 377649, total = 377649
+True: 10612635, scanned range = 0, scanned list = 10780902
+Query time (ms): 1134.52
+Scan time (us): ranges = 0.26, list = 360527, total = 360527
+True: 9066154, scanned range = 0, scanned list = 9505351
+Query time (ms): 1106.13
+Scan time (us): ranges = 0.24, list = 368309, total = 368309
+True: 9384485, scanned range = 0, scanned list = 9662878
+Query time (ms): 1148.11
+Scan time (us): ranges = 0.25, list = 343001, total = 343001
+True: 8989171, scanned range = 0, scanned list = 9533334
+Query time (ms): 1038.29
+Scan time (us): ranges = 0.23, list = 345427, total = 345427
+True: 8959402, scanned range = 0, scanned list = 9096353
+Query time (ms): 1082.98
+Scan time (us): ranges = 0.24, list = 358875, total = 358876
+True: 9039306, scanned range = 0, scanned list = 9537470
+Query time (ms): 1095.94
+Scan time (us): ranges = 0.23, list = 327415, total = 327415
+True: 9621623, scanned range = 0, scanned list = 9900354
+Query time (ms): 968.956
+Scan time (us): ranges = 0.23, list = 354356, total = 354356
+True: 10111864, scanned range = 0, scanned list = 10157885
+Query time (ms): 1071.26
+Scan time (us): ranges = 0.22, list = 381466, total = 381466
+True: 9723115, scanned range = 0, scanned list = 10221279
+Query time (ms): 1171.14
+Scan time (us): ranges = 0.24, list = 352380, total = 352380
+True: 11802903, scanned range = 0, scanned list = 15187894
+Query time (ms): 1025.22
+Scan time (us): ranges = 0.33, list = 334785, total = 334785
+True: 9319580, scanned range = 0, scanned list = 9427150
+Query time (ms): 1031.37
+Scan time (us): ranges = 0.21, list = 258378, total = 258379
+True: 7678929, scanned range = 0, scanned list = 12930230
+Query time (ms): 795.821
+Scan time (us): ranges = 0.21, list = 391509, total = 391510
+True: 10111085, scanned range = 0, scanned list = 10657462
+Query time (ms): 1202.68
+Scan time (us): ranges = 0.23, list = 348562, total = 348562
+True: 9950794, scanned range = 0, scanned list = 9994884
+Query time (ms): 1053.59
+Scan time (us): ranges = 0.22, list = 366480, total = 366480
+True: 10224394, scanned range = 0, scanned list = 10409593
+Query time (ms): 1140.76
+Scan time (us): ranges = 0.24, list = 355807, total = 355808
+True: 10162807, scanned range = 0, scanned list = 10274239
+Query time (ms): 1071.98
+Scan time (us): ranges = 0.21, list = 346484, total = 346484
+True: 8959402, scanned range = 0, scanned list = 9096353
+Query time (ms): 1085.18
+Scan time (us): ranges = 0.22, list = 338938, total = 338938
+True: 9032038, scanned range = 0, scanned list = 9156776
+Query time (ms): 1063.21
+Scan time (us): ranges = 0.3, list = 332117, total = 332118
+True: 10775429, scanned range = 0, scanned list = 12081618
+Query time (ms): 981.315
+Scan time (us): ranges = 0.22, list = 350407, total = 350407
+True: 11030481, scanned range = 0, scanned list = 11580149
+Query time (ms): 1032.26
+Scan time (us): ranges = 0.2, list = 341775, total = 341775
+True: 8948251, scanned range = 0, scanned list = 9064754
+Query time (ms): 1072.83
+Scan time (us): ranges = 0.22, list = 376114, total = 376114
+True: 10610980, scanned range = 0, scanned list = 10707170
+Query time (ms): 1128.44
+Scan time (us): ranges = 0.21, list = 341422, total = 341423
+True: 10435936, scanned range = 0, scanned list = 10878513
+Query time (ms): 1011.7
+Scan time (us): ranges = 0.23, list = 382474, total = 382474
+True: 9760511, scanned range = 0, scanned list = 10137755
+Query time (ms): 1186.18
+Scan time (us): ranges = 0.23, list = 389309, total = 389309
+True: 10230828, scanned range = 0, scanned list = 10826187
+Query time (ms): 1186.77
+Scan time (us): ranges = 0.22, list = 360732, total = 360732
+True: 9734166, scanned range = 0, scanned list = 10166702
+Query time (ms): 1085.21
+Scan time (us): ranges = 0.23, list = 371879, total = 371879
+True: 10387059, scanned range = 0, scanned list = 10599466
+Query time (ms): 1158.08
+Scan time (us): ranges = 0.14, list = 312299, total = 312299
+True: 9297339, scanned range = 0, scanned list = 9692177
+Query time (ms): 924.155
+Scan time (us): ranges = 0.25, list = 333815, total = 333815
+True: 8567267, scanned range = 0, scanned list = 9148031
+Query time (ms): 1011.03
+Scan time (us): ranges = 0.23, list = 338245, total = 338245
+True: 9132855, scanned range = 0, scanned list = 9272281
+Query time (ms): 1059.68
+Scan time (us): ranges = 0.27, list = 373048, total = 373048
+True: 12883851, scanned range = 0, scanned list = 16492019
+Query time (ms): 1081.96
+Scan time (us): ranges = 0.21, list = 340648, total = 340648
+True: 8945233, scanned range = 0, scanned list = 9067709
+Query time (ms): 1070.37
+Scan time (us): ranges = 0.23, list = 338897, total = 338897
+True: 8951419, scanned range = 0, scanned list = 9065099
+Query time (ms): 1066.79
+Scan time (us): ranges = 0.21, list = 342932, total = 342932
+True: 9398968, scanned range = 0, scanned list = 9536197
+Query time (ms): 1075.22
+Scan time (us): ranges = 0.22, list = 361950, total = 361950
+True: 9137393, scanned range = 0, scanned list = 9514637
+Query time (ms): 1117.74
+Scan time (us): ranges = 0.24, list = 335065, total = 335065
+True: 9319580, scanned range = 0, scanned list = 9427150
+Query time (ms): 1031.86
+Scan time (us): ranges = 0.22, list = 342312, total = 342312
+True: 8989171, scanned range = 0, scanned list = 9533334
+Query time (ms): 1036.82
+Scan time (us): ranges = 0.22, list = 366871, total = 366872
+True: 10714303, scanned range = 0, scanned list = 10886532
+Query time (ms): 1088.52
+Scan time (us): ranges = 0.23, list = 359468, total = 359468
+True: 11223425, scanned range = 0, scanned list = 17502856
+Query time (ms): 1084.99
+Scan time (us): ranges = 0.24, list = 333902, total = 333903
+True: 8567267, scanned range = 0, scanned list = 9148031
+Query time (ms): 1010.93
+Scan time (us): ranges = 0.21, list = 312321, total = 312321
+True: 10118859, scanned range = 0, scanned list = 11676914
+Query time (ms): 922.245
+Scan time (us): ranges = 0.22, list = 356702, total = 356702
+True: 10503363, scanned range = 0, scanned list = 10517182
+Query time (ms): 1099.71
+Scan time (us): ranges = 0.19, list = 361893, total = 361893
+True: 9257624, scanned range = 0, scanned list = 9490319
+Query time (ms): 1128.6
+Scan time (us): ranges = 0.21, list = 358262, total = 358262
+True: 10801078, scanned range = 0, scanned list = 10802584
+Query time (ms): 1105.45
+Scan time (us): ranges = 0.23, list = 347223, total = 347223
+True: 9532760, scanned range = 0, scanned list = 9675793
+Query time (ms): 1085.08
+Scan time (us): ranges = 0.22, list = 346372, total = 346372
+True: 8959402, scanned range = 0, scanned list = 9096353
+Query time (ms): 1085.83
+Scan time (us): ranges = 0.28, list = 348430, total = 348430
+True: 10017086, scanned range = 0, scanned list = 10182078
+Query time (ms): 1033.74
+Scan time (us): ranges = 0.23, list = 378145, total = 378145
+True: 10082757, scanned range = 0, scanned list = 10626920
+Query time (ms): 1148.09
+Scan time (us): ranges = 0.21, list = 358341, total = 358342
+True: 9491119, scanned range = 0, scanned list = 10035282
+Query time (ms): 1088.41
+Scan time (us): ranges = 0.23, list = 338149, total = 338149
+True: 9508770, scanned range = 0, scanned list = 9625039
+Query time (ms): 1018.14
+Scan time (us): ranges = 0.22, list = 318716, total = 318716
+True: 10248927, scanned range = 0, scanned list = 11505592
+Query time (ms): 941.325
+Scan time (us): ranges = 0.22, list = 380018, total = 380018
+True: 9782616, scanned range = 0, scanned list = 10328993
+Query time (ms): 1164.03
+Scan time (us): ranges = 0.23, list = 350535, total = 350535
+True: 9379915, scanned range = 0, scanned list = 9880695
+Query time (ms): 1060.84
+Scan time (us): ranges = 0.25, list = 354487, total = 354487
+True: 9860134, scanned range = 0, scanned list = 10013553
+Query time (ms): 1105.08
+Scan time (us): ranges = 0.22, list = 314427, total = 314427
+True: 9823889, scanned range = 0, scanned list = 10463946
+Query time (ms): 924.28
+Scan time (us): ranges = 0.23, list = 379760, total = 379760
+True: 9782616, scanned range = 0, scanned list = 10328993
+Query time (ms): 1163.61
+Scan time (us): ranges = 0.21, list = 377027, total = 377027
+True: 10641998, scanned range = 0, scanned list = 10780354
+Query time (ms): 1133.52
+Scan time (us): ranges = 0.25, list = 341575, total = 341575
+True: 8582670, scanned range = 0, scanned list = 9129047
+Query time (ms): 1039.31
+Scan time (us): ranges = 0.24, list = 353386, total = 353387
+True: 10900655, scanned range = 0, scanned list = 11358506
+Query time (ms): 1045.01
+Scan time (us): ranges = 0.21, list = 368058, total = 368059
+True: 10309093, scanned range = 0, scanned list = 10503125
+Query time (ms): 1146.7
+Scan time (us): ranges = 0.53, list = 337485, total = 337486
+True: 9971307, scanned range = 0, scanned list = 10261680
+Query time (ms): 998.623
+Scan time (us): ranges = 0.23, list = 332258, total = 332258
+True: 10018923, scanned range = 0, scanned list = 10448496
+Query time (ms): 979.852
+Scan time (us): ranges = 0.23, list = 348264, total = 348264
+True: 9611461, scanned range = 0, scanned list = 9748530
+Query time (ms): 1087.12
+Scan time (us): ranges = 0.21, list = 341649, total = 341649
+True: 9796817, scanned range = 0, scanned list = 9844947
+Query time (ms): 1032.03
+Scan time (us): ranges = 0.31, list = 345620, total = 345621
+True: 10185256, scanned range = 0, scanned list = 10198711
+Query time (ms): 1058.56
+Scan time (us): ranges = 0.24, list = 350389, total = 350390
+True: 8941012, scanned range = 0, scanned list = 9523907
+Query time (ms): 1068.47
+Scan time (us): ranges = 0.21, list = 375130, total = 375130
+True: 10480222, scanned range = 0, scanned list = 10687621
+Query time (ms): 1165.34
+Scan time (us): ranges = 0.23, list = 356964, total = 356964
+True: 10698110, scanned range = 0, scanned list = 10701418
+Query time (ms): 1098.67
+Scan time (us): ranges = 0.24, list = 380976, total = 380976
+True: 9782616, scanned range = 0, scanned list = 10328993
+Query time (ms): 1166.13
+Scan time (us): ranges = 0.25, list = 370311, total = 370311
+True: 9709392, scanned range = 0, scanned list = 10290156
+Query time (ms): 1123.29
+Scan time (us): ranges = 0.22, list = 371740, total = 371740
+True: 10509858, scanned range = 0, scanned list = 10578408
+Query time (ms): 1116.76
+Scan time (us): ranges = 0.24, list = 345935, total = 345935
+True: 10185256, scanned range = 0, scanned list = 10198711
+Query time (ms): 1060.35
+Scan time (us): ranges = 0.21, list = 355840, total = 355840
+True: 10111864, scanned range = 0, scanned list = 10157885
+Query time (ms): 1073.11
+Scan time (us): ranges = 0.22, list = 336670, total = 336670
+True: 9971307, scanned range = 0, scanned list = 10261680
+Query time (ms): 998.141
+Scan time (us): ranges = 0.23, list = 349433, total = 349433
+True: 9022326, scanned range = 0, scanned list = 9184059
+Query time (ms): 1095.44
+Scan time (us): ranges = 0.23, list = 381568, total = 381568
+True: 10702187, scanned range = 0, scanned list = 10903572
+Query time (ms): 1185.36
+Scan time (us): ranges = 0.2, list = 337998, total = 337998
+True: 9022080, scanned range = 0, scanned list = 9144526
+Query time (ms): 1062.27
+Scan time (us): ranges = 0.24, list = 334206, total = 334207
+True: 8567267, scanned range = 0, scanned list = 9148031
+Query time (ms): 1010.83
+Scan time (us): ranges = 0.22, list = 357092, total = 357092
+True: 10358553, scanned range = 0, scanned list = 10527123
+Query time (ms): 1059.07
+Scan time (us): ranges = 0.2, list = 346434, total = 346435
+True: 10472763, scanned range = 0, scanned list = 10473043
+Query time (ms): 1070.24
+Scan time (us): ranges = 0.23, list = 334644, total = 334644
+True: 9319580, scanned range = 0, scanned list = 9427150
+Query time (ms): 1030.66
+Scan time (us): ranges = 0.21, list = 344496, total = 344496
+True: 9398968, scanned range = 0, scanned list = 9536197
+Query time (ms): 1075.36
+Scan time (us): ranges = 0.22, list = 365859, total = 365859
+True: 10714303, scanned range = 0, scanned list = 10886532
+Query time (ms): 1087.92
+Scan time (us): ranges = 0.22, list = 314402, total = 314402
+True: 10336013, scanned range = 0, scanned list = 12327990
+Query time (ms): 922.875
+Scan time (us): ranges = 0.21, list = 348489, total = 348489
+True: 8726621, scanned range = 0, scanned list = 9165818
+Query time (ms): 1065.59
+Scan time (us): ranges = 0.22, list = 338035, total = 338035
+True: 11025616, scanned range = 0, scanned list = 12165848
+Query time (ms): 996.758
+Scan time (us): ranges = 0.23, list = 339518, total = 339518
+True: 8962682, scanned range = 0, scanned list = 9077326
+Query time (ms): 1065.76
+Scan time (us): ranges = 0.23, list = 390511, total = 390511
+True: 10020739, scanned range = 0, scanned list = 10459936
+Query time (ms): 1211.25
+Scan time (us): ranges = 0.2, list = 342708, total = 342709
+True: 10435936, scanned range = 0, scanned list = 10878513
+Query time (ms): 1013.72
+Scan time (us): ranges = 0.22, list = 337569, total = 337569
+True: 9075112, scanned range = 0, scanned list = 9207589
+Query time (ms): 1060.19
+Scan time (us): ranges = 0.22, list = 340790, total = 340790
+True: 8582670, scanned range = 0, scanned list = 9129047
+Query time (ms): 1038.31
+Scan time (us): ranges = 0.26, list = 344831, total = 344831
+True: 9466747, scanned range = 0, scanned list = 9601978
+Query time (ms): 1078.29
+Scan time (us): ranges = 0.22, list = 349713, total = 349713
+True: 9692956, scanned range = 0, scanned list = 9833888
+Query time (ms): 1091.81
+Scan time (us): ranges = 0.21, list = 361577, total = 361577
+True: 10814602, scanned range = 0, scanned list = 10814603
+Query time (ms): 1111.38
+Scan time (us): ranges = 0.22, list = 338300, total = 338301
+True: 9189597, scanned range = 0, scanned list = 9332160
+Query time (ms): 1061.89
+Scan time (us): ranges = 0.21, list = 1.13557e+06, total = 1.13557e+06
+True: 50831096, scanned range = 0, scanned list = 53476537
+Query time (ms): 3162.33
+Scan time (us): ranges = 0.2, list = 327480, total = 327481
+True: 9621623, scanned range = 0, scanned list = 9900354
+Query time (ms): 968.888
+Scan time (us): ranges = 0.22, list = 390695, total = 390695
+True: 10020739, scanned range = 0, scanned list = 10459936
+Query time (ms): 1209.68
+Scan time (us): ranges = 0.22, list = 315390, total = 315390
+True: 8739981, scanned range = 0, scanned list = 13091828
+Query time (ms): 947.647
+Scan time (us): ranges = 0.21, list = 349395, total = 349395
+True: 9692956, scanned range = 0, scanned list = 9833888
+Query time (ms): 1091.65
+Scan time (us): ranges = 0.22, list = 355493, total = 355493
+True: 8940448, scanned range = 0, scanned list = 9260627
+Query time (ms): 1098.43
+Scan time (us): ranges = 0.22, list = 343441, total = 343441
+True: 8989171, scanned range = 0, scanned list = 9533334
+Query time (ms): 1037.36
+Scan time (us): ranges = 0.19, list = 337834, total = 337834
+True: 8980194, scanned range = 0, scanned list = 9095904
+Query time (ms): 1062.09
+Scan time (us): ranges = 0.23, list = 381661, total = 381661
+True: 9760511, scanned range = 0, scanned list = 10137755
+Query time (ms): 1185.04
+Scan time (us): ranges = 0.22, list = 376304, total = 376304
+True: 10851434, scanned range = 0, scanned list = 10973980
+Query time (ms): 1127.68
+Scan time (us): ranges = 0.22, list = 338632, total = 338632
+True: 9159931, scanned range = 0, scanned list = 9301425
+Query time (ms): 1060.71
+Scan time (us): ranges = 0.25, list = 337736, total = 337736
+True: 9059214, scanned range = 0, scanned list = 9189232
+Query time (ms): 1060.47
+Scan time (us): ranges = 0.27, list = 360154, total = 360154
+True: 9322522, scanned range = 0, scanned list = 9917881
+Query time (ms): 1095.36
+Scan time (us): ranges = 0.2, list = 358563, total = 358563
+True: 9039306, scanned range = 0, scanned list = 9537470
+Query time (ms): 1094.82
+Scan time (us): ranges = 0.23, list = 348952, total = 348952
+True: 8799206, scanned range = 0, scanned list = 9077599
+Query time (ms): 1081.6
+Scan time (us): ranges = 0.29, list = 339232, total = 339232
+True: 8962682, scanned range = 0, scanned list = 9077326
+Query time (ms): 1065.74
+Scan time (us): ranges = 0.22, list = 1.13525e+06, total = 1.13525e+06
+True: 50831096, scanned range = 0, scanned list = 53476537
+Query time (ms): 3161.36
+Scan time (us): ranges = 0.21, list = 364541, total = 364542
+True: 10025770, scanned range = 0, scanned list = 10395060
+Query time (ms): 1099.91
+Scan time (us): ranges = 0.23, list = 378270, total = 378270
+True: 10641998, scanned range = 0, scanned list = 10780354
+Query time (ms): 1135.58
+Scan time (us): ranges = 0.25, list = 374310, total = 374310
+True: 10423344, scanned range = 0, scanned list = 10678268
+Query time (ms): 1123.43
+Scan time (us): ranges = 0.22, list = 331379, total = 331379
+True: 10018923, scanned range = 0, scanned list = 10448496
+Query time (ms): 979.778
+Scan time (us): ranges = 0.24, list = 337554, total = 337555
+True: 9107289, scanned range = 0, scanned list = 9244593
+Query time (ms): 1059.11
+Scan time (us): ranges = 0.23, list = 349956, total = 349957
+True: 9022326, scanned range = 0, scanned list = 9184059
+Query time (ms): 1095.8
+Scan time (us): ranges = 0.23, list = 349027, total = 349027
+True: 10292007, scanned range = 0, scanned list = 10305939
+Query time (ms): 1072.99
+Scan time (us): ranges = 0.23, list = 367485, total = 367486
+True: 9384485, scanned range = 0, scanned list = 9662878
+Query time (ms): 1146.76
+Scan time (us): ranges = 0.34, list = 350318, total = 350319
+True: 11030481, scanned range = 0, scanned list = 11580149
+Query time (ms): 1032
+Scan time (us): ranges = 0.24, list = 316581, total = 316581
+True: 10336013, scanned range = 0, scanned list = 12327990
+Query time (ms): 925.994
+Scan time (us): ranges = 0.26, list = 344023, total = 344023
+True: 8943356, scanned range = 0, scanned list = 9070834
+Query time (ms): 1079.57
+Scan time (us): ranges = 0.22, list = 339088, total = 339088
+True: 9189597, scanned range = 0, scanned list = 9332160
+Query time (ms): 1062.91
+Scan time (us): ranges = 0.23, list = 371149, total = 371149
+True: 9397382, scanned range = 0, scanned list = 9836579
+Query time (ms): 1144.04
+Scan time (us): ranges = 0.22, list = 356197, total = 356197
+True: 10436596, scanned range = 0, scanned list = 10652366
+Query time (ms): 1055.49
+Scan time (us): ranges = 0.22, list = 338252, total = 338252
+True: 8980194, scanned range = 0, scanned list = 9095904
+Query time (ms): 1064.53
+Scan time (us): ranges = 0.48, list = 359774, total = 359774
+True: 9734166, scanned range = 0, scanned list = 10166702
+Query time (ms): 1084.5
+Scan time (us): ranges = 0.23, list = 343524, total = 343525
+True: 8690452, scanned range = 0, scanned list = 8923147
+Query time (ms): 1066.46
+Scan time (us): ranges = 0.37, list = 346090, total = 346090
+True: 8959402, scanned range = 0, scanned list = 9096353
+Query time (ms): 1084.67
+Scan time (us): ranges = 0.24, list = 357950, total = 357951
+True: 9959745, scanned range = 0, scanned list = 10118605
+Query time (ms): 1115.12
+Scan time (us): ranges = 0.24, list = 337975, total = 337975
+True: 9508770, scanned range = 0, scanned list = 9625039
+Query time (ms): 1018.61
+Scan time (us): ranges = 0.23, list = 331674, total = 331674
+True: 10018923, scanned range = 0, scanned list = 10448496
+Query time (ms): 979.863
+Scan time (us): ranges = 0.22, list = 322565, total = 322565
+True: 9643032, scanned range = 0, scanned list = 10054838
+Query time (ms): 952.854
+Scan time (us): ranges = 0.24, list = 341411, total = 341411
+True: 8948251, scanned range = 0, scanned list = 9064754
+Query time (ms): 1072.86
+Scan time (us): ranges = 0.2, list = 339231, total = 339232
+True: 9676750, scanned range = 0, scanned list = 9836349
+Query time (ms): 1004.49
+Scan time (us): ranges = 0.26, list = 348907, total = 348907
+True: 9950794, scanned range = 0, scanned list = 9994884
+Query time (ms): 1054.38
+Scan time (us): ranges = 0.21, list = 344215, total = 344215
+True: 8989171, scanned range = 0, scanned list = 9533334
+Query time (ms): 1039.62
+Scan time (us): ranges = 0.22, list = 359480, total = 359480
+True: 9491119, scanned range = 0, scanned list = 10035282
+Query time (ms): 1090.19
+Scan time (us): ranges = 0.21, list = 351901, total = 351901
+True: 11030481, scanned range = 0, scanned list = 11580149
+Query time (ms): 1035.02
+Scan time (us): ranges = 0.23, list = 340334, total = 340334
+True: 8962682, scanned range = 0, scanned list = 9077326
+Query time (ms): 1068.29
+Scan time (us): ranges = 0.21, list = 346734, total = 346734
+True: 8989672, scanned range = 0, scanned list = 9138595
+Query time (ms): 1089.11
+Scan time (us): ranges = 0.23, list = 339308, total = 339308
+True: 9189597, scanned range = 0, scanned list = 9332160
+Query time (ms): 1063.04
+Scan time (us): ranges = 0.22, list = 370117, total = 370117
+True: 9709392, scanned range = 0, scanned list = 10290156
+Query time (ms): 1123.29
+Scan time (us): ranges = 0.3, list = 315991, total = 315992
+True: 8739981, scanned range = 0, scanned list = 13091828
+Query time (ms): 949.405
+Scan time (us): ranges = 0.21, list = 367928, total = 367929
+True: 9484917, scanned range = 0, scanned list = 10067812
+Query time (ms): 1121.6
+Scan time (us): ranges = 0.23, list = 367259, total = 367259
+True: 9484917, scanned range = 0, scanned list = 10067812
+Query time (ms): 1120.92
+Scan time (us): ranges = 0.23, list = 367840, total = 367840
+True: 10714303, scanned range = 0, scanned list = 10886532
+Query time (ms): 1090.1
+Scan time (us): ranges = 0.23, list = 317570, total = 317570
+True: 9903942, scanned range = 0, scanned list = 14164589
+Query time (ms): 916.826
+Scan time (us): ranges = 0.23, list = 348668, total = 348668
+True: 10472763, scanned range = 0, scanned list = 10473043
+Query time (ms): 1073.07
+Scan time (us): ranges = 0.2, list = 368575, total = 368575
+True: 9484917, scanned range = 0, scanned list = 10067812
+Query time (ms): 1122.69
+Scan time (us): ranges = 0.21, list = 348465, total = 348465
+True: 10017086, scanned range = 0, scanned list = 10182078
+Query time (ms): 1032.58
+Scan time (us): ranges = 0.26, list = 344299, total = 344299
+True: 10185256, scanned range = 0, scanned list = 10198711
+Query time (ms): 1057.28
+Scan time (us): ranges = 0.23, list = 371743, total = 371743
+True: 10387059, scanned range = 0, scanned list = 10599466
+Query time (ms): 1156.63
+Scan time (us): ranges = 0.22, list = 352575, total = 352575
+True: 9775524, scanned range = 0, scanned list = 9922053
+Query time (ms): 1098.32
+Scan time (us): ranges = 0.22, list = 366596, total = 366596
+True: 10501123, scanned range = 0, scanned list = 10620658
+Query time (ms): 1099.93
+Scan time (us): ranges = 0.45, list = 337389, total = 337389
+True: 9059214, scanned range = 0, scanned list = 9189232
+Query time (ms): 1059.67
+Scan time (us): ranges = 0.21, list = 377523, total = 377523
+True: 10638530, scanned range = 0, scanned list = 10753650
+Query time (ms): 1132.97
+Scan time (us): ranges = 0.23, list = 355100, total = 355100
+True: 10111864, scanned range = 0, scanned list = 10157885
+Query time (ms): 1071.84
+Scan time (us): ranges = 0.22, list = 312071, total = 312072
+True: 10118859, scanned range = 0, scanned list = 11676914
+Query time (ms): 921.94
+Scan time (us): ranges = 0.25, list = 376255, total = 376255
+True: 10543037, scanned range = 0, scanned list = 10749864
+Query time (ms): 1129.54
+Scan time (us): ranges = 0.21, list = 358422, total = 358422
+True: 9959745, scanned range = 0, scanned list = 10118605
+Query time (ms): 1115.54
+Scan time (us): ranges = 0.21, list = 356956, total = 356956
+True: 10936394, scanned range = 0, scanned list = 14263476
+Query time (ms): 1101.42
+Scan time (us): ranges = 0.21, list = 359078, total = 359078
+True: 9491119, scanned range = 0, scanned list = 10035282
+Query time (ms): 1089.35
+Scan time (us): ranges = 0.22, list = 351493, total = 351493
+True: 10030331, scanned range = 0, scanned list = 10075532
+Query time (ms): 1062.94
+Scan time (us): ranges = 0.22, list = 327872, total = 327872
+True: 10607793, scanned range = 0, scanned list = 11669707
+Query time (ms): 964.399
+Scan time (us): ranges = 0.2, list = 315921, total = 315922
+True: 9823889, scanned range = 0, scanned list = 10463946
+Query time (ms): 927.14
+Scan time (us): ranges = 0.25, list = 316189, total = 316189
+True: 10185413, scanned range = 0, scanned list = 11166085
+Query time (ms): 927.189
+Scan time (us): ranges = 0.22, list = 348174, total = 348174
+True: 9611461, scanned range = 0, scanned list = 9748530
+Query time (ms): 1087.88
+Scan time (us): ranges = 0.21, list = 363313, total = 363313
+True: 10137765, scanned range = 0, scanned list = 10313627
+Query time (ms): 1131.34
+Scan time (us): ranges = 0.25, list = 338769, total = 338769
+True: 9132855, scanned range = 0, scanned list = 9272281
+Query time (ms): 1061.6
+Scan time (us): ranges = 0.21, list = 382096, total = 382096
+True: 10702187, scanned range = 0, scanned list = 10903572
+Query time (ms): 1187.59
+Scan time (us): ranges = 0.3, list = 341651, total = 341652
+True: 8582670, scanned range = 0, scanned list = 9129047
+Query time (ms): 1040.24
+Scan time (us): ranges = 0.22, list = 369791, total = 369791
+True: 10438982, scanned range = 0, scanned list = 10499952
+Query time (ms): 1111.03
+Scan time (us): ranges = 0.2, list = 321665, total = 321665
+True: 9643032, scanned range = 0, scanned list = 10054838
+Query time (ms): 951.95
+Scan time (us): ranges = 0.23, list = 340435, total = 340436
+True: 10270609, scanned range = 0, scanned list = 10270614
+Query time (ms): 1049
+Scan time (us): ranges = 0.23, list = 377953, total = 377953
+True: 10582452, scanned range = 0, scanned list = 10790941
+Query time (ms): 1175.87
+Scan time (us): ranges = 0.23, list = 332728, total = 332729
+True: 10018923, scanned range = 0, scanned list = 10448496
+Query time (ms): 981.927
+Scan time (us): ranges = 0.25, list = 352308, total = 352308
+True: 10394706, scanned range = 0, scanned list = 10408510
+Query time (ms): 1085.73
+Scan time (us): ranges = 0.3, list = 348746, total = 348746
+True: 10017086, scanned range = 0, scanned list = 10182078
+Query time (ms): 1033.97
+Scan time (us): ranges = 0.23, list = 361593, total = 361594
+True: 9322522, scanned range = 0, scanned list = 9917881
+Query time (ms): 1097.7
+Scan time (us): ranges = 0.21, list = 350150, total = 350150
+True: 9817258, scanned range = 0, scanned list = 9930722
+Query time (ms): 1075.21
+Scan time (us): ranges = 0.23, list = 322973, total = 322973
+True: 9643032, scanned range = 0, scanned list = 10054838
+Query time (ms): 953.203
+Scan time (us): ranges = 0.22, list = 345702, total = 345702
+True: 8959402, scanned range = 0, scanned list = 9096353
+Query time (ms): 1084.12
+Scan time (us): ranges = 0.24, list = 317319, total = 317319
+True: 9903942, scanned range = 0, scanned list = 14164589
+Query time (ms): 916.983
+Scan time (us): ranges = 0.24, list = 339411, total = 339411
+True: 8998120, scanned range = 0, scanned list = 9116807
+Query time (ms): 1065.17
+Scan time (us): ranges = 0.22, list = 340561, total = 340561
+True: 9676750, scanned range = 0, scanned list = 9836349
+Query time (ms): 1006.12
+Scan time (us): ranges = 0.22, list = 367647, total = 367647
+True: 9859420, scanned range = 0, scanned list = 10360200
+Query time (ms): 1115.06
+Scan time (us): ranges = 0.25, list = 356935, total = 356935
+True: 10503363, scanned range = 0, scanned list = 10517182
+Query time (ms): 1100.65
+Scan time (us): ranges = 0.23, list = 361559, total = 361559
+True: 10603275, scanned range = 0, scanned list = 10617043
+Query time (ms): 1115.35
+Scan time (us): ranges = 0.2, list = 361274, total = 361274
+True: 9322522, scanned range = 0, scanned list = 9917881
+Query time (ms): 1097.41
+Scan time (us): ranges = 0.57, list = 323839, total = 323839
+True: 9643032, scanned range = 0, scanned list = 10054838
+Query time (ms): 954.006
+Scan time (us): ranges = 0.23, list = 368781, total = 368781
+True: 10438982, scanned range = 0, scanned list = 10499952
+Query time (ms): 1109.98
+Scan time (us): ranges = 0.21, list = 337953, total = 337953
+True: 9132855, scanned range = 0, scanned list = 9272281
+Query time (ms): 1060.88
+Scan time (us): ranges = 0.25, list = 338152, total = 338152
+True: 9084994, scanned range = 0, scanned list = 9228029
+Query time (ms): 1061.72
+Scan time (us): ranges = 0.22, list = 338728, total = 338728
+True: 9043847, scanned range = 0, scanned list = 9171401
+Query time (ms): 1062.7
+Scan time (us): ranges = 0.23, list = 348598, total = 348599
+True: 9950794, scanned range = 0, scanned list = 9994884
+Query time (ms): 1053.7
+Scan time (us): ranges = 0.21, list = 348666, total = 348666
+True: 10017086, scanned range = 0, scanned list = 10182078
+Query time (ms): 1033.38
+Scan time (us): ranges = 0.23, list = 358505, total = 358505
+True: 10698110, scanned range = 0, scanned list = 10701418
+Query time (ms): 1101.52
+Scan time (us): ranges = 0.23, list = 355348, total = 355348
+True: 9860134, scanned range = 0, scanned list = 10013553
+Query time (ms): 1107.21
+Scan time (us): ranges = 0.21, list = 357464, total = 357465
+True: 9959745, scanned range = 0, scanned list = 10118605
+Query time (ms): 1115.07
+Scan time (us): ranges = 0.23, list = 341888, total = 341889
+True: 10270609, scanned range = 0, scanned list = 10270614
+Query time (ms): 1049.89
+Scan time (us): ranges = 0.47, list = 348673, total = 348673
+True: 10292007, scanned range = 0, scanned list = 10305939
+Query time (ms): 1072.89
+Scan time (us): ranges = 0.22, list = 352184, total = 352184
+True: 8941012, scanned range = 0, scanned list = 9523907
+Query time (ms): 1072.28
+Scan time (us): ranges = 0.23, list = 339164, total = 339164
+True: 9159931, scanned range = 0, scanned list = 9301425
+Query time (ms): 1063.3
+Scan time (us): ranges = 0.3, list = 342562, total = 342562
+True: 8942208, scanned range = 0, scanned list = 9062891
+Query time (ms): 1076.71
+Scan time (us): ranges = 0.23, list = 351087, total = 351088
+True: 9095554, scanned range = 0, scanned list = 9676318
+Query time (ms): 1064.73
+Scan time (us): ranges = 0.22, list = 370059, total = 370060
+True: 9709392, scanned range = 0, scanned list = 10290156
+Query time (ms): 1123.33
+Scan time (us): ranges = 0.22, list = 376248, total = 376248
+True: 10851434, scanned range = 0, scanned list = 10973980
+Query time (ms): 1129.96
+Scan time (us): ranges = 0.21, list = 356392, total = 356392
+True: 10721838, scanned range = 0, scanned list = 11032557
+Query time (ms): 1058.49
+Scan time (us): ranges = 0.26, list = 358269, total = 358269
+True: 9959745, scanned range = 0, scanned list = 10118605
+Query time (ms): 1115.59
+Scan time (us): ranges = 0.21, list = 390924, total = 390924
+True: 10020739, scanned range = 0, scanned list = 10459936
+Query time (ms): 1211.81
+Scan time (us): ranges = 0.21, list = 339278, total = 339278
+True: 9189597, scanned range = 0, scanned list = 9332160
+Query time (ms): 1063.77
+Scan time (us): ranges = 0.21, list = 338146, total = 338146
+True: 9132855, scanned range = 0, scanned list = 9272281
+Query time (ms): 1061.08
+Scan time (us): ranges = 0.2, list = 341364, total = 341364
+True: 8694227, scanned range = 0, scanned list = 9289586
+Query time (ms): 1036.59
+Scan time (us): ranges = 0.41, list = 1.13869e+06, total = 1.13869e+06
+True: 50831096, scanned range = 0, scanned list = 53476537
+Query time (ms): 3170.47
+Scan time (us): ranges = 0.24, list = 338243, total = 338243
+True: 9075112, scanned range = 0, scanned list = 9207589
+Query time (ms): 1062.31
+Scan time (us): ranges = 0.24, list = 348336, total = 348337
+True: 8989672, scanned range = 0, scanned list = 9138595
+Query time (ms): 1091.57
+Scan time (us): ranges = 0.22, list = 353567, total = 353568
+True: 9081743, scanned range = 0, scanned list = 9261850
+Query time (ms): 1106.54
+Scan time (us): ranges = 0.21, list = 355702, total = 355702
+True: 9860134, scanned range = 0, scanned list = 10013553
+Query time (ms): 1108.31
+Scan time (us): ranges = 0.22, list = 357487, total = 357488
+True: 10503363, scanned range = 0, scanned list = 10517182
+Query time (ms): 1101.82
+Scan time (us): ranges = 0.21, list = 367903, total = 367903
+True: 9384485, scanned range = 0, scanned list = 9662878
+Query time (ms): 1148.41
+Scan time (us): ranges = 0.24, list = 328501, total = 328501
+True: 9621623, scanned range = 0, scanned list = 9900354
+Query time (ms): 970.612
+Scan time (us): ranges = 0.23, list = 355262, total = 355262
+True: 9860134, scanned range = 0, scanned list = 10013553
+Query time (ms): 1108.45
+Scan time (us): ranges = 0.22, list = 320271, total = 320271
+True: 9284933, scanned range = 0, scanned list = 9556761
+Query time (ms): 945.315
+Scan time (us): ranges = 0.23, list = 316424, total = 316424
+True: 10185413, scanned range = 0, scanned list = 11166085
+Query time (ms): 927.71
+Scan time (us): ranges = 0.23, list = 378580, total = 378581
+True: 10082757, scanned range = 0, scanned list = 10626920
+Query time (ms): 1149.09
+Scan time (us): ranges = 0.21, list = 366354, total = 366354
+True: 10362648, scanned range = 0, scanned list = 10418308
+Query time (ms): 1102.6
+Scan time (us): ranges = 0.35, list = 358128, total = 358128
+True: 10194065, scanned range = 0, scanned list = 10241882
+Query time (ms): 1081.04
+Scan time (us): ranges = 0.19, list = 315943, total = 315943
+True: 10185413, scanned range = 0, scanned list = 11166085
+Query time (ms): 926.686
+Scan time (us): ranges = 0.22, list = 360678, total = 360678
+True: 9322522, scanned range = 0, scanned list = 9917881
+Query time (ms): 1097.46
+Scan time (us): ranges = 0.24, list = 365875, total = 365875
+True: 10025770, scanned range = 0, scanned list = 10395060
+Query time (ms): 1101.86
+Scan time (us): ranges = 0.21, list = 378782, total = 378782
+True: 9892483, scanned range = 0, scanned list = 10487842
+Query time (ms): 1153.25
+Scan time (us): ranges = 0.24, list = 338705, total = 338705
+True: 9159931, scanned range = 0, scanned list = 9301425
+Query time (ms): 1062.55
+Scan time (us): ranges = 0.19, list = 391350, total = 391350
+True: 10111085, scanned range = 0, scanned list = 10657462
+Query time (ms): 1202.85
+Scan time (us): ranges = 0.26, list = 348625, total = 348625
+True: 8989672, scanned range = 0, scanned list = 9138595
+Query time (ms): 1092.62
+Scan time (us): ranges = 0.32, list = 378993, total = 378993
+True: 9892483, scanned range = 0, scanned list = 10487842
+Query time (ms): 1153.42
+Scan time (us): ranges = 0.22, list = 377981, total = 377981
+True: 10612635, scanned range = 0, scanned list = 10780902
+Query time (ms): 1135.35
+Scan time (us): ranges = 0.22, list = 381609, total = 381609
+True: 10702187, scanned range = 0, scanned list = 10903572
+Query time (ms): 1186.68
+Scan time (us): ranges = 0.22, list = 375886, total = 375886
+True: 10610980, scanned range = 0, scanned list = 10707170
+Query time (ms): 1128.63
+Scan time (us): ranges = 0.22, list = 352846, total = 352846
+True: 10394706, scanned range = 0, scanned list = 10408510
+Query time (ms): 1086.53
+Scan time (us): ranges = 0.22, list = 370986, total = 370986
+True: 9397382, scanned range = 0, scanned list = 9836579
+Query time (ms): 1143.42
+Scan time (us): ranges = 0.22, list = 375113, total = 375113
+True: 9553512, scanned range = 0, scanned list = 9873691
+Query time (ms): 1167.34
+Scan time (us): ranges = 0.21, list = 352111, total = 352111
+True: 9379915, scanned range = 0, scanned list = 9880695
+Query time (ms): 1063.34
+Scan time (us): ranges = 0.22, list = 351624, total = 351624
+True: 9095554, scanned range = 0, scanned list = 9676318
+Query time (ms): 1064.65
+Scan time (us): ranges = 0.25, list = 358608, total = 358608
+True: 10721838, scanned range = 0, scanned list = 11032557
+Query time (ms): 1060.33
+Scan time (us): ranges = 0.21, list = 372199, total = 372199
+True: 10509858, scanned range = 0, scanned list = 10578408
+Query time (ms): 1118.22
+Scan time (us): ranges = 0.2, list = 375638, total = 375638
+True: 10851434, scanned range = 0, scanned list = 10973980
+Query time (ms): 1129.71
+Scan time (us): ranges = 0.37, list = 345751, total = 345752
+True: 8690452, scanned range = 0, scanned list = 8923147
+Query time (ms): 1070.25
+Scan time (us): ranges = 0.21, list = 338906, total = 338906
+True: 9059214, scanned range = 0, scanned list = 9189232
+Query time (ms): 1062.61
+Scan time (us): ranges = 0.23, list = 376453, total = 376453
+True: 10610980, scanned range = 0, scanned list = 10707170
+Query time (ms): 1129.85
+Scan time (us): ranges = 0.22, list = 361195, total = 361195
+True: 10814602, scanned range = 0, scanned list = 10814603
+Query time (ms): 1113.35
+Scan time (us): ranges = 0.21, list = 360783, total = 360783
+True: 11223425, scanned range = 0, scanned list = 17502856
+Query time (ms): 1088.02
+Scan time (us): ranges = 0.22, list = 338117, total = 338117
+True: 9189597, scanned range = 0, scanned list = 9332160
+Query time (ms): 1062.43
+Scan time (us): ranges = 0.21, list = 379053, total = 379053
+True: 10582452, scanned range = 0, scanned list = 10790941
+Query time (ms): 1176.22
+Scan time (us): ranges = 0.22, list = 361709, total = 361710
+True: 9322522, scanned range = 0, scanned list = 9917881
+Query time (ms): 1097.81
+Scan time (us): ranges = 0.22, list = 370868, total = 370868
+True: 9396893, scanned range = 0, scanned list = 9895057
+Query time (ms): 1134.79
+Scan time (us): ranges = 0.23, list = 374254, total = 374255
+True: 9553512, scanned range = 0, scanned list = 9873691
+Query time (ms): 1165.54
+Scan time (us): ranges = 0.22, list = 341705, total = 341705
+True: 11543115, scanned range = 0, scanned list = 13721004
+Query time (ms): 1000.27
+Scan time (us): ranges = 0.23, list = 391060, total = 391060
+True: 10020739, scanned range = 0, scanned list = 10459936
+Query time (ms): 1212.28
+Scan time (us): ranges = 0.23, list = 356663, total = 356664
+True: 10503363, scanned range = 0, scanned list = 10517182
+Query time (ms): 1099.68
+Scan time (us): ranges = 0.2, list = 377714, total = 377714
+True: 10082757, scanned range = 0, scanned list = 10626920
+Query time (ms): 1147.44
+Scan time (us): ranges = 0.21, list = 358390, total = 358390
+True: 9159243, scanned range = 0, scanned list = 9361677
+Query time (ms): 1117.55
+Scan time (us): ranges = 0.24, list = 331200, total = 331200
+True: 10018923, scanned range = 0, scanned list = 10448496
+Query time (ms): 979.712
+Scan time (us): ranges = 0.22, list = 359911, total = 359911
+True: 9491119, scanned range = 0, scanned list = 10035282
+Query time (ms): 1089.8
+Scan time (us): ranges = 0.24, list = 357872, total = 357872
+True: 10162807, scanned range = 0, scanned list = 10274239
+Query time (ms): 1073.99
+Scan time (us): ranges = 0.28, list = 343834, total = 343834
+True: 8690452, scanned range = 0, scanned list = 8923147
+Query time (ms): 1067.15
+Scan time (us): ranges = 0.24, list = 348375, total = 348376
+True: 11185747, scanned range = 0, scanned list = 15874863
+Query time (ms): 1002.88
+Scan time (us): ranges = 0.24, list = 358722, total = 358722
+True: 10078869, scanned range = 0, scanned list = 10196124
+Query time (ms): 1098.7
+Scan time (us): ranges = 0.41, list = 338008, total = 338008
+True: 9508770, scanned range = 0, scanned list = 9625039
+Query time (ms): 1018.08
+Scan time (us): ranges = 0.21, list = 367989, total = 367989
+True: 9391611, scanned range = 0, scanned list = 9937988
+Query time (ms): 1123.77
+Scan time (us): ranges = 0.23, list = 338470, total = 338471
+True: 9075112, scanned range = 0, scanned list = 9207589
+Query time (ms): 1062.06
+Scan time (us): ranges = 0.23, list = 310009, total = 310009
+True: 10025486, scanned range = 0, scanned list = 12723589
+Query time (ms): 905.785
+Scan time (us): ranges = 0.22, list = 341757, total = 341757
+True: 8948251, scanned range = 0, scanned list = 9064754
+Query time (ms): 1073.39
+Scan time (us): ranges = 0.23, list = 370584, total = 370585
+True: 9397382, scanned range = 0, scanned list = 9836579
+Query time (ms): 1142.57
+Scan time (us): ranges = 0.23, list = 368456, total = 368456
+True: 9484917, scanned range = 0, scanned list = 10067812
+Query time (ms): 1122.25
+Scan time (us): ranges = 0.22, list = 344842, total = 344842
+True: 10324370, scanned range = 0, scanned list = 15575671
+Query time (ms): 1012.85
+Scan time (us): ranges = 0.23, list = 370021, total = 370021
+True: 10438982, scanned range = 0, scanned list = 10499952
+Query time (ms): 1110.64
+Scan time (us): ranges = 0.23, list = 361443, total = 361443
+True: 10048315, scanned range = 0, scanned list = 10215541
+Query time (ms): 1123.79
+Scan time (us): ranges = 0.21, list = 376011, total = 376011
+True: 10610980, scanned range = 0, scanned list = 10707170
+Query time (ms): 1129.07
+Scan time (us): ranges = 0.2, list = 339198, total = 339198
+True: 8980194, scanned range = 0, scanned list = 9095904
+Query time (ms): 1065.78
+Scan time (us): ranges = 0.22, list = 357549, total = 357549
+True: 10078869, scanned range = 0, scanned list = 10196124
+Query time (ms): 1097.08
+Scan time (us): ranges = 0.23, list = 390652, total = 390652
+True: 10020739, scanned range = 0, scanned list = 10459936
+Query time (ms): 1211.12
+Scan time (us): ranges = 0.21, list = 370241, total = 370241
+True: 9397382, scanned range = 0, scanned list = 9836579
+Query time (ms): 1143.13
+Scan time (us): ranges = 0.44, list = 341833, total = 341834
+True: 8945233, scanned range = 0, scanned list = 9067709
+Query time (ms): 1072.5
+Scan time (us): ranges = 0.25, list = 338550, total = 338550
+True: 9075112, scanned range = 0, scanned list = 9207589
+Query time (ms): 1063.24
+Scan time (us): ranges = 0.22, list = 342552, total = 342552
+True: 9567380, scanned range = 0, scanned list = 9677574
+Query time (ms): 1054.63
+Scan time (us): ranges = 0.21, list = 311946, total = 311946
+True: 9439347, scanned range = 0, scanned list = 9439351
+Query time (ms): 964.73
+Scan time (us): ranges = 0.22, list = 311631, total = 311631
+True: 9439347, scanned range = 0, scanned list = 9439351
+Query time (ms): 963.544
+Scan time (us): ranges = 0.28, list = 347392, total = 347393
+True: 9532760, scanned range = 0, scanned list = 9675793
+Query time (ms): 1084.94
+Scan time (us): ranges = 0.22, list = 370098, total = 370098
+True: 9396893, scanned range = 0, scanned list = 9895057
+Query time (ms): 1133.97
+Scan time (us): ranges = 0.31, list = 372126, total = 372126
+True: 10509858, scanned range = 0, scanned list = 10578408
+Query time (ms): 1117.16
+Scan time (us): ranges = 0.22, list = 381848, total = 381848
+True: 10702187, scanned range = 0, scanned list = 10903572
+Query time (ms): 1187.13
+Scan time (us): ranges = 0.22, list = 341376, total = 341376
+True: 11543115, scanned range = 0, scanned list = 13721004
+Query time (ms): 1001.53
+Scan time (us): ranges = 0.23, list = 339273, total = 339274
+True: 9159931, scanned range = 0, scanned list = 9301425
+Query time (ms): 1062.52
+Scan time (us): ranges = 0.25, list = 354189, total = 354189
+True: 9081743, scanned range = 0, scanned list = 9261850
+Query time (ms): 1106.18
+Scan time (us): ranges = 0.21, list = 339652, total = 339652
+True: 10270609, scanned range = 0, scanned list = 10270614
+Query time (ms): 1047.97
+Scan time (us): ranges = 0.24, list = 332473, total = 332473
+True: 10037914, scanned range = 0, scanned list = 10037919
+Query time (ms): 1024.83
+Scan time (us): ranges = 0.21, list = 360762, total = 360762
+True: 9734166, scanned range = 0, scanned list = 10166702
+Query time (ms): 1086.1
+Scan time (us): ranges = 0.23, list = 348123, total = 348123
+True: 10292007, scanned range = 0, scanned list = 10305939
+Query time (ms): 1071.94
+Scan time (us): ranges = 0.23, list = 378323, total = 378323
+True: 9796369, scanned range = 0, scanned list = 10379264
+Query time (ms): 1155.67
+Scan time (us): ranges = 0.24, list = 326616, total = 326616
+True: 10607793, scanned range = 0, scanned list = 11669707
+Query time (ms): 962.526
+Scan time (us): ranges = 0.31, list = 381000, total = 381000
+True: 9782616, scanned range = 0, scanned list = 10328993
+Query time (ms): 1166.72
+Scan time (us): ranges = 0.22, list = 336012, total = 336012
+True: 9319580, scanned range = 0, scanned list = 9427150
+Query time (ms): 1033.72
+Scan time (us): ranges = 0.23, list = 378653, total = 378653
+True: 10641998, scanned range = 0, scanned list = 10780354
+Query time (ms): 1137.03
+Scan time (us): ranges = 0.21, list = 349106, total = 349106
+True: 11185747, scanned range = 0, scanned list = 15874863
+Query time (ms): 1005.61
+Scan time (us): ranges = 0.23, list = 376304, total = 376304
+True: 10610980, scanned range = 0, scanned list = 10707170
+Query time (ms): 1129.54
+Scan time (us): ranges = 0.23, list = 344687, total = 344687
+True: 10185256, scanned range = 0, scanned list = 10198711
+Query time (ms): 1059.36
+Scan time (us): ranges = 0.23, list = 341307, total = 341307
+True: 11543115, scanned range = 0, scanned list = 13721004
+Query time (ms): 1002.1
+Scan time (us): ranges = 0.22, list = 360033, total = 360033
+True: 10801078, scanned range = 0, scanned list = 10802584
+Query time (ms): 1108.32
+Scan time (us): ranges = 0.21, list = 362605, total = 362605
+True: 9257624, scanned range = 0, scanned list = 9490319
+Query time (ms): 1131.02
+Scan time (us): ranges = 0.23, list = 362816, total = 362816
+True: 9137393, scanned range = 0, scanned list = 9514637
+Query time (ms): 1119.82
+Scan time (us): ranges = 0.23, list = 339229, total = 339229
+True: 9132855, scanned range = 0, scanned list = 9272281
+Query time (ms): 1062.77
+Scan time (us): ranges = 0.24, list = 358301, total = 358302
+True: 10194065, scanned range = 0, scanned list = 10241882
+Query time (ms): 1081.94
+Scan time (us): ranges = 0.2, list = 338274, total = 338274
+True: 9508770, scanned range = 0, scanned list = 9625039
+Query time (ms): 1019.45
+Scan time (us): ranges = 0.31, list = 359148, total = 359148
+True: 10358553, scanned range = 0, scanned list = 10527123
+Query time (ms): 1063.1
+Scan time (us): ranges = 0.2, list = 358220, total = 358220
+True: 10358553, scanned range = 0, scanned list = 10527123
+Query time (ms): 1062.49
+Scan time (us): ranges = 0.26, list = 337598, total = 337598
+True: 9107289, scanned range = 0, scanned list = 9244593
+Query time (ms): 1060.74
+Scan time (us): ranges = 0.2, list = 342882, total = 342882
+True: 9796817, scanned range = 0, scanned list = 9844947
+Query time (ms): 1035.62
+Scan time (us): ranges = 0.23, list = 367492, total = 367493
+True: 9859420, scanned range = 0, scanned list = 10360200
+Query time (ms): 1114.61
+Scan time (us): ranges = 0.23, list = 378551, total = 378551
+True: 10582452, scanned range = 0, scanned list = 10790941
+Query time (ms): 1175.89
+Scan time (us): ranges = 0.2, list = 352998, total = 352998
+True: 9081743, scanned range = 0, scanned list = 9261850
+Query time (ms): 1104.66
+Scan time (us): ranges = 0.21, list = 370863, total = 370864
+True: 10257991, scanned range = 0, scanned list = 10566377
+Query time (ms): 1115.92
+Scan time (us): ranges = 0.23, list = 329877, total = 329877
+True: 9213233, scanned range = 0, scanned list = 9315549
+Query time (ms): 993.944
+Scan time (us): ranges = 0.21, list = 345673, total = 345673
+True: 9872438, scanned range = 0, scanned list = 9915504
+Query time (ms): 1044.36
+Scan time (us): ranges = 0.23, list = 361521, total = 361521
+True: 10814602, scanned range = 0, scanned list = 10814603
+Query time (ms): 1112.81
+Scan time (us): ranges = 0.32, list = 370360, total = 370361
+True: 9397382, scanned range = 0, scanned list = 9836579
+Query time (ms): 1143.85
+Scan time (us): ranges = 0.27, list = 342326, total = 342326
+True: 11543115, scanned range = 0, scanned list = 13721004
+Query time (ms): 1002.32
+Scan time (us): ranges = 0.21, list = 360099, total = 360099
+True: 9491119, scanned range = 0, scanned list = 10035282
+Query time (ms): 1091.29
+Scan time (us): ranges = 0.22, list = 322344, total = 322344
+True: 9759526, scanned range = 0, scanned list = 9759530
+Query time (ms): 995.082
+Scan time (us): ranges = 0.23, list = 351898, total = 351899
+True: 8941012, scanned range = 0, scanned list = 9523907
+Query time (ms): 1072.29
+Scan time (us): ranges = 0.25, list = 353685, total = 353685
+True: 9081743, scanned range = 0, scanned list = 9261850
+Query time (ms): 1106.46
+Scan time (us): ranges = 0.2, list = 376730, total = 376730
+True: 10851434, scanned range = 0, scanned list = 10973980
+Query time (ms): 1130.88
+Scan time (us): ranges = 0.21, list = 341892, total = 341893
+True: 8948251, scanned range = 0, scanned list = 9064754
+Query time (ms): 1074.1
+Scan time (us): ranges = 0.22, list = 342642, total = 342642
+True: 8582670, scanned range = 0, scanned list = 9129047
+Query time (ms): 1042.29
+Scan time (us): ranges = 0.21, list = 336901, total = 336901
+True: 9971307, scanned range = 0, scanned list = 10261680
+Query time (ms): 999.572
+Scan time (us): ranges = 0.21, list = 336939, total = 336939
+True: 9971307, scanned range = 0, scanned list = 10261680
+Query time (ms): 1000.42
+Scan time (us): ranges = 0.24, list = 340954, total = 340954
+True: 9189597, scanned range = 0, scanned list = 9332160
+Query time (ms): 1066.17
+Scan time (us): ranges = 0.22, list = 370543, total = 370543
+True: 9709392, scanned range = 0, scanned list = 10290156
+Query time (ms): 1125.16
+Scan time (us): ranges = 0.22, list = 345462, total = 345463
+True: 10185256, scanned range = 0, scanned list = 10198711
+Query time (ms): 1060.17
+Scan time (us): ranges = 0.3, list = 346448, total = 346448
+True: 8959402, scanned range = 0, scanned list = 9096353
+Query time (ms): 1085.9
+Scan time (us): ranges = 0.21, list = 314431, total = 314431
+True: 9996982, scanned range = 0, scanned list = 11405166
+Query time (ms): 928.188
+Scan time (us): ranges = 0.22, list = 339394, total = 339394
+True: 8980194, scanned range = 0, scanned list = 9095904
+Query time (ms): 1065.37
+Scan time (us): ranges = 0.23, list = 350311, total = 350311
+True: 11185747, scanned range = 0, scanned list = 15874863
+Query time (ms): 1007.33
+Scan time (us): ranges = 0.22, list = 331864, total = 331864
+True: 10927247, scanned range = 0, scanned list = 13959574
+Query time (ms): 969.838
+Scan time (us): ranges = 0.22, list = 349823, total = 349824
+True: 8799206, scanned range = 0, scanned list = 9077599
+Query time (ms): 1084.86
+Scan time (us): ranges = 0.24, list = 377836, total = 377836
+True: 10612635, scanned range = 0, scanned list = 10780902
+Query time (ms): 1134.92
+Scan time (us): ranges = 0.22, list = 293050, total = 293050
+True: 9239114, scanned range = 0, scanned list = 10098704
+Query time (ms): 855.591
+Scan time (us): ranges = 0.22, list = 358131, total = 358131
+True: 10503363, scanned range = 0, scanned list = 10517182
+Query time (ms): 1102.61
+Scan time (us): ranges = 0.21, list = 358536, total = 358536
+True: 9039306, scanned range = 0, scanned list = 9537470
+Query time (ms): 1096.06
+Scan time (us): ranges = 0.22, list = 349748, total = 349748
+True: 11030481, scanned range = 0, scanned list = 11580149
+Query time (ms): 1032.52
+Scan time (us): ranges = 0.22, list = 357043, total = 357043
+True: 10503363, scanned range = 0, scanned list = 10517182
+Query time (ms): 1101.35
+Scan time (us): ranges = 0.23, list = 375440, total = 375441
+True: 10480222, scanned range = 0, scanned list = 10687621
+Query time (ms): 1166.86
+Scan time (us): ranges = 0.21, list = 371819, total = 371820
+True: 10509858, scanned range = 0, scanned list = 10578408
+Query time (ms): 1117.99
+Scan time (us): ranges = 0.23, list = 368512, total = 368512
+True: 9391611, scanned range = 0, scanned list = 9937988
+Query time (ms): 1125.43
+Scan time (us): ranges = 0.2, list = 338786, total = 338786
+True: 9676750, scanned range = 0, scanned list = 9836349
+Query time (ms): 1005.08
+Scan time (us): ranges = 0.21, list = 338566, total = 338566
+True: 9508770, scanned range = 0, scanned list = 9625039
+Query time (ms): 1019.53
+Scan time (us): ranges = 0.22, list = 338671, total = 338671
+True: 9508770, scanned range = 0, scanned list = 9625039
+Query time (ms): 1019.82
+Scan time (us): ranges = 0.23, list = 342537, total = 342537
+True: 8694227, scanned range = 0, scanned list = 9289586
+Query time (ms): 1038.65
+Scan time (us): ranges = 0.21, list = 325045, total = 325045
+True: 9905982, scanned range = 0, scanned list = 10416019
+Query time (ms): 956.445
+Scan time (us): ranges = 0.21, list = 338314, total = 338314
+True: 9971307, scanned range = 0, scanned list = 10261680
+Query time (ms): 1001
+Scan time (us): ranges = 0.23, list = 366281, total = 366281
+True: 10025770, scanned range = 0, scanned list = 10395060
+Query time (ms): 1103.13
+Scan time (us): ranges = 0.21, list = 357509, total = 357509
+True: 10698110, scanned range = 0, scanned list = 10701418
+Query time (ms): 1100.99
+Scan time (us): ranges = 0.21, list = 328987, total = 328987
+True: 10411137, scanned range = 0, scanned list = 11080554
+Query time (ms): 965.418
+Scan time (us): ranges = 0.23, list = 350707, total = 350707
+True: 11030481, scanned range = 0, scanned list = 11580149
+Query time (ms): 1033.83
+Scan time (us): ranges = 0.21, list = 331157, total = 331157
+True: 10037914, scanned range = 0, scanned list = 10037919
+Query time (ms): 1023.81
+Scan time (us): ranges = 0.22, list = 369875, total = 369875
+True: 9396893, scanned range = 0, scanned list = 9895057
+Query time (ms): 1134.67
+Scan time (us): ranges = 0.24, list = 332657, total = 332658
+True: 10927247, scanned range = 0, scanned list = 13959574
+Query time (ms): 969.021
+Scan time (us): ranges = 0.21, list = 381062, total = 381062
+True: 9782616, scanned range = 0, scanned list = 10328993
+Query time (ms): 1165.94
+Scan time (us): ranges = 0.21, list = 315224, total = 315224
+True: 10185413, scanned range = 0, scanned list = 11166085
+Query time (ms): 925.257
+Scan time (us): ranges = 0.24, list = 314822, total = 314822
+True: 9823889, scanned range = 0, scanned list = 10463946
+Query time (ms): 925.994
+Scan time (us): ranges = 0.21, list = 367555, total = 367555
+True: 10714303, scanned range = 0, scanned list = 10886532
+Query time (ms): 1089.88
+Scan time (us): ranges = 0.24, list = 367820, total = 367820
+True: 9484917, scanned range = 0, scanned list = 10067812
+Query time (ms): 1122.85
+Scan time (us): ranges = 0.21, list = 328243, total = 328244
+True: 10411137, scanned range = 0, scanned list = 11080554
+Query time (ms): 963.958
+Scan time (us): ranges = 0.23, list = 375447, total = 375447
+True: 10851434, scanned range = 0, scanned list = 10973980
+Query time (ms): 1127.95
+Scan time (us): ranges = 0.21, list = 377820, total = 377820
+True: 10582452, scanned range = 0, scanned list = 10790941
+Query time (ms): 1175.14
+Scan time (us): ranges = 0.22, list = 350555, total = 350556
+True: 9022326, scanned range = 0, scanned list = 9184059
+Query time (ms): 1095.65
+Scan time (us): ranges = 0.26, list = 340929, total = 340929
+True: 8945233, scanned range = 0, scanned list = 9067709
+Query time (ms): 1070.7
+Scan time (us): ranges = 0.23, list = 349387, total = 349387
+True: 11030481, scanned range = 0, scanned list = 11580149
+Query time (ms): 1031.22
+Scan time (us): ranges = 0.21, list = 315368, total = 315368
+True: 10185413, scanned range = 0, scanned list = 11166085
+Query time (ms): 925.564
+Scan time (us): ranges = 0.23, list = 338921, total = 338921
+True: 9084994, scanned range = 0, scanned list = 9228029
+Query time (ms): 1061.09
+Scan time (us): ranges = 0.25, list = 338536, total = 338536
+True: 8980194, scanned range = 0, scanned list = 9095904
+Query time (ms): 1063.46
+Scan time (us): ranges = 0.23, list = 352470, total = 352470
+True: 9379915, scanned range = 0, scanned list = 9880695
+Query time (ms): 1064.47
+Scan time (us): ranges = 0.23, list = 371292, total = 371292
+True: 10509858, scanned range = 0, scanned list = 10578408
+Query time (ms): 1116.72
+Scan time (us): ranges = 0.26, list = 369000, total = 369001
+True: 10309093, scanned range = 0, scanned list = 10503125
+Query time (ms): 1148.71
+Scan time (us): ranges = 0.24, list = 364553, total = 364554
+True: 10704428, scanned range = 0, scanned list = 10717919
+Query time (ms): 1126.2
+Scan time (us): ranges = 0.23, list = 338011, total = 338012
+True: 9107289, scanned range = 0, scanned list = 9244593
+Query time (ms): 1060.38
+Scan time (us): ranges = 0.24, list = 390881, total = 390881
+True: 10020739, scanned range = 0, scanned list = 10459936
+Query time (ms): 1212.21
+Scan time (us): ranges = 0.21, list = 323219, total = 323219
+True: 9905982, scanned range = 0, scanned list = 10416019
+Query time (ms): 953.746
+Scan time (us): ranges = 0.23, list = 377039, total = 377039
+True: 10610980, scanned range = 0, scanned list = 10707170
+Query time (ms): 1130.47
+Scan time (us): ranges = 0.21, list = 371543, total = 371543
+True: 10257991, scanned range = 0, scanned list = 10566377
+Query time (ms): 1116.84
+Scan time (us): ranges = 0.24, list = 338684, total = 338684
+True: 9107289, scanned range = 0, scanned list = 9244593
+Query time (ms): 1061.58
+Scan time (us): ranges = 0.21, list = 349444, total = 349445
+True: 10292007, scanned range = 0, scanned list = 10305939
+Query time (ms): 1074.19
+Scan time (us): ranges = 0.22, list = 379329, total = 379329
+True: 9796369, scanned range = 0, scanned list = 10379264
+Query time (ms): 1157.16
+Scan time (us): ranges = 0.5, list = 356989, total = 356989
+True: 10503363, scanned range = 0, scanned list = 10517182
+Query time (ms): 1101.54
+Scan time (us): ranges = 0.22, list = 352366, total = 352367
+True: 9095554, scanned range = 0, scanned list = 9676318
+Query time (ms): 1066.5
+Scan time (us): ranges = 0.22, list = 322474, total = 322474
+True: 9643032, scanned range = 0, scanned list = 10054838
+Query time (ms): 953.261
+Scan time (us): ranges = 0.22, list = 378755, total = 378755
+True: 9892483, scanned range = 0, scanned list = 10487842
+Query time (ms): 1154.8
+Scan time (us): ranges = 0.21, list = 358368, total = 358368
+True: 10078869, scanned range = 0, scanned list = 10196124
+Query time (ms): 1099.39
+Scan time (us): ranges = 0.21, list = 345903, total = 345903
+True: 8690452, scanned range = 0, scanned list = 8923147
+Query time (ms): 1069.07
+Scan time (us): ranges = 0.23, list = 389012, total = 389012
+True: 10230828, scanned range = 0, scanned list = 10826187
+Query time (ms): 1186.58
+Scan time (us): ranges = 0.21, list = 341818, total = 341818
+True: 9238980, scanned range = 0, scanned list = 9381650
+Query time (ms): 1068.85
+Scan time (us): ranges = 0.23, list = 328272, total = 328272
+True: 9621623, scanned range = 0, scanned list = 9900354
+Query time (ms): 971.49
+Scan time (us): ranges = 0.23, list = 375675, total = 375675
+True: 10480222, scanned range = 0, scanned list = 10687621
+Query time (ms): 1167
+Scan time (us): ranges = 0.22, list = 339462, total = 339462
+True: 8980194, scanned range = 0, scanned list = 9095904
+Query time (ms): 1066.21
+Scan time (us): ranges = 0.21, list = 351328, total = 351328
+True: 9692956, scanned range = 0, scanned list = 9833888
+Query time (ms): 1095.46
+Scan time (us): ranges = 0.23, list = 348025, total = 348025
+True: 10017086, scanned range = 0, scanned list = 10182078
+Query time (ms): 1034.12
+Scan time (us): ranges = 0.23, list = 369776, total = 369777
+True: 10309093, scanned range = 0, scanned list = 10503125
+Query time (ms): 1150.72
+Scan time (us): ranges = 0.23, list = 341159, total = 341159
+True: 9238980, scanned range = 0, scanned list = 9381650
+Query time (ms): 1068.1
+Scan time (us): ranges = 0.25, list = 317161, total = 317161
+True: 8739981, scanned range = 0, scanned list = 13091828
+Query time (ms): 951.008
+Scan time (us): ranges = 0.23, list = 342783, total = 342784
+True: 9796817, scanned range = 0, scanned list = 9844947
+Query time (ms): 1034.49
+Scan time (us): ranges = 0.36, list = 365450, total = 365450
+True: 10362648, scanned range = 0, scanned list = 10418308
+Query time (ms): 1101.63
+Scan time (us): ranges = 0.22, list = 323278, total = 323279
+True: 9759526, scanned range = 0, scanned list = 9759530
+Query time (ms): 995.551
+Scan time (us): ranges = 0.21, list = 332005, total = 332005
+True: 10775429, scanned range = 0, scanned list = 12081618
+Query time (ms): 980.493
+Scan time (us): ranges = 0.25, list = 312343, total = 312343
+True: 10118859, scanned range = 0, scanned list = 11676914
+Query time (ms): 922.495
+Scan time (us): ranges = 0.22, list = 368566, total = 368566
+True: 9391611, scanned range = 0, scanned list = 9937988
+Query time (ms): 1124.74
+Scan time (us): ranges = 0.22, list = 345455, total = 345456
+True: 10081917, scanned range = 0, scanned list = 10290963
+Query time (ms): 1024.78
+Scan time (us): ranges = 0.25, list = 378397, total = 378397
+True: 9892483, scanned range = 0, scanned list = 10487842
+Query time (ms): 1152.37
+Scan time (us): ranges = 0.25, list = 380586, total = 380586
+True: 9723115, scanned range = 0, scanned list = 10221279
+Query time (ms): 1171.24
+Scan time (us): ranges = 0.22, list = 343635, total = 343635
+True: 8942208, scanned range = 0, scanned list = 9062891
+Query time (ms): 1077.55
+Scan time (us): ranges = 0.23, list = 311192, total = 311192
+True: 10025486, scanned range = 0, scanned list = 12723589
+Query time (ms): 908.383
+Scan time (us): ranges = 0.22, list = 338742, total = 338742
+True: 9132855, scanned range = 0, scanned list = 9272281
+Query time (ms): 1062.19
+Scan time (us): ranges = 0.22, list = 348797, total = 348797
+True: 11185747, scanned range = 0, scanned list = 15874863
+Query time (ms): 1006.38
+Scan time (us): ranges = 0.22, list = 350374, total = 350374
+True: 9022326, scanned range = 0, scanned list = 9184059
+Query time (ms): 1097.34
+Scan time (us): ranges = 0.23, list = 351054, total = 351055
+True: 9022326, scanned range = 0, scanned list = 9184059
+Query time (ms): 1097.94
+Scan time (us): ranges = 0.21, list = 355891, total = 355891
+True: 8940448, scanned range = 0, scanned list = 9260627
+Query time (ms): 1099.81
+Scan time (us): ranges = 0.22, list = 370279, total = 370279
+True: 10257991, scanned range = 0, scanned list = 10566377
+Query time (ms): 1115.88
+Scan time (us): ranges = 0.43, list = 365751, total = 365752
+True: 10704428, scanned range = 0, scanned list = 10717919
+Query time (ms): 1128.76
+Scan time (us): ranges = 0.24, list = 326684, total = 326685
+True: 10607793, scanned range = 0, scanned list = 11669707
+Query time (ms): 962.9
+Scan time (us): ranges = 0.24, list = 341896, total = 341896
+True: 11024931, scanned range = 0, scanned list = 11717326
+Query time (ms): 1005.46
+Scan time (us): ranges = 0.21, list = 375532, total = 375532
+True: 10480222, scanned range = 0, scanned list = 10687621
+Query time (ms): 1167.13
+Scan time (us): ranges = 0.21, list = 355189, total = 355189
+True: 9860134, scanned range = 0, scanned list = 10013553
+Query time (ms): 1107.84
+Scan time (us): ranges = 0.25, list = 335488, total = 335488
+True: 11128354, scanned range = 0, scanned list = 12816962
+Query time (ms): 987.702
+Scan time (us): ranges = 0.21, list = 312675, total = 312675
+True: 9439347, scanned range = 0, scanned list = 9439351
+Query time (ms): 965.577
+Scan time (us): ranges = 0.23, list = 345296, total = 345297
+True: 10185256, scanned range = 0, scanned list = 10198711
+Query time (ms): 1060.71
+Scan time (us): ranges = 0.21, list = 346334, total = 346334
+True: 10185256, scanned range = 0, scanned list = 10198711
+Query time (ms): 1061.25
+Scan time (us): ranges = 0.24, list = 360879, total = 360879
+True: 10048315, scanned range = 0, scanned list = 10215541
+Query time (ms): 1124.48
+Scan time (us): ranges = 0.22, list = 309782, total = 309783
+True: 10025486, scanned range = 0, scanned list = 12723589
+Query time (ms): 906.236
+Scan time (us): ranges = 0.21, list = 369325, total = 369325
+True: 10309093, scanned range = 0, scanned list = 10503125
+Query time (ms): 1149.17
+Scan time (us): ranges = 0.23, list = 329642, total = 329642
+True: 9213233, scanned range = 0, scanned list = 9315549
+Query time (ms): 993.692
+Scan time (us): ranges = 0.24, list = 312451, total = 312451
+True: 10118859, scanned range = 0, scanned list = 11676914
+Query time (ms): 922.484
+Scan time (us): ranges = 0.23, list = 377100, total = 377100
+True: 10082757, scanned range = 0, scanned list = 10626920
+Query time (ms): 1146.94
+Scan time (us): ranges = 0.24, list = 337280, total = 337280
+True: 9971307, scanned range = 0, scanned list = 10261680
+Query time (ms): 999.158
+Scan time (us): ranges = 0.21, list = 316714, total = 316715
+True: 8739981, scanned range = 0, scanned list = 13091828
+Query time (ms): 948.52
+Scan time (us): ranges = 0.22, list = 338648, total = 338648
+True: 9084994, scanned range = 0, scanned list = 9228029
+Query time (ms): 1061.77
+Scan time (us): ranges = 0.26, list = 357771, total = 357771
+True: 10936394, scanned range = 0, scanned list = 14263476
+Query time (ms): 1102.09
+Scan time (us): ranges = 0.26, list = 331790, total = 331790
+True: 10018923, scanned range = 0, scanned list = 10448496
+Query time (ms): 981.137
+Scan time (us): ranges = 0.22, list = 312675, total = 312675
+True: 9439347, scanned range = 0, scanned list = 9439351
+Query time (ms): 965.229
+Scan time (us): ranges = 0.23, list = 358393, total = 358393
+True: 10936394, scanned range = 0, scanned list = 14263476
+Query time (ms): 1103.73
+Scan time (us): ranges = 0.25, list = 310587, total = 310588
+True: 10025486, scanned range = 0, scanned list = 12723589
+Query time (ms): 908.179
+Scan time (us): ranges = 0.22, list = 343843, total = 343843
+True: 9567380, scanned range = 0, scanned list = 9677574
+Query time (ms): 1055.22
+Scan time (us): ranges = 0.23, list = 351594, total = 351594
+True: 8941012, scanned range = 0, scanned list = 9523907
+Query time (ms): 1070.95
+Scan time (us): ranges = 0.22, list = 351180, total = 351180
+True: 9817258, scanned range = 0, scanned list = 9930722
+Query time (ms): 1076.69
+Scan time (us): ranges = 0.23, list = 357244, total = 357244
+True: 10162807, scanned range = 0, scanned list = 10274239
+Query time (ms): 1073.24
+Scan time (us): ranges = 0.22, list = 338607, total = 338607
+True: 9508770, scanned range = 0, scanned list = 9625039
+Query time (ms): 1019.49
+Scan time (us): ranges = 0.22, list = 382625, total = 382626
+True: 9760511, scanned range = 0, scanned list = 10137755
+Query time (ms): 1187.18
+Scan time (us): ranges = 0.22, list = 334188, total = 334188
+True: 8567267, scanned range = 0, scanned list = 9148031
+Query time (ms): 1011.32
+Scan time (us): ranges = 0.23, list = 370064, total = 370064
+True: 10309093, scanned range = 0, scanned list = 10503125
+Query time (ms): 1150.73
+Scan time (us): ranges = 0.23, list = 361978, total = 361978
+True: 9137393, scanned range = 0, scanned list = 9514637
+Query time (ms): 1118.9
+Scan time (us): ranges = 0.23, list = 368522, total = 368522
+True: 9391611, scanned range = 0, scanned list = 9937988
+Query time (ms): 1125.51
+Scan time (us): ranges = 0.21, list = 382423, total = 382423
+True: 9782616, scanned range = 0, scanned list = 10328993
+Query time (ms): 1168.2
+Scan time (us): ranges = 0.24, list = 339506, total = 339506
+True: 9132855, scanned range = 0, scanned list = 9272281
+Query time (ms): 1062.69
+Scan time (us): ranges = 0.24, list = 351660, total = 351661
+True: 9095554, scanned range = 0, scanned list = 9676318
+Query time (ms): 1065.67
+Scan time (us): ranges = 0.22, list = 354119, total = 354119
+True: 9081743, scanned range = 0, scanned list = 9261850
+Query time (ms): 1106.56
+Scan time (us): ranges = 0.21, list = 365050, total = 365050
+True: 10704428, scanned range = 0, scanned list = 10717919
+Query time (ms): 1127.91
+Scan time (us): ranges = 0.22, list = 378409, total = 378410
+True: 12350346, scanned range = 0, scanned list = 17565172
+Query time (ms): 1140.43
+Scan time (us): ranges = 0.24, list = 374614, total = 374614
+True: 10564607, scanned range = 0, scanned list = 10651352
+Query time (ms): 1125.05
+Scan time (us): ranges = 0.22, list = 380522, total = 380523
+True: 9782616, scanned range = 0, scanned list = 10328993
+Query time (ms): 1166.65
+Scan time (us): ranges = 0.23, list = 331487, total = 331487
+True: 10927247, scanned range = 0, scanned list = 13959574
+Query time (ms): 967.528
+Scan time (us): ranges = 0.25, list = 370688, total = 370688
+True: 9397382, scanned range = 0, scanned list = 9836579
+Query time (ms): 1143.6
+Scan time (us): ranges = 0.24, list = 325121, total = 325121
+True: 9603148, scanned range = 0, scanned list = 15575272
+Query time (ms): 940.844
+Scan time (us): ranges = 0.25, list = 381811, total = 381811
+True: 9723115, scanned range = 0, scanned list = 10221279
+Query time (ms): 1173.58
+Scan time (us): ranges = 0.23, list = 356922, total = 356922
+True: 10698110, scanned range = 0, scanned list = 10701418
+Query time (ms): 1100.86
+Scan time (us): ranges = 0.22, list = 364767, total = 364768
+True: 10137765, scanned range = 0, scanned list = 10313627
+Query time (ms): 1133.69
+Scan time (us): ranges = 0.23, list = 359751, total = 359751
+True: 10194065, scanned range = 0, scanned list = 10241882
+Query time (ms): 1083.43
+Scan time (us): ranges = 0.24, list = 357826, total = 357826
+True: 10078869, scanned range = 0, scanned list = 10196124
+Query time (ms): 1098.6
+Scan time (us): ranges = 0.23, list = 348688, total = 348688
+True: 8989672, scanned range = 0, scanned list = 9138595
+Query time (ms): 1092.05
+Scan time (us): ranges = 0.23, list = 391522, total = 391522
+True: 10111085, scanned range = 0, scanned list = 10657462
+Query time (ms): 1203.25
+Scan time (us): ranges = 0.23, list = 326804, total = 326804
+True: 10607793, scanned range = 0, scanned list = 11669707
+Query time (ms): 963.24
+Scan time (us): ranges = 0.3, list = 336881, total = 336881
+True: 9971307, scanned range = 0, scanned list = 10261680
+Query time (ms): 999.086
+Scan time (us): ranges = 0.22, list = 378963, total = 378963
+True: 10641998, scanned range = 0, scanned list = 10780354
+Query time (ms): 1137.24
+Scan time (us): ranges = 0.24, list = 347944, total = 347944
+True: 11185747, scanned range = 0, scanned list = 15874863
+Query time (ms): 1006.01
+Scan time (us): ranges = 0.23, list = 357329, total = 357330
+True: 10698110, scanned range = 0, scanned list = 10701418
+Query time (ms): 1100.51
+Scan time (us): ranges = 0.24, list = 358542, total = 358542
+True: 10194065, scanned range = 0, scanned list = 10241882
+Query time (ms): 1081.73
+Scan time (us): ranges = 0.21, list = 338641, total = 338642
+True: 9043847, scanned range = 0, scanned list = 9171401
+Query time (ms): 1062.89
+Scan time (us): ranges = 0.24, list = 382512, total = 382512
+True: 10702187, scanned range = 0, scanned list = 10903572
+Query time (ms): 1186.98
+Scan time (us): ranges = 0.23, list = 331581, total = 331582
+True: 10037914, scanned range = 0, scanned list = 10037919
+Query time (ms): 1024.39
+Scan time (us): ranges = 0.2, list = 347806, total = 347806
+True: 10017086, scanned range = 0, scanned list = 10182078
+Query time (ms): 1032.35
+Scan time (us): ranges = 0.24, list = 348235, total = 348236
+True: 9611461, scanned range = 0, scanned list = 9748530
+Query time (ms): 1088.82
+Scan time (us): ranges = 0.52, list = 377788, total = 377788
+True: 10638530, scanned range = 0, scanned list = 10753650
+Query time (ms): 1134.19
+Scan time (us): ranges = 0.22, list = 339385, total = 339385
+True: 9107289, scanned range = 0, scanned list = 9244593
+Query time (ms): 1062
+Scan time (us): ranges = 0.25, list = 334262, total = 334262
+True: 11128354, scanned range = 0, scanned list = 12816962
+Query time (ms): 985.939
+Scan time (us): ranges = 0.24, list = 366546, total = 366546
+True: 10224394, scanned range = 0, scanned list = 10409593
+Query time (ms): 1140.63
+Scan time (us): ranges = 0.43, list = 358290, total = 358290
+True: 9159243, scanned range = 0, scanned list = 9361677
+Query time (ms): 1117.79
+Scan time (us): ranges = 0.25, list = 392758, total = 392758
+True: 12583724, scanned range = 0, scanned list = 18554645
+Query time (ms): 1179.98
+Scan time (us): ranges = 0.23, list = 1.13356e+06, total = 1.13356e+06
+True: 50831096, scanned range = 0, scanned list = 53476537
+Query time (ms): 3156.82
+Scan time (us): ranges = 0.23, list = 381605, total = 381605
+True: 9782616, scanned range = 0, scanned list = 10328993
+Query time (ms): 1167.1
+Scan time (us): ranges = 0.23, list = 358578, total = 358578
+True: 9959745, scanned range = 0, scanned list = 10118605
+Query time (ms): 1116.91
+Scan time (us): ranges = 0.23, list = 349321, total = 349321
+True: 8799206, scanned range = 0, scanned list = 9077599
+Query time (ms): 1083.05
+Scan time (us): ranges = 0.21, list = 370555, total = 370555
+True: 9396893, scanned range = 0, scanned list = 9895057
+Query time (ms): 1135.14
+Scan time (us): ranges = 0.22, list = 343447, total = 343447
+True: 8943356, scanned range = 0, scanned list = 9070834
+Query time (ms): 1079.09
+Scan time (us): ranges = 0.26, list = 318925, total = 318925
+True: 10248927, scanned range = 0, scanned list = 11505592
+Query time (ms): 942.101
+Scan time (us): ranges = 0.22, list = 367515, total = 367515
+True: 10714303, scanned range = 0, scanned list = 10886532
+Query time (ms): 1090.89
+Scan time (us): ranges = 0.24, list = 370781, total = 370782
+True: 10509858, scanned range = 0, scanned list = 10578408
+Query time (ms): 1117.03
+Scan time (us): ranges = 0.22, list = 341800, total = 341800
+True: 11024931, scanned range = 0, scanned list = 11717326
+Query time (ms): 1004.67
+Scan time (us): ranges = 0.21, list = 329065, total = 329065
+True: 10733514, scanned range = 0, scanned list = 12174871
+Query time (ms): 974.17
+Scan time (us): ranges = 0.21, list = 327696, total = 327696
+True: 9621623, scanned range = 0, scanned list = 9900354
+Query time (ms): 969.454
+Scan time (us): ranges = 0.25, list = 304206, total = 304206
+True: 9724728, scanned range = 0, scanned list = 10647298
+Query time (ms): 892.583
+Scan time (us): ranges = 0.24, list = 359817, total = 359817
+True: 11223425, scanned range = 0, scanned list = 17502856
+Query time (ms): 1084.88
+Scan time (us): ranges = 0.22, list = 347033, total = 347033
+True: 9831662, scanned range = 0, scanned list = 9938343
+Query time (ms): 1044.61
+Scan time (us): ranges = 0.22, list = 341444, total = 341444
+True: 9238980, scanned range = 0, scanned list = 9381650
+Query time (ms): 1067.57
+Scan time (us): ranges = 0.24, list = 342473, total = 342473
+True: 10435936, scanned range = 0, scanned list = 10878513
+Query time (ms): 1013.68
+Scan time (us): ranges = 0.25, list = 392685, total = 392686
+True: 12483730, scanned range = 0, scanned list = 18863155
+Query time (ms): 1180.63
+Scan time (us): ranges = 0.24, list = 360703, total = 360703
+True: 10048315, scanned range = 0, scanned list = 10215541
+Query time (ms): 1123.2
+Scan time (us): ranges = 0.23, list = 360543, total = 360543
+True: 11223425, scanned range = 0, scanned list = 17502856
+Query time (ms): 1085.79
+Scan time (us): ranges = 0.22, list = 332780, total = 332781
+True: 10927247, scanned range = 0, scanned list = 13959574
+Query time (ms): 970.314
+Scan time (us): ranges = 0.23, list = 323093, total = 323093
+True: 9759526, scanned range = 0, scanned list = 9759530
+Query time (ms): 995.903
+Scan time (us): ranges = 0.22, list = 378207, total = 378207
+True: 9892483, scanned range = 0, scanned list = 10487842
+Query time (ms): 1153.09
+Scan time (us): ranges = 0.3, list = 343096, total = 343096
+True: 8942208, scanned range = 0, scanned list = 9062891
+Query time (ms): 1077.07
+Scan time (us): ranges = 0.21, list = 363324, total = 363324
+True: 10137765, scanned range = 0, scanned list = 10313627
+Query time (ms): 1131.09
+Scan time (us): ranges = 0.24, list = 341710, total = 341710
+True: 8694227, scanned range = 0, scanned list = 9289586
+Query time (ms): 1037.16
+Scan time (us): ranges = 0.29, list = 315782, total = 315782
+True: 8739981, scanned range = 0, scanned list = 13091828
+Query time (ms): 948.049
+Scan time (us): ranges = 0.22, list = 311887, total = 311887
+True: 9439347, scanned range = 0, scanned list = 9439351
+Query time (ms): 963.235
+Scan time (us): ranges = 0.23, list = 347996, total = 347996
+True: 10017086, scanned range = 0, scanned list = 10182078
+Query time (ms): 1032.28
+Scan time (us): ranges = 0.23, list = 377153, total = 377153
+True: 10851434, scanned range = 0, scanned list = 10973980
+Query time (ms): 1129.92
+Scan time (us): ranges = 0.22, list = 364244, total = 364245
+True: 10025770, scanned range = 0, scanned list = 10395060
+Query time (ms): 1099.31
+Scan time (us): ranges = 0.23, list = 341999, total = 342000
+True: 10435936, scanned range = 0, scanned list = 10878513
+Query time (ms): 1012.26
+Scan time (us): ranges = 0.21, list = 392850, total = 392850
+True: 12483730, scanned range = 0, scanned list = 18863155
+Query time (ms): 1180.24
+Scan time (us): ranges = 0.22, list = 361660, total = 361661
+True: 10275273, scanned range = 0, scanned list = 10326542
+Query time (ms): 1091.1
+Scan time (us): ranges = 0.23, list = 381621, total = 381621
+True: 10702187, scanned range = 0, scanned list = 10903572
+Query time (ms): 1186.77
+Scan time (us): ranges = 0.22, list = 343020, total = 343020
+True: 9796817, scanned range = 0, scanned list = 9844947
+Query time (ms): 1035.02
+Scan time (us): ranges = 0.23, list = 331738, total = 331738
+True: 10927247, scanned range = 0, scanned list = 13959574
+Query time (ms): 969.003
+Scan time (us): ranges = 0.24, list = 339628, total = 339628
+True: 8980194, scanned range = 0, scanned list = 9095904
+Query time (ms): 1064.86
+Scan time (us): ranges = 0.32, list = 349081, total = 349081
+True: 8726621, scanned range = 0, scanned list = 9165818
+Query time (ms): 1067.56
+Scan time (us): ranges = 0.57, list = 331608, total = 331609
+True: 10775429, scanned range = 0, scanned list = 12081618
+Query time (ms): 980.155
+Scan time (us): ranges = 0.22, list = 341764, total = 341764
+True: 11024931, scanned range = 0, scanned list = 11717326
+Query time (ms): 1004.26
+Scan time (us): ranges = 0.22, list = 350667, total = 350667
+True: 9095554, scanned range = 0, scanned list = 9676318
+Query time (ms): 1064.11
+Scan time (us): ranges = 0.24, list = 335553, total = 335553
+True: 9319580, scanned range = 0, scanned list = 9427150
+Query time (ms): 1033.43
+Scan time (us): ranges = 0.23, list = 326968, total = 326969
+True: 10607793, scanned range = 0, scanned list = 11669707
+Query time (ms): 963.422
+Scan time (us): ranges = 0.2, list = 347976, total = 347976
+True: 9950794, scanned range = 0, scanned list = 9994884
+Query time (ms): 1053.69
+Scan time (us): ranges = 0.22, list = 351648, total = 351648
+True: 9817258, scanned range = 0, scanned list = 9930722
+Query time (ms): 1078.25
+Scan time (us): ranges = 0.35, list = 343471, total = 343472
+True: 8943356, scanned range = 0, scanned list = 9070834
+Query time (ms): 1080.15
+Scan time (us): ranges = 0.23, list = 341815, total = 341815
+True: 9796817, scanned range = 0, scanned list = 9844947
+Query time (ms): 1033.59
+Scan time (us): ranges = 0.23, list = 346662, total = 346662
+True: 9532760, scanned range = 0, scanned list = 9675793
+Query time (ms): 1084.58
+Scan time (us): ranges = 0.23, list = 359252, total = 359252
+True: 10801078, scanned range = 0, scanned list = 10802584
+Query time (ms): 1106.85
+Scan time (us): ranges = 0.23, list = 312837, total = 312837
+True: 9996982, scanned range = 0, scanned list = 11405166
+Query time (ms): 926.072
+Scan time (us): ranges = 0.23, list = 340407, total = 340407
+True: 9238980, scanned range = 0, scanned list = 9381650
+Query time (ms): 1066.71
+Scan time (us): ranges = 0.21, list = 370002, total = 370002
+True: 9709392, scanned range = 0, scanned list = 10290156
+Query time (ms): 1123.63
+Scan time (us): ranges = 0.23, list = 313213, total = 313213
+True: 9297339, scanned range = 0, scanned list = 9692177
+Query time (ms): 925.704
+Scan time (us): ranges = 0.2, list = 310376, total = 310376
+True: 10025486, scanned range = 0, scanned list = 12723589
+Query time (ms): 906.554
+Scan time (us): ranges = 0.22, list = 375609, total = 375610
+True: 10851434, scanned range = 0, scanned list = 10973980
+Query time (ms): 1128.78
+Scan time (us): ranges = 0.23, list = 318181, total = 318181
+True: 9284933, scanned range = 0, scanned list = 9556761
+Query time (ms): 942.539
+Scan time (us): ranges = 0.22, list = 328569, total = 328569
+True: 9621623, scanned range = 0, scanned list = 9900354
+Query time (ms): 970.474
+Scan time (us): ranges = 0.22, list = 352036, total = 352036
+True: 11802903, scanned range = 0, scanned list = 15187894
+Query time (ms): 1026.07
+Scan time (us): ranges = 0.21, list = 370484, total = 370484
+True: 9709392, scanned range = 0, scanned list = 10290156
+Query time (ms): 1125.09
+Total points returned by queries: 10091016276
+Total queries: 1000
+Avg range query time (ns): 1.07955e+09
+Total points scanned: 0 (range), 10748660212 (list)

@@ -1,0 +1,20 @@
+found flag name = octree_base_run
+found flag dataset = /home/ubuntu/correlations/continuous/wise/wise_sort_btree9.bin
+found flag workload = /home/ubuntu/correlations/continuous/wise/../stocks/queries_2_3_4_5_s0001.dat
+found flag visitor = index
+found flag indexer-spec = /home/ubuntu/correlations/continuous/wise/index_octree_base.build
+found flag save = results/octree_base_run
+Dimension is 15
+parsed csv val /home/ubuntu/correlations/continuous/wise/../stocks/queries_2_3_4_5_s0001.dat
+Loaded dataset
+Building Octree index with page size 10000 and 4 columns
+Sorting data...
+Building Octree with page size 10000 on dimensions: 0 1 2 9 
+Data was modified
+Time to sort and finalize data: 183.941s
+Not using datacubes
+Compression time: 41.2436s
+Leaf nodes: 70411, inner nodes: 10127, max page size: 10000
+Indexer sizei (B): 16122960
+Index creation time: 225.191s
+Leaf nodes: 70411, inner nodes: 10127, max page size: 10000

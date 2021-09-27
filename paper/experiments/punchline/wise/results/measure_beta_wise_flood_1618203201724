@@ -1,0 +1,17 @@
+timestamp: 1618203201724
+name: measure_beta_wise_flood
+dataset: /home/ubuntu/correlations/continuous/wise/wise_sort_flood_0_1_9.bin
+index_spec: /home/ubuntu/correlations/paper/experiments/punchline/wise/indexes/index_measure_beta_wise.build
+index_size: 0
+workload: /home/ubuntu/correlations/paper/experiments/punchline/wise/queries/measure_beta_wise_queries.dat
+num_queries: 1000
+visitor: index
+total_pts: 947034063
+aggregate: 0
+primary_index_type: measure_beta_index_ with primary_index:  and secondary index: 
+avg_scanned_points_in_range: 1.98143e+08
+avg_scanned_points_in_list: 9.79392e+06
+avg_indexing_time_ns: 8.3036e+09
+avg_range_scan_time_ns: 2.68819e+09
+avg_list_scan_time_ns: 1.9347e+09
+avg_query_time_ns: 1.29308e+10

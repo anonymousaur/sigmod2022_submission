@@ -1,0 +1,17 @@
+timestamp: 1600800854009
+name: measure_beta_wise
+dataset: /home/ubuntu/correlations/continuous/wise/wise_sort_btree9.bin
+index_spec: /home/ubuntu/correlations/paper/experiments/measure_beta/indexes/index_measure_beta_wise.build
+index_size: 0
+workload: /home/ubuntu/correlations/paper/experiments/punchline/wise/queries/queries_10_11_12_s01.dat
+num_queries: 100
+visitor: index
+total_pts: 529859547
+aggregate: 0
+primary_index_type: measure_beta_index_10
+avg_scanned_points_in_range: 1.98143e+08
+avg_scanned_points_in_list: 0
+avg_indexing_time_ns: 9465.87
+avg_range_scan_time_ns: 1.56623e+09
+avg_list_scan_time_ns: 168.2
+avg_query_time_ns: 1.56775e+09

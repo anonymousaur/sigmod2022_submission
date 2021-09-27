@@ -1,0 +1,17 @@
+timestamp: 1600209109
+name: stocks_hermit_outliers_btree4
+dataset: /home/ubuntu/correlations/continuous/stocks/stocks_data_sort_btree4.bin
+index_spec: /home/ubuntu/correlations/paper/experiments/punchline/stocks/indexes/index_hermit_btree4.build
+index_size: 289349348
+workload: /home/ubuntu/correlations/paper/experiments/punchline/stocks/queries/queries_2_3_5_s0001.dat
+num_queries: 1000
+visitor: index
+total_pts: 16147021
+aggregate: 0
+primary_index_type: rbinary_search_index_4
+avg_scanned_points_in_range: 46884.7
+avg_scanned_points_in_list: 1544.14
+avg_indexing_time_ns: 132893
+avg_range_scan_time_ns: 325636
+avg_list_scan_time_ns: 50789.6
+avg_query_time_ns: 524240

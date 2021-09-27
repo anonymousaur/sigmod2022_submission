@@ -1,0 +1,3797 @@
+found flag name = stocks_index_0_4_w100_a1
+found flag dataset = /home/ubuntu/correlations/continuous/stocks/stocks_data_sort_octree_0_4.bin
+found flag workload = /home/ubuntu/correlations/continuous/stocks/queries_2_3_4_5_n1000_uniform.dat
+found flag visitor = index
+found flag indexer-spec = /home/ubuntu/correlations/continuous/stocks/index_0_4_a1.build
+found flag save = results/stocks_index_0_4_w100_a1.dat
+Dimension is 7
+Loaded 1000 queries
+Loaded dataset and workload
+Setting primary index for CompositeIndex
+Building MappedCorrelationIndex
+Reading 12783 mapped buckets
+mapping
+Finished loading mapping-file
+Finished loading target-buckets-file
+Finished coaslescing map
+Building BucketedSecondaryIndex with dim 2, width 20, and outlier list of size 27975080
+Adding MappedCorrelationIndex to CombinedCorrelationIndex
+Adding SecondaryIndex to CombinedCorrelationIndex
+Building CombinedCorrelationIndex
+Adding correlation index to CompositeIndex
+Building MappedCorrelationIndex
+Reading 12655 mapped buckets
+mapping
+Finished loading mapping-file
+Finished loading target-buckets-file
+Finished coaslescing map
+Building BucketedSecondaryIndex with dim 3, width 20, and outlier list of size 28151294
+Adding MappedCorrelationIndex to CombinedCorrelationIndex
+Adding SecondaryIndex to CombinedCorrelationIndex
+Building CombinedCorrelationIndex
+Adding correlation index to CompositeIndex
+Building MappedCorrelationIndex
+Reading 12828 mapped buckets
+mapping
+Finished loading mapping-file
+Finished loading target-buckets-file
+Finished coaslescing map
+Building BucketedSecondaryIndex with dim 5, width 20, and outlier list of size 28050043
+Adding MappedCorrelationIndex to CombinedCorrelationIndex
+Adding SecondaryIndex to CombinedCorrelationIndex
+Building CombinedCorrelationIndex
+Adding correlation index to CompositeIndex
+Building CompositeIndex
+Sorting data...
+Data was not modified
+Initialized Correlation Index with column 2
+Initialized Correlation Index with column 3
+Initialized Correlation Index with column 5
+Time to sort and finalize data: 109.457s
+Not using datacubes
+Compression time: 11.6608s
+Leaf nodes: 164695, inner nodes: 54898, max page size: 70586
+Indexer sizei (B): 126912913
+Index creation time: 122.905s
+Starting queries...
+Match time (us): 4.96
+Scan time (us): ranges = 0.04, list = 1.19, total = 1.23
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01797
+Match time (us): 5.03
+Scan time (us): ranges = 0.04, list = 123.021, total = 123.061
+True: 2679, scanned range = 0, scanned list = 3004
+Query time (ms): 0.152262
+Scan time (us): ranges = 43766.6, list = 0.39, total = 43767
+True: 6, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.7945
+Match time (us): 4.66
+Scan time (us): ranges = 0.04, list = 2.05, total = 2.09
+True: 9, scanned range = 0, scanned list = 12
+Query time (ms): 0.01915
+Match time (us): 4.2
+Scan time (us): ranges = 0.04, list = 3.75, total = 3.79
+True: 24, scanned range = 0, scanned list = 24
+Query time (ms): 0.01685
+Match time (us): 2.11
+Scan time (us): ranges = 0.03, list = 1.05, total = 1.08
+True: 2, scanned range = 0, scanned list = 2
+Query time (ms): 0.01039
+Match time (us): 3
+Scan time (us): ranges = 0.03, list = 4.28, total = 4.31
+True: 41, scanned range = 0, scanned list = 42
+Query time (ms): 0.01489
+Scan time (us): ranges = 44738, list = 0.07, total = 44738.1
+True: 31, scanned range = 10431201, scanned list = 0
+Query time (ms): 50.764
+Match time (us): 5.121
+Scan time (us): ranges = 0.04, list = 1.73, total = 1.77
+True: 6, scanned range = 0, scanned list = 8
+Query time (ms): 0.018561
+Match time (us): 3.87
+Scan time (us): ranges = 0.03, list = 1.72, total = 1.75
+True: 2, scanned range = 0, scanned list = 23
+Query time (ms): 0.01403
+Match time (us): 2.37
+Scan time (us): ranges = 0.06, list = 1.09, total = 1.15
+True: 1, scanned range = 0, scanned list = 5
+Query time (ms): 0.02292
+Match time (us): 2.26
+Scan time (us): ranges = 0.03, list = 1.16, total = 1.19
+True: 4, scanned range = 0, scanned list = 25
+Query time (ms): 0.00996
+Scan time (us): ranges = 366.396, list = 0.06, total = 366.456
+True: 746, scanned range = 85695, scanned list = 0
+Query time (ms): 1.68451
+Match time (us): 4.43
+Scan time (us): ranges = 0.05, list = 9.24, total = 9.29
+True: 113, scanned range = 0, scanned list = 153
+Query time (ms): 0.02284
+Match time (us): 3.61
+Scan time (us): ranges = 0.03, list = 3.73, total = 3.76
+True: 88, scanned range = 0, scanned list = 92
+Query time (ms): 0.0155
+Scan time (us): ranges = 325.055, list = 0.06, total = 325.115
+True: 2, scanned range = 79299, scanned list = 0
+Query time (ms): 0.925484
+Match time (us): 3.57
+Scan time (us): ranges = 0.05, list = 3.46, total = 3.51
+True: 19, scanned range = 0, scanned list = 24
+Query time (ms): 0.01497
+Scan time (us): ranges = 43552.3, list = 0.21, total = 43552.6
+True: 34, scanned range = 10442225, scanned list = 0
+Query time (ms): 49.1471
+Match time (us): 4.1
+Scan time (us): ranges = 0.03, list = 1.37, total = 1.4
+True: 3, scanned range = 0, scanned list = 5
+Query time (ms): 0.015991
+Match time (us): 3.42
+Scan time (us): ranges = 0.04, list = 1.1, total = 1.14
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01251
+Scan time (us): ranges = 32.1, list = 0.05, total = 32.15
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.276944
+Match time (us): 4.52
+Scan time (us): ranges = 0.04, list = 3.82, total = 3.86
+True: 18, scanned range = 0, scanned list = 36
+Query time (ms): 0.0173
+Match time (us): 4.03
+Scan time (us): ranges = 0.05, list = 1.71, total = 1.76
+True: 13, scanned range = 0, scanned list = 15
+Query time (ms): 0.02174
+Match time (us): 3.61
+Scan time (us): ranges = 0.06, list = 4.54, total = 4.6
+True: 49, scanned range = 0, scanned list = 53
+Query time (ms): 0.01493
+Match time (us): 2.21
+Scan time (us): ranges = 0.03, list = 0.87, total = 0.9
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.009461
+Scan time (us): ranges = 365.334, list = 0.06, total = 365.394
+True: 12, scanned range = 85695, scanned list = 0
+Query time (ms): 1.49179
+Scan time (us): ranges = 687721, list = 0.21, total = 687721
+True: 7476, scanned range = 165694909, scanned list = 0
+Query time (ms): 699.57
+Match time (us): 6.32
+Scan time (us): ranges = 0.03, list = 2.8, total = 2.83
+True: 13, scanned range = 0, scanned list = 13
+Query time (ms): 0.021831
+Scan time (us): ranges = 296470, list = 0.18, total = 296470
+True: 1857, scanned range = 70629099, scanned list = 0
+Query time (ms): 306.351
+Match time (us): 5.46
+Scan time (us): ranges = 0.06, list = 6.02, total = 6.08
+True: 55, scanned range = 0, scanned list = 61
+Query time (ms): 0.02483
+Scan time (us): ranges = 43670.5, list = 0.16, total = 43670.7
+True: 10, scanned range = 10442225, scanned list = 0
+Query time (ms): 49.5303
+Match time (us): 5.24
+Scan time (us): ranges = 0.04, list = 1.59, total = 1.63
+True: 7, scanned range = 0, scanned list = 9
+Query time (ms): 0.01829
+Match time (us): 6.7
+Scan time (us): ranges = 0.04, list = 14.06, total = 14.1
+True: 148, scanned range = 0, scanned list = 194
+Query time (ms): 0.0308
+Match time (us): 4.02
+Scan time (us): ranges = 0.04, list = 1.08, total = 1.12
+True: 1, scanned range = 0, scanned list = 5
+Query time (ms): 0.013001
+Match time (us): 4.48
+Scan time (us): ranges = 0.03, list = 1.85, total = 1.88
+True: 8, scanned range = 0, scanned list = 15
+Query time (ms): 0.01967
+Match time (us): 2.22
+Scan time (us): ranges = 0.03, list = 0.94, total = 0.97
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01051
+Match time (us): 2.14
+Scan time (us): ranges = 0.04, list = 1.28, total = 1.32
+True: 4, scanned range = 0, scanned list = 8
+Query time (ms): 0.00936
+Scan time (us): ranges = 395.016, list = 0.05, total = 395.066
+True: 45, scanned range = 85695, scanned list = 0
+Query time (ms): 1.86968
+Scan time (us): ranges = 384.986, list = 0.05, total = 385.036
+True: 4, scanned range = 77583, scanned list = 0
+Query time (ms): 1.18223
+Match time (us): 2.99
+Scan time (us): ranges = 0.04, list = 0.66, total = 0.7
+True: 2, scanned range = 0, scanned list = 4
+Query time (ms): 0.01348
+Match time (us): 2.25
+Scan time (us): ranges = 0.04, list = 0.57, total = 0.61
+True: 1, scanned range = 0, scanned list = 5
+Query time (ms): 0.009971
+Match time (us): 1.93
+Scan time (us): ranges = 0.05, list = 1.59, total = 1.64
+True: 3, scanned range = 0, scanned list = 24
+Query time (ms): 0.01176
+Scan time (us): ranges = 62.691, list = 0.08, total = 62.771
+True: 9, scanned range = 11971, scanned list = 0
+Query time (ms): 0.323604
+Match time (us): 4.37
+Scan time (us): ranges = 0.04, list = 11.121, total = 11.161
+True: 128, scanned range = 0, scanned list = 136
+Query time (ms): 0.026071
+Scan time (us): ranges = 9.611, list = 0.07, total = 9.681
+True: 4, scanned range = 1141, scanned list = 0
+Query time (ms): 0.092901
+Match time (us): 3.12
+Scan time (us): ranges = 0.08, list = 1.54, total = 1.62
+True: 4, scanned range = 0, scanned list = 8
+Query time (ms): 0.01381
+Match time (us): 3.07
+Scan time (us): ranges = 0.04, list = 2.23, total = 2.27
+True: 12, scanned range = 0, scanned list = 16
+Query time (ms): 0.01419
+Scan time (us): ranges = 43420.4, list = 0.18, total = 43420.5
+True: 7, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.349
+Match time (us): 4.11
+Scan time (us): ranges = 0.04, list = 1.33, total = 1.37
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01621
+Scan time (us): ranges = 43620, list = 0.17, total = 43620.2
+True: 32, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.7687
+Match time (us): 4.701
+Scan time (us): ranges = 0.04, list = 1.51, total = 1.55
+True: 2, scanned range = 0, scanned list = 14
+Query time (ms): 0.018372
+Scan time (us): ranges = 34.78, list = 0.05, total = 34.83
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.307564
+Match time (us): 3.34
+Scan time (us): ranges = 0.06, list = 1.89, total = 1.95
+True: 6, scanned range = 0, scanned list = 12
+Query time (ms): 0.01376
+Scan time (us): ranges = 43542, list = 0.08, total = 43542.1
+True: 23, scanned range = 10442225, scanned list = 0
+Query time (ms): 49.6628
+Scan time (us): ranges = 35.851, list = 0.06, total = 35.911
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.308244
+Match time (us): 3.9
+Scan time (us): ranges = 0.04, list = 2.71, total = 2.75
+True: 13, scanned range = 0, scanned list = 20
+Query time (ms): 0.01672
+Match time (us): 5.91
+Scan time (us): ranges = 0.06, list = 13.46, total = 13.52
+True: 286, scanned range = 0, scanned list = 288
+Query time (ms): 0.040821
+Match time (us): 3.96
+Scan time (us): ranges = 0.07, list = 1.68, total = 1.75
+True: 2, scanned range = 0, scanned list = 32
+Query time (ms): 0.0225
+Match time (us): 3.24
+Scan time (us): ranges = 0.04, list = 1, total = 1.04
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.013941
+Match time (us): 3.96
+Scan time (us): ranges = 0.04, list = 2.87, total = 2.91
+True: 21, scanned range = 0, scanned list = 23
+Query time (ms): 0.01514
+Match time (us): 11.42
+Scan time (us): ranges = 0.12, list = 291.825, total = 291.945
+True: 6721, scanned range = 0, scanned list = 8282
+Query time (ms): 0.354715
+Match time (us): 2.34
+Scan time (us): ranges = 0.05, list = 0.83, total = 0.88
+True: 0, scanned range = 0, scanned list = 21
+Query time (ms): 0.012531
+Match time (us): 2.22
+Scan time (us): ranges = 0.07, list = 0.93, total = 1
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01303
+Match time (us): 2.69
+Scan time (us): ranges = 0.04, list = 1.06, total = 1.1
+True: 6, scanned range = 0, scanned list = 9
+Query time (ms): 0.0115
+Match time (us): 2.2
+Scan time (us): ranges = 0.04, list = 2.09, total = 2.13
+True: 19, scanned range = 0, scanned list = 24
+Query time (ms): 0.01176
+Scan time (us): ranges = 43461.2, list = 0.19, total = 43461.4
+True: 16, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.6029
+Match time (us): 5.32
+Scan time (us): ranges = 0.04, list = 1.49, total = 1.53
+True: 6, scanned range = 0, scanned list = 9
+Query time (ms): 0.0183
+Match time (us): 4.51
+Scan time (us): ranges = 0.03, list = 4.03, total = 4.06
+True: 35, scanned range = 0, scanned list = 49
+Query time (ms): 0.01682
+Match time (us): 3.23
+Scan time (us): ranges = 0.04, list = 0.99, total = 1.03
+True: 2, scanned range = 0, scanned list = 4
+Query time (ms): 0.023641
+Match time (us): 4.27
+Scan time (us): ranges = 0.04, list = 1.8, total = 1.84
+True: 9, scanned range = 0, scanned list = 15
+Query time (ms): 0.01239
+Scan time (us): ranges = 367.765, list = 0.06, total = 367.825
+True: 24, scanned range = 85695, scanned list = 0
+Query time (ms): 1.82156
+Match time (us): 3.77
+Scan time (us): ranges = 0.05, list = 1.85, total = 1.9
+True: 28, scanned range = 0, scanned list = 32
+Query time (ms): 0.01319
+Scan time (us): ranges = 43743.4, list = 0.18, total = 43743.6
+True: 36, scanned range = 10442225, scanned list = 0
+Query time (ms): 49.7948
+Match time (us): 5.55
+Scan time (us): ranges = 0.03, list = 6.63, total = 6.66
+True: 248, scanned range = 0, scanned list = 250
+Query time (ms): 0.02465
+Match time (us): 1.99
+Scan time (us): ranges = 0.03, list = 0.89, total = 0.92
+True: 4, scanned range = 0, scanned list = 8
+Query time (ms): 0.00961
+Scan time (us): ranges = 29.46, list = 0.04, total = 29.5
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.293133
+Scan time (us): ranges = 293435, list = 0.37, total = 293435
+True: 1074, scanned range = 70629099, scanned list = 0
+Query time (ms): 303.326
+Scan time (us): ranges = 64.401, list = 0.04, total = 64.441
+True: 3, scanned range = 11971, scanned list = 0
+Query time (ms): 0.579919
+Scan time (us): ranges = 298086, list = 0.37, total = 298087
+True: 413, scanned range = 70629099, scanned list = 0
+Query time (ms): 307.946
+Scan time (us): ranges = 294404, list = 0.18, total = 294404
+True: 1032, scanned range = 70629099, scanned list = 0
+Query time (ms): 304.201
+Scan time (us): ranges = 365.896, list = 0.04, total = 365.936
+True: 7, scanned range = 85695, scanned list = 0
+Query time (ms): 1.73328
+Match time (us): 4.1
+Scan time (us): ranges = 0.04, list = 4.38, total = 4.42
+True: 23, scanned range = 0, scanned list = 41
+Query time (ms): 0.01778
+Match time (us): 4
+Scan time (us): ranges = 0.04, list = 5.16, total = 5.2
+True: 2, scanned range = 0, scanned list = 211
+Query time (ms): 0.01635
+Scan time (us): ranges = 43717, list = 0.06, total = 43717
+True: 20, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.5756
+Match time (us): 4.89
+Scan time (us): ranges = 0.03, list = 0.58, total = 0.61
+True: 0, scanned range = 0, scanned list = 3
+Query time (ms): 0.01683
+Match time (us): 4.5
+Scan time (us): ranges = 0.03, list = 1.37, total = 1.4
+True: 2, scanned range = 0, scanned list = 4
+Query time (ms): 0.01408
+Match time (us): 3.32
+Scan time (us): ranges = 0.03, list = 0.99, total = 1.02
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01182
+Match time (us): 1.82
+Scan time (us): ranges = 0.04, list = 1.02, total = 1.06
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.00916
+Match time (us): 3.03
+Scan time (us): ranges = 0.03, list = 1.25, total = 1.28
+True: 4, scanned range = 0, scanned list = 12
+Query time (ms): 0.010441
+Match time (us): 1.79
+Scan time (us): ranges = 0.03, list = 0.35, total = 0.38
+True: 0, scanned range = 0, scanned list = 3
+Query time (ms): 0.00802
+Match time (us): 2.48
+Scan time (us): ranges = 0.04, list = 2.37, total = 2.41
+True: 16, scanned range = 0, scanned list = 17
+Query time (ms): 0.01235
+Scan time (us): ranges = 365.076, list = 0.06, total = 365.136
+True: 21, scanned range = 85695, scanned list = 0
+Query time (ms): 1.71503
+Match time (us): 2.92
+Scan time (us): ranges = 0.03, list = 3.85, total = 3.88
+True: 45, scanned range = 0, scanned list = 46
+Query time (ms): 0.0141
+Match time (us): 2.63
+Scan time (us): ranges = 0.03, list = 1.08, total = 1.11
+True: 6, scanned range = 0, scanned list = 8
+Query time (ms): 0.01014
+Match time (us): 1.71
+Scan time (us): ranges = 0.03, list = 0.87, total = 0.9
+True: 3, scanned range = 0, scanned list = 9
+Query time (ms): 0.00877
+Match time (us): 2.72
+Scan time (us): ranges = 0.04, list = 4.831, total = 4.871
+True: 45, scanned range = 0, scanned list = 46
+Query time (ms): 0.016341
+Match time (us): 2.27
+Scan time (us): ranges = 0.06, list = 0.63, total = 0.69
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.019
+Match time (us): 2.43
+Scan time (us): ranges = 0.04, list = 1.61, total = 1.65
+True: 12, scanned range = 0, scanned list = 12
+Query time (ms): 0.01026
+Match time (us): 2
+Scan time (us): ranges = 0.05, list = 2.1, total = 2.15
+True: 26, scanned range = 0, scanned list = 31
+Query time (ms): 0.01154
+Match time (us): 4.98
+Scan time (us): ranges = 0.06, list = 15.32, total = 15.38
+True: 341, scanned range = 0, scanned list = 366
+Query time (ms): 0.040231
+Match time (us): 2.53
+Scan time (us): ranges = 0.15, list = 1.23, total = 1.38
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.0284
+Match time (us): 3
+Scan time (us): ranges = 0.04, list = 6.17, total = 6.21
+True: 83, scanned range = 0, scanned list = 83
+Query time (ms): 0.01769
+Match time (us): 3.08
+Scan time (us): ranges = 0.03, list = 3.3, total = 3.33
+True: 37, scanned range = 0, scanned list = 38
+Query time (ms): 0.02595
+Match time (us): 7.14
+Scan time (us): ranges = 0.13, list = 151.993, total = 152.123
+True: 2743, scanned range = 0, scanned list = 3096
+Query time (ms): 0.205674
+Scan time (us): ranges = 409.066, list = 0.07, total = 409.136
+True: 2, scanned range = 82259, scanned list = 0
+Query time (ms): 1.29983
+Match time (us): 1.63
+Scan time (us): ranges = 0.04, list = 0.96, total = 1
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01124
+Scan time (us): ranges = 392.736, list = 0.07, total = 392.806
+True: 4, scanned range = 79299, scanned list = 0
+Query time (ms): 1.21945
+Scan time (us): ranges = 410.376, list = 0.04, total = 410.416
+True: 1, scanned range = 82259, scanned list = 0
+Query time (ms): 1.17724
+Match time (us): 3.79
+Scan time (us): ranges = 0.1, list = 3.38, total = 3.48
+True: 27, scanned range = 0, scanned list = 35
+Query time (ms): 0.016401
+Match time (us): 3.5
+Scan time (us): ranges = 0.04, list = 3.55, total = 3.59
+True: 33, scanned range = 0, scanned list = 39
+Query time (ms): 0.0157
+Scan time (us): ranges = 115.442, list = 0.07, total = 115.512
+True: 3, scanned range = 22820, scanned list = 0
+Query time (ms): 0.542408
+Match time (us): 5.03
+Scan time (us): ranges = 0.05, list = 9.63, total = 9.68
+True: 159, scanned range = 0, scanned list = 159
+Query time (ms): 0.02459
+Match time (us): 3.85
+Scan time (us): ranges = 0.04, list = 0.72, total = 0.76
+True: 4, scanned range = 0, scanned list = 6
+Query time (ms): 0.012181
+Match time (us): 2.4
+Scan time (us): ranges = 0.06, list = 0.72, total = 0.78
+True: 2, scanned range = 0, scanned list = 5
+Query time (ms): 0.01168
+Match time (us): 3.55
+Scan time (us): ranges = 0.04, list = 2.19, total = 2.23
+True: 16, scanned range = 0, scanned list = 19
+Query time (ms): 0.01475
+Match time (us): 2.36
+Scan time (us): ranges = 0.04, list = 3.41, total = 3.45
+True: 27, scanned range = 0, scanned list = 35
+Query time (ms): 0.01309
+Match time (us): 3.3
+Scan time (us): ranges = 0.05, list = 0.57, total = 0.62
+True: 3, scanned range = 0, scanned list = 4
+Query time (ms): 0.01204
+Scan time (us): ranges = 404.216, list = 0.08, total = 404.296
+True: 3, scanned range = 77583, scanned list = 0
+Query time (ms): 1.17642
+Scan time (us): ranges = 33.99, list = 0.07, total = 34.06
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.167892
+Match time (us): 3.25
+Scan time (us): ranges = 0.05, list = 2.59, total = 2.64
+True: 19, scanned range = 0, scanned list = 31
+Query time (ms): 0.01399
+Scan time (us): ranges = 294280, list = 0.25, total = 294280
+True: 492, scanned range = 70629099, scanned list = 0
+Query time (ms): 304.382
+Scan time (us): ranges = 367.626, list = 0.07, total = 367.696
+True: 2, scanned range = 85695, scanned list = 0
+Query time (ms): 1.71598
+Match time (us): 3.32
+Scan time (us): ranges = 0.04, list = 2.35, total = 2.39
+True: 29, scanned range = 0, scanned list = 34
+Query time (ms): 0.01473
+Scan time (us): ranges = 52.28, list = 0.05, total = 52.33
+True: 3, scanned range = 11971, scanned list = 0
+Query time (ms): 0.264234
+Scan time (us): ranges = 43311, list = 0.07, total = 43311.1
+True: 31, scanned range = 10442225, scanned list = 0
+Query time (ms): 49.175
+Scan time (us): ranges = 43802.9, list = 0.2, total = 43803.1
+True: 15, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.8566
+Match time (us): 5.3
+Scan time (us): ranges = 0.04, list = 0.5, total = 0.54
+True: 0, scanned range = 0, scanned list = 2
+Query time (ms): 0.01766
+Scan time (us): ranges = 43589.6, list = 0.27, total = 43589.8
+True: 29, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.6767
+Match time (us): 6.31
+Scan time (us): ranges = 0.03, list = 5.28, total = 5.31
+True: 44, scanned range = 0, scanned list = 46
+Query time (ms): 0.024091
+Match time (us): 3.6
+Scan time (us): ranges = 0.04, list = 2.61, total = 2.65
+True: 0, scanned range = 0, scanned list = 63
+Query time (ms): 0.0132
+Match time (us): 3.75
+Scan time (us): ranges = 0.03, list = 5.97, total = 6
+True: 60, scanned range = 0, scanned list = 69
+Query time (ms): 0.01883
+Match time (us): 3.21
+Scan time (us): ranges = 0.03, list = 2.35, total = 2.38
+True: 15, scanned range = 0, scanned list = 22
+Query time (ms): 0.01277
+Match time (us): 5.17
+Scan time (us): ranges = 0.04, list = 14.001, total = 14.041
+True: 217, scanned range = 0, scanned list = 247
+Query time (ms): 0.037101
+Match time (us): 4.01
+Scan time (us): ranges = 0.04, list = 1.4, total = 1.44
+True: 9, scanned range = 0, scanned list = 10
+Query time (ms): 0.01342
+Scan time (us): ranges = 64.941, list = 0.05, total = 64.991
+True: 24, scanned range = 11971, scanned list = 0
+Query time (ms): 0.576078
+Match time (us): 3.151
+Scan time (us): ranges = 0.07, list = 0.7, total = 0.77
+True: 2, scanned range = 0, scanned list = 3
+Query time (ms): 0.012851
+Match time (us): 1.84
+Scan time (us): ranges = 0.04, list = 0.69, total = 0.73
+True: 3, scanned range = 0, scanned list = 5
+Query time (ms): 0.01126
+Match time (us): 3.75
+Scan time (us): ranges = 0.04, list = 0.74, total = 0.78
+True: 0, scanned range = 0, scanned list = 2
+Query time (ms): 0.01315
+Match time (us): 3.68
+Scan time (us): ranges = 0.05, list = 2.29, total = 2.34
+True: 7, scanned range = 0, scanned list = 44
+Query time (ms): 0.0152
+Match time (us): 7.61
+Scan time (us): ranges = 0.07, list = 214.693, total = 214.763
+True: 3462, scanned range = 0, scanned list = 4446
+Query time (ms): 0.256785
+Scan time (us): ranges = 60.25, list = 0.08, total = 60.33
+True: 1, scanned range = 11971, scanned list = 0
+Query time (ms): 0.314194
+Match time (us): 2.38
+Scan time (us): ranges = 0.04, list = 1.89, total = 1.93
+True: 9, scanned range = 0, scanned list = 17
+Query time (ms): 0.01283
+Scan time (us): ranges = 43372.3, list = 0.19, total = 43372.5
+True: 7, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.3304
+Match time (us): 5.65
+Scan time (us): ranges = 0.06, list = 2.47, total = 2.53
+True: 16, scanned range = 0, scanned list = 22
+Query time (ms): 0.0199
+Match time (us): 4.87
+Scan time (us): ranges = 0.03, list = 3.22, total = 3.25
+True: 12, scanned range = 0, scanned list = 24
+Query time (ms): 0.01598
+Match time (us): 2.52
+Scan time (us): ranges = 0.04, list = 1.21, total = 1.25
+True: 8, scanned range = 0, scanned list = 14
+Query time (ms): 0.01098
+Scan time (us): ranges = 43308, list = 0.08, total = 43308
+True: 13, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.6491
+Match time (us): 5.04
+Scan time (us): ranges = 0.05, list = 0.47, total = 0.52
+True: 0, scanned range = 0, scanned list = 1
+Query time (ms): 0.01717
+Match time (us): 3.8
+Scan time (us): ranges = 0.04, list = 0.4, total = 0.44
+True: 0, scanned range = 0, scanned list = 3
+Query time (ms): 0.01268
+Scan time (us): ranges = 448.487, list = 0.08, total = 448.567
+True: 83, scanned range = 85695, scanned list = 0
+Query time (ms): 1.96696
+Match time (us): 3.21
+Scan time (us): ranges = 0.07, list = 10.671, total = 10.741
+True: 104, scanned range = 0, scanned list = 116
+Query time (ms): 0.026471
+Match time (us): 4.84
+Scan time (us): ranges = 0.05, list = 5.78, total = 5.83
+True: 45, scanned range = 0, scanned list = 53
+Query time (ms): 0.02136
+Scan time (us): ranges = 48324.5, list = 0.25, total = 48324.8
+True: 51, scanned range = 10442225, scanned list = 0
+Query time (ms): 54.7582
+Match time (us): 5.13
+Scan time (us): ranges = 0.06, list = 3.541, total = 3.601
+True: 9, scanned range = 0, scanned list = 20
+Query time (ms): 0.020631
+Scan time (us): ranges = 363.314, list = 0.05, total = 363.364
+True: 6, scanned range = 85695, scanned list = 0
+Query time (ms): 1.71486
+Match time (us): 3.64
+Scan time (us): ranges = 0.06, list = 0.83, total = 0.89
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01178
+Match time (us): 2.74
+Scan time (us): ranges = 0.04, list = 0.53, total = 0.57
+True: 2, scanned range = 0, scanned list = 2
+Query time (ms): 0.01021
+Scan time (us): ranges = 325.436, list = 0.06, total = 325.496
+True: 1, scanned range = 79299, scanned list = 0
+Query time (ms): 1.00944
+Scan time (us): ranges = 43349.8, list = 0.2, total = 43350
+True: 19, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.1557
+Match time (us): 4.34
+Scan time (us): ranges = 0.04, list = 3.52, total = 3.56
+True: 10, scanned range = 0, scanned list = 30
+Query time (ms): 0.01967
+Match time (us): 4.87
+Scan time (us): ranges = 0.06, list = 4.85, total = 4.91
+True: 128, scanned range = 0, scanned list = 129
+Query time (ms): 0.01855
+Match time (us): 4.97
+Scan time (us): ranges = 0.04, list = 7.4, total = 7.44
+True: 155, scanned range = 0, scanned list = 156
+Query time (ms): 0.02154
+Match time (us): 4.421
+Scan time (us): ranges = 0.06, list = 9.66, total = 9.72
+True: 93, scanned range = 0, scanned list = 118
+Query time (ms): 0.021831
+Match time (us): 3.8
+Scan time (us): ranges = 0.04, list = 3.74, total = 3.78
+True: 37, scanned range = 0, scanned list = 39
+Query time (ms): 0.01576
+Match time (us): 4.13
+Scan time (us): ranges = 0.07, list = 4.6, total = 4.67
+True: 57, scanned range = 0, scanned list = 61
+Query time (ms): 0.0279
+Match time (us): 1.84
+Scan time (us): ranges = 0.03, list = 1.79, total = 1.82
+True: 15, scanned range = 0, scanned list = 18
+Query time (ms): 0.010471
+Match time (us): 2.6
+Scan time (us): ranges = 0.04, list = 1.26, total = 1.3
+True: 3, scanned range = 0, scanned list = 18
+Query time (ms): 0.01139
+Scan time (us): ranges = 43465.4, list = 0.29, total = 43465.7
+True: 47, scanned range = 10448035, scanned list = 0
+Query time (ms): 49.6372
+Scan time (us): ranges = 350.284, list = 0.04, total = 350.324
+True: 0, scanned range = 82259, scanned list = 0
+Query time (ms): 1.72273
+Match time (us): 4.75
+Scan time (us): ranges = 0.04, list = 5.47, total = 5.51
+True: 39, scanned range = 0, scanned list = 54
+Query time (ms): 0.0199
+Match time (us): 2.86
+Scan time (us): ranges = 0.03, list = 1.55, total = 1.58
+True: 9, scanned range = 0, scanned list = 12
+Query time (ms): 0.01192
+Match time (us): 3.541
+Scan time (us): ranges = 0.04, list = 1.62, total = 1.66
+True: 4, scanned range = 0, scanned list = 8
+Query time (ms): 0.011151
+Match time (us): 2.5
+Scan time (us): ranges = 0.05, list = 3.78, total = 3.83
+True: 54, scanned range = 0, scanned list = 54
+Query time (ms): 0.016601
+Match time (us): 4.81
+Scan time (us): ranges = 0.06, list = 13.81, total = 13.87
+True: 404, scanned range = 0, scanned list = 412
+Query time (ms): 0.03593
+Scan time (us): ranges = 430.546, list = 0.07, total = 430.616
+True: 5, scanned range = 85695, scanned list = 0
+Query time (ms): 1.16535
+Scan time (us): ranges = 294198, list = 0.38, total = 294198
+True: 377, scanned range = 70629099, scanned list = 0
+Query time (ms): 303.966
+Match time (us): 4.42
+Scan time (us): ranges = 0.04, list = 2.6, total = 2.64
+True: 13, scanned range = 0, scanned list = 13
+Query time (ms): 0.01963
+Scan time (us): ranges = 362.544, list = 0.04, total = 362.584
+True: 5, scanned range = 85695, scanned list = 0
+Query time (ms): 1.83853
+Match time (us): 3.77
+Scan time (us): ranges = 0.03, list = 13.44, total = 13.47
+True: 240, scanned range = 0, scanned list = 242
+Query time (ms): 0.02606
+Match time (us): 3.59
+Scan time (us): ranges = 0.04, list = 2.25, total = 2.29
+True: 28, scanned range = 0, scanned list = 28
+Query time (ms): 0.01369
+Scan time (us): ranges = 696507, list = 0.09, total = 696507
+True: 369325, scanned range = 165694909, scanned list = 0
+Query time (ms): 710.432
+Match time (us): 8.13
+Scan time (us): ranges = 0.04, list = 56.671, total = 56.711
+True: 1299, scanned range = 0, scanned list = 1732
+Query time (ms): 0.080761
+Match time (us): 3.62
+Scan time (us): ranges = 0.06, list = 9.421, total = 9.481
+True: 154, scanned range = 0, scanned list = 157
+Query time (ms): 0.034451
+Scan time (us): ranges = 62.991, list = 0.06, total = 63.051
+True: 3, scanned range = 11971, scanned list = 0
+Query time (ms): 0.558178
+Match time (us): 3.54
+Scan time (us): ranges = 0.05, list = 3.95, total = 4
+True: 53, scanned range = 0, scanned list = 57
+Query time (ms): 0.01666
+Scan time (us): ranges = 97.712, list = 0.06, total = 97.772
+True: 9, scanned range = 22820, scanned list = 0
+Query time (ms): 0.6796
+Match time (us): 3.05
+Scan time (us): ranges = 0.05, list = 0.88, total = 0.93
+True: 2, scanned range = 0, scanned list = 5
+Query time (ms): 0.01122
+Scan time (us): ranges = 46248.2, list = 0.2, total = 46248.4
+True: 5, scanned range = 10431201, scanned list = 0
+Query time (ms): 52.5095
+Match time (us): 5.52
+Scan time (us): ranges = 0.07, list = 6.7, total = 6.77
+True: 44, scanned range = 0, scanned list = 48
+Query time (ms): 0.02684
+Scan time (us): ranges = 35.59, list = 0.08, total = 35.67
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.429706
+Match time (us): 3.76
+Scan time (us): ranges = 0.06, list = 3.41, total = 3.47
+True: 10, scanned range = 0, scanned list = 17
+Query time (ms): 0.01875
+Match time (us): 5.43
+Scan time (us): ranges = 0.07, list = 8.37, total = 8.44
+True: 196, scanned range = 0, scanned list = 200
+Query time (ms): 0.0382
+Match time (us): 6.041
+Scan time (us): ranges = 0.06, list = 28.05, total = 28.11
+True: 583, scanned range = 0, scanned list = 596
+Query time (ms): 0.063401
+Scan time (us): ranges = 31.931, list = 0.09, total = 32.021
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.206444
+Match time (us): 3.58
+Scan time (us): ranges = 0.05, list = 1.75, total = 1.8
+True: 6, scanned range = 0, scanned list = 10
+Query time (ms): 0.01359
+Scan time (us): ranges = 419.385, list = 0.07, total = 419.455
+True: 16, scanned range = 82259, scanned list = 0
+Query time (ms): 1.74819
+Match time (us): 2.7
+Scan time (us): ranges = 0.05, list = 0.67, total = 0.72
+True: 1, scanned range = 0, scanned list = 7
+Query time (ms): 0.01248
+Match time (us): 3.13
+Scan time (us): ranges = 0.05, list = 1.61, total = 1.66
+True: 5, scanned range = 0, scanned list = 9
+Query time (ms): 0.01279
+Match time (us): 2.36
+Scan time (us): ranges = 0.07, list = 0.54, total = 0.61
+True: 2, scanned range = 0, scanned list = 2
+Query time (ms): 0.01022
+Match time (us): 2.36
+Scan time (us): ranges = 0.05, list = 0.87, total = 0.92
+True: 6, scanned range = 0, scanned list = 8
+Query time (ms): 0.01058
+Match time (us): 1.9
+Scan time (us): ranges = 0.04, list = 1.18, total = 1.22
+True: 16, scanned range = 0, scanned list = 16
+Query time (ms): 0.010571
+Scan time (us): ranges = 116.852, list = 0.06, total = 116.912
+True: 3, scanned range = 22820, scanned list = 0
+Query time (ms): 0.572578
+Match time (us): 1.34
+Scan time (us): ranges = 0.08, list = 0.39, total = 0.47
+True: 2, scanned range = 0, scanned list = 2
+Query time (ms): 0.01018
+Scan time (us): ranges = 297700, list = 0.08, total = 297700
+True: 262, scanned range = 70629099, scanned list = 0
+Query time (ms): 308.543
+Match time (us): 4.15
+Scan time (us): ranges = 0.04, list = 1.43, total = 1.47
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.0169
+Match time (us): 3.671
+Scan time (us): ranges = 0.04, list = 1.58, total = 1.62
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.012911
+Match time (us): 2.12
+Scan time (us): ranges = 0.04, list = 0.94, total = 0.98
+True: 9, scanned range = 0, scanned list = 12
+Query time (ms): 0.01005
+Scan time (us): ranges = 44058.8, list = 0.29, total = 44059.1
+True: 9, scanned range = 10431201, scanned list = 0
+Query time (ms): 50.0544
+Match time (us): 5.78
+Scan time (us): ranges = 0.04, list = 6.15, total = 6.19
+True: 50, scanned range = 0, scanned list = 62
+Query time (ms): 0.03493
+Match time (us): 5.46
+Scan time (us): ranges = 0.03, list = 10.67, total = 10.7
+True: 95, scanned range = 0, scanned list = 117
+Query time (ms): 0.02552
+Match time (us): 4.25
+Scan time (us): ranges = 0.06, list = 12.82, total = 12.88
+True: 235, scanned range = 0, scanned list = 415
+Query time (ms): 0.03521
+Scan time (us): ranges = 43895.3, list = 0.28, total = 43895.5
+True: 1, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.8353
+Match time (us): 5.16
+Scan time (us): ranges = 0.04, list = 2.41, total = 2.45
+True: 27, scanned range = 0, scanned list = 29
+Query time (ms): 0.01852
+Match time (us): 5.69
+Scan time (us): ranges = 0.04, list = 4.7, total = 4.74
+True: 8, scanned range = 0, scanned list = 78
+Query time (ms): 0.01869
+Match time (us): 4.06
+Scan time (us): ranges = 0.04, list = 4.321, total = 4.361
+True: 18, scanned range = 0, scanned list = 46
+Query time (ms): 0.015341
+Match time (us): 5.21
+Scan time (us): ranges = 0.04, list = 16.541, total = 16.581
+True: 442, scanned range = 0, scanned list = 449
+Query time (ms): 0.040891
+Scan time (us): ranges = 294342, list = 0.38, total = 294343
+True: 612, scanned range = 70629099, scanned list = 0
+Query time (ms): 304.334
+Scan time (us): ranges = 404.935, list = 0.04, total = 404.975
+True: 4, scanned range = 79299, scanned list = 0
+Query time (ms): 1.87673
+Match time (us): 4.44
+Scan time (us): ranges = 0.05, list = 10.23, total = 10.28
+True: 176, scanned range = 0, scanned list = 177
+Query time (ms): 0.02404
+Match time (us): 2.52
+Scan time (us): ranges = 0.03, list = 2.12, total = 2.15
+True: 20, scanned range = 0, scanned list = 25
+Query time (ms): 0.01106
+Match time (us): 4
+Scan time (us): ranges = 0.04, list = 0.83, total = 0.87
+True: 1, scanned range = 0, scanned list = 10
+Query time (ms): 0.01358
+Match time (us): 3.76
+Scan time (us): ranges = 0.05, list = 0.77, total = 0.82
+True: 1, scanned range = 0, scanned list = 3
+Query time (ms): 0.021881
+Match time (us): 2.16
+Scan time (us): ranges = 0.04, list = 3.38, total = 3.42
+True: 29, scanned range = 0, scanned list = 38
+Query time (ms): 0.01226
+Match time (us): 2.23
+Scan time (us): ranges = 0.03, list = 4.04, total = 4.07
+True: 40, scanned range = 0, scanned list = 43
+Query time (ms): 0.01359
+Match time (us): 2.41
+Scan time (us): ranges = 0.03, list = 0.95, total = 0.98
+True: 7, scanned range = 0, scanned list = 8
+Query time (ms): 0.01034
+Match time (us): 3.25
+Scan time (us): ranges = 0.04, list = 6.471, total = 6.511
+True: 97, scanned range = 0, scanned list = 97
+Query time (ms): 0.023901
+Match time (us): 2.78
+Scan time (us): ranges = 0.04, list = 3.57, total = 3.61
+True: 4, scanned range = 0, scanned list = 122
+Query time (ms): 0.0137
+Match time (us): 2.26
+Scan time (us): ranges = 0.05, list = 0.83, total = 0.88
+True: 3, scanned range = 0, scanned list = 5
+Query time (ms): 0.01018
+Scan time (us): ranges = 43438.6, list = 0.29, total = 43438.8
+True: 15, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.6416
+Match time (us): 4.44
+Scan time (us): ranges = 0.04, list = 1.1, total = 1.14
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01612
+Scan time (us): ranges = 29.49, list = 0.05, total = 29.54
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.312154
+Scan time (us): ranges = 26.77, list = 0.03, total = 26.8
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.150462
+Match time (us): 3.96
+Scan time (us): ranges = 0.04, list = 0.88, total = 0.92
+True: 4, scanned range = 0, scanned list = 5
+Query time (ms): 0.01285
+Match time (us): 4.23
+Scan time (us): ranges = 0.07, list = 9.27, total = 9.34
+True: 105, scanned range = 0, scanned list = 108
+Query time (ms): 0.03496
+Match time (us): 2.38
+Scan time (us): ranges = 0.03, list = 0.72, total = 0.75
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.00998
+Match time (us): 2.97
+Scan time (us): ranges = 0.1, list = 1.67, total = 1.77
+True: 3, scanned range = 0, scanned list = 5
+Query time (ms): 0.023592
+Match time (us): 1.89
+Scan time (us): ranges = 0.03, list = 1.07, total = 1.1
+True: 3, scanned range = 0, scanned list = 18
+Query time (ms): 0.01789
+Match time (us): 3.2
+Scan time (us): ranges = 0.07, list = 10.03, total = 10.1
+True: 101, scanned range = 0, scanned list = 104
+Query time (ms): 0.038401
+Match time (us): 3.16
+Scan time (us): ranges = 0.07, list = 0.87, total = 0.94
+True: 0, scanned range = 0, scanned list = 12
+Query time (ms): 0.02222
+Match time (us): 4.23
+Scan time (us): ranges = 0.07, list = 10.04, total = 10.11
+True: 135, scanned range = 0, scanned list = 135
+Query time (ms): 0.043381
+Match time (us): 1.86
+Scan time (us): ranges = 0.07, list = 0.4, total = 0.47
+True: 0, scanned range = 0, scanned list = 3
+Query time (ms): 0.01975
+Scan time (us): ranges = 401.406, list = 0.07, total = 401.476
+True: 2, scanned range = 77583, scanned list = 0
+Query time (ms): 1.82472
+Match time (us): 3.111
+Scan time (us): ranges = 0.04, list = 1.8, total = 1.84
+True: 11, scanned range = 0, scanned list = 13
+Query time (ms): 0.013291
+Match time (us): 5.18
+Scan time (us): ranges = 0.07, list = 16.51, total = 16.58
+True: 148, scanned range = 0, scanned list = 226
+Query time (ms): 0.05106
+Match time (us): 3.95
+Scan time (us): ranges = 0.05, list = 2.13, total = 2.18
+True: 8, scanned range = 0, scanned list = 13
+Query time (ms): 0.013681
+Match time (us): 2.05
+Scan time (us): ranges = 0.05, list = 0.91, total = 0.96
+True: 4, scanned range = 0, scanned list = 8
+Query time (ms): 0.0114
+Match time (us): 5.29
+Scan time (us): ranges = 0.04, list = 8.76, total = 8.8
+True: 78, scanned range = 0, scanned list = 90
+Query time (ms): 0.03079
+Match time (us): 1.54
+Scan time (us): ranges = 0.07, list = 0.67, total = 0.74
+True: 1, scanned range = 0, scanned list = 4
+Query time (ms): 0.00959
+Match time (us): 2.36
+Scan time (us): ranges = 0.04, list = 4.08, total = 4.12
+True: 43, scanned range = 0, scanned list = 43
+Query time (ms): 0.01595
+Match time (us): 2.22
+Scan time (us): ranges = 0.05, list = 1.58, total = 1.63
+True: 10, scanned range = 0, scanned list = 11
+Query time (ms): 0.01968
+Scan time (us): ranges = 119.952, list = 0.05, total = 120.002
+True: 420, scanned range = 22820, scanned list = 0
+Query time (ms): 0.560058
+Scan time (us): ranges = 431.117, list = 0.07, total = 431.187
+True: 4, scanned range = 85695, scanned list = 0
+Query time (ms): 1.25053
+Match time (us): 1.78
+Scan time (us): ranges = 0.05, list = 0.88, total = 0.93
+True: 2, scanned range = 0, scanned list = 10
+Query time (ms): 0.01158
+Scan time (us): ranges = 422.776, list = 0.06, total = 422.836
+True: 8, scanned range = 85695, scanned list = 0
+Query time (ms): 1.18597
+Scan time (us): ranges = 116.041, list = 0.04, total = 116.081
+True: 15, scanned range = 22820, scanned list = 0
+Query time (ms): 0.532057
+Match time (us): 2.99
+Scan time (us): ranges = 0.07, list = 2.38, total = 2.45
+True: 15, scanned range = 0, scanned list = 22
+Query time (ms): 0.0137
+Match time (us): 2.24
+Scan time (us): ranges = 0.05, list = 1.39, total = 1.44
+True: 9, scanned range = 0, scanned list = 12
+Query time (ms): 0.01272
+Scan time (us): ranges = 384.065, list = 0.06, total = 384.125
+True: 4, scanned range = 77583, scanned list = 0
+Query time (ms): 1.1413
+Scan time (us): ranges = 382.625, list = 0.04, total = 382.665
+True: 1, scanned range = 77583, scanned list = 0
+Query time (ms): 1.14892
+Match time (us): 3.46
+Scan time (us): ranges = 0.04, list = 0.39, total = 0.43
+True: 0, scanned range = 0, scanned list = 4
+Query time (ms): 0.0128
+Match time (us): 3.81
+Scan time (us): ranges = 0.07, list = 0.35, total = 0.42
+True: 0, scanned range = 0, scanned list = 2
+Query time (ms): 0.02281
+Scan time (us): ranges = 405.606, list = 0.07, total = 405.676
+True: 5, scanned range = 82259, scanned list = 0
+Query time (ms): 1.16266
+Match time (us): 3.19
+Scan time (us): ranges = 0.08, list = 1.54, total = 1.62
+True: 5, scanned range = 0, scanned list = 9
+Query time (ms): 0.01257
+Match time (us): 2.31
+Scan time (us): ranges = 0.07, list = 0.76, total = 0.83
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01093
+Match time (us): 2.73
+Scan time (us): ranges = 0.04, list = 2.191, total = 2.231
+True: 23, scanned range = 0, scanned list = 24
+Query time (ms): 0.014211
+Match time (us): 2.25
+Scan time (us): ranges = 0.09, list = 0.87, total = 0.96
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01106
+Scan time (us): ranges = 32.691, list = 0.04, total = 32.731
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.170612
+Match time (us): 3.72
+Scan time (us): ranges = 0.05, list = 2.56, total = 2.61
+True: 1, scanned range = 0, scanned list = 28
+Query time (ms): 0.0152
+Match time (us): 4.91
+Scan time (us): ranges = 0.09, list = 17.17, total = 17.26
+True: 409, scanned range = 0, scanned list = 429
+Query time (ms): 0.049722
+Scan time (us): ranges = 409.645, list = 0.06, total = 409.705
+True: 0, scanned range = 79299, scanned list = 0
+Query time (ms): 1.18977
+Scan time (us): ranges = 33.45, list = 0.04, total = 33.49
+True: 9, scanned range = 6269, scanned list = 0
+Query time (ms): 0.168073
+Match time (us): 3.44
+Scan time (us): ranges = 0.05, list = 3.61, total = 3.66
+True: 28, scanned range = 0, scanned list = 38
+Query time (ms): 0.015411
+Match time (us): 3.99
+Scan time (us): ranges = 0.05, list = 14.46, total = 14.51
+True: 80, scanned range = 0, scanned list = 314
+Query time (ms): 0.03778
+Scan time (us): ranges = 690242, list = 0.08, total = 690242
+True: 10906, scanned range = 165694909, scanned list = 0
+Query time (ms): 702.585
+Scan time (us): ranges = 65.991, list = 0.04, total = 66.031
+True: 3, scanned range = 11971, scanned list = 0
+Query time (ms): 0.562548
+Match time (us): 4.97
+Scan time (us): ranges = 0.05, list = 1.55, total = 1.6
+True: 12, scanned range = 0, scanned list = 14
+Query time (ms): 0.01823
+Scan time (us): ranges = 294196, list = 0.17, total = 294196
+True: 1494, scanned range = 70629099, scanned list = 0
+Query time (ms): 304.145
+Match time (us): 5.56
+Scan time (us): ranges = 0.03, list = 1.31, total = 1.34
+True: 2, scanned range = 0, scanned list = 5
+Query time (ms): 0.01836
+Match time (us): 17.88
+Scan time (us): ranges = 0.04, list = 554.118, total = 554.158
+True: 11381, scanned range = 0, scanned list = 15049
+Query time (ms): 0.616089
+Match time (us): 2.52
+Scan time (us): ranges = 0.06, list = 1.15, total = 1.21
+True: 2, scanned range = 0, scanned list = 4
+Query time (ms): 0.01413
+Match time (us): 2.72
+Scan time (us): ranges = 0.05, list = 1.11, total = 1.16
+True: 3, scanned range = 0, scanned list = 9
+Query time (ms): 0.013251
+Match time (us): 4.69
+Scan time (us): ranges = 0.04, list = 1.13, total = 1.17
+True: 8, scanned range = 0, scanned list = 10
+Query time (ms): 0.01473
+Match time (us): 2.61
+Scan time (us): ranges = 0.07, list = 1.6, total = 1.67
+True: 5, scanned range = 0, scanned list = 9
+Query time (ms): 0.02238
+Scan time (us): ranges = 43491, list = 0.21, total = 43491.2
+True: 19, scanned range = 10442225, scanned list = 0
+Query time (ms): 49.6895
+Match time (us): 5.45
+Scan time (us): ranges = 0.04, list = 3.99, total = 4.03
+True: 29, scanned range = 0, scanned list = 38
+Query time (ms): 0.02108
+Scan time (us): ranges = 43667.7, list = 0.27, total = 43668
+True: 22, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.9022
+Match time (us): 5.86
+Scan time (us): ranges = 0.04, list = 3.141, total = 3.181
+True: 17, scanned range = 0, scanned list = 21
+Query time (ms): 0.020601
+Match time (us): 4.07
+Scan time (us): ranges = 0.05, list = 1.74, total = 1.79
+True: 5, scanned range = 0, scanned list = 7
+Query time (ms): 0.01376
+Match time (us): 4.08
+Scan time (us): ranges = 0.03, list = 1.49, total = 1.52
+True: 10, scanned range = 0, scanned list = 10
+Query time (ms): 0.0137
+Match time (us): 4.34
+Scan time (us): ranges = 0.03, list = 7.19, total = 7.22
+True: 86, scanned range = 0, scanned list = 97
+Query time (ms): 0.01807
+Match time (us): 3.13
+Scan time (us): ranges = 0.04, list = 6.111, total = 6.151
+True: 65, scanned range = 0, scanned list = 124
+Query time (ms): 0.017321
+Match time (us): 2.45
+Scan time (us): ranges = 0.05, list = 1.09, total = 1.14
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01106
+Scan time (us): ranges = 378.486, list = 0.06, total = 378.546
+True: 5, scanned range = 85695, scanned list = 0
+Query time (ms): 1.75068
+Match time (us): 4.61
+Scan time (us): ranges = 0.05, list = 8.38, total = 8.43
+True: 81, scanned range = 0, scanned list = 82
+Query time (ms): 0.02317
+Match time (us): 2.46
+Scan time (us): ranges = 0.04, list = 0.93, total = 0.97
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01145
+Match time (us): 3.68
+Scan time (us): ranges = 0.04, list = 6.22, total = 6.26
+True: 66, scanned range = 0, scanned list = 73
+Query time (ms): 0.01774
+Match time (us): 2.4
+Scan time (us): ranges = 0.05, list = 1.75, total = 1.8
+True: 24, scanned range = 0, scanned list = 27
+Query time (ms): 0.011291
+Match time (us): 1.98
+Scan time (us): ranges = 0.09, list = 1.04, total = 1.13
+True: 6, scanned range = 0, scanned list = 9
+Query time (ms): 0.01081
+Scan time (us): ranges = 419.816, list = 0.07, total = 419.886
+True: 3, scanned range = 85695, scanned list = 0
+Query time (ms): 1.25549
+Match time (us): 3.17
+Scan time (us): ranges = 0.06, list = 8.26, total = 8.32
+True: 71, scanned range = 0, scanned list = 84
+Query time (ms): 0.02036
+Match time (us): 2.67
+Scan time (us): ranges = 0.04, list = 1.67, total = 1.71
+True: 10, scanned range = 0, scanned list = 10
+Query time (ms): 0.01236
+Match time (us): 2.85
+Scan time (us): ranges = 0.04, list = 2.45, total = 2.49
+True: 4, scanned range = 0, scanned list = 94
+Query time (ms): 0.012811
+Match time (us): 3.07
+Scan time (us): ranges = 0.05, list = 1.98, total = 2.03
+True: 18, scanned range = 0, scanned list = 18
+Query time (ms): 0.0139
+Match time (us): 3.32
+Scan time (us): ranges = 0.09, list = 1.66, total = 1.75
+True: 6, scanned range = 0, scanned list = 19
+Query time (ms): 0.02393
+Match time (us): 2
+Scan time (us): ranges = 0.04, list = 1.08, total = 1.12
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01094
+Match time (us): 1.69
+Scan time (us): ranges = 0.06, list = 1.791, total = 1.851
+True: 11, scanned range = 0, scanned list = 17
+Query time (ms): 0.012211
+Match time (us): 1.86
+Scan time (us): ranges = 0.04, list = 0.67, total = 0.71
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.00946
+Scan time (us): ranges = 398.835, list = 0.05, total = 398.885
+True: 2, scanned range = 77583, scanned list = 0
+Query time (ms): 1.25229
+Match time (us): 3.13
+Scan time (us): ranges = 0.04, list = 1.05, total = 1.09
+True: 1, scanned range = 0, scanned list = 11
+Query time (ms): 0.01269
+Match time (us): 4.35
+Scan time (us): ranges = 0.05, list = 7.18, total = 7.23
+True: 74, scanned range = 0, scanned list = 85
+Query time (ms): 0.01983
+Match time (us): 3.28
+Scan time (us): ranges = 0.04, list = 3.791, total = 3.831
+True: 64, scanned range = 0, scanned list = 67
+Query time (ms): 0.013581
+Match time (us): 3.48
+Scan time (us): ranges = 0.04, list = 12.5, total = 12.54
+True: 169, scanned range = 0, scanned list = 200
+Query time (ms): 0.03312
+Match time (us): 6.59
+Scan time (us): ranges = 0.06, list = 204.554, total = 204.614
+True: 4694, scanned range = 0, scanned list = 5633
+Query time (ms): 0.239284
+Scan time (us): ranges = 424.897, list = 0.1, total = 424.997
+True: 5, scanned range = 85695, scanned list = 0
+Query time (ms): 1.24821
+Scan time (us): ranges = 33.96, list = 0.04, total = 34
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.173452
+Scan time (us): ranges = 383.696, list = 0.05, total = 383.746
+True: 4, scanned range = 77583, scanned list = 0
+Query time (ms): 1.17182
+Match time (us): 4.301
+Scan time (us): ranges = 0.05, list = 8.72, total = 8.77
+True: 80, scanned range = 0, scanned list = 87
+Query time (ms): 0.022351
+Match time (us): 4.41
+Scan time (us): ranges = 0.05, list = 24.01, total = 24.06
+True: 344, scanned range = 0, scanned list = 413
+Query time (ms): 0.04841
+Match time (us): 3.2
+Scan time (us): ranges = 0.05, list = 0.57, total = 0.62
+True: 2, scanned range = 0, scanned list = 3
+Query time (ms): 0.0122
+Match time (us): 2.25
+Scan time (us): ranges = 0.04, list = 1.03, total = 1.07
+True: 6, scanned range = 0, scanned list = 14
+Query time (ms): 0.02429
+Match time (us): 2.65
+Scan time (us): ranges = 0.04, list = 0.83, total = 0.87
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01046
+Match time (us): 3.76
+Scan time (us): ranges = 0.07, list = 8.861, total = 8.931
+True: 163, scanned range = 0, scanned list = 169
+Query time (ms): 0.026551
+Scan time (us): ranges = 32.481, list = 0.07, total = 32.551
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.170272
+Match time (us): 3.6
+Scan time (us): ranges = 0.04, list = 1.91, total = 1.95
+True: 14, scanned range = 0, scanned list = 20
+Query time (ms): 0.01394
+Match time (us): 1.82
+Scan time (us): ranges = 0.05, list = 0.8, total = 0.85
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01146
+Scan time (us): ranges = 412.575, list = 0.07, total = 412.645
+True: 36, scanned range = 82259, scanned list = 0
+Query time (ms): 1.22911
+Match time (us): 3.43
+Scan time (us): ranges = 0.04, list = 0.69, total = 0.73
+True: 2, scanned range = 0, scanned list = 3
+Query time (ms): 0.01241
+Scan time (us): ranges = 43565.9, list = 0.2, total = 43566.1
+True: 9, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.5205
+Match time (us): 4.76
+Scan time (us): ranges = 0.03, list = 4.27, total = 4.3
+True: 20, scanned range = 0, scanned list = 31
+Query time (ms): 0.0212
+Match time (us): 3.31
+Scan time (us): ranges = 0.04, list = 2.8, total = 2.84
+True: 2, scanned range = 0, scanned list = 92
+Query time (ms): 0.01341
+Match time (us): 6.49
+Scan time (us): ranges = 0.04, list = 9.911, total = 9.951
+True: 172, scanned range = 0, scanned list = 185
+Query time (ms): 0.026571
+Match time (us): 4.4
+Scan time (us): ranges = 0.05, list = 2.77, total = 2.82
+True: 17, scanned range = 0, scanned list = 17
+Query time (ms): 0.01514
+Match time (us): 2.82
+Scan time (us): ranges = 0.05, list = 0.36, total = 0.41
+True: 0, scanned range = 0, scanned list = 1
+Query time (ms): 0.01145
+Scan time (us): ranges = 382.806, list = 0.07, total = 382.876
+True: 0, scanned range = 85695, scanned list = 0
+Query time (ms): 1.73858
+Match time (us): 3.45
+Scan time (us): ranges = 0.04, list = 5.53, total = 5.57
+True: 10, scanned range = 0, scanned list = 154
+Query time (ms): 0.01683
+Match time (us): 3.66
+Scan time (us): ranges = 0.04, list = 1.33, total = 1.37
+True: 4, scanned range = 0, scanned list = 10
+Query time (ms): 0.01159
+Match time (us): 2.57
+Scan time (us): ranges = 0.03, list = 1.07, total = 1.1
+True: 2, scanned range = 0, scanned list = 10
+Query time (ms): 0.00991
+Match time (us): 2.05
+Scan time (us): ranges = 0.04, list = 0.7, total = 0.74
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01014
+Match time (us): 2.54
+Scan time (us): ranges = 0.06, list = 0.78, total = 0.84
+True: 2, scanned range = 0, scanned list = 5
+Query time (ms): 0.01992
+Match time (us): 1.55
+Scan time (us): ranges = 0.06, list = 0.65, total = 0.71
+True: 3, scanned range = 0, scanned list = 3
+Query time (ms): 0.009281
+Match time (us): 2.47
+Scan time (us): ranges = 0.04, list = 0.48, total = 0.52
+True: 2, scanned range = 0, scanned list = 2
+Query time (ms): 0.00887
+Match time (us): 3.09
+Scan time (us): ranges = 0.06, list = 2.59, total = 2.65
+True: 16, scanned range = 0, scanned list = 36
+Query time (ms): 0.0195
+Match time (us): 3.02
+Scan time (us): ranges = 0.06, list = 5.96, total = 6.02
+True: 121, scanned range = 0, scanned list = 124
+Query time (ms): 0.01636
+Match time (us): 2.52
+Scan time (us): ranges = 0.08, list = 0.85, total = 0.93
+True: 1, scanned range = 0, scanned list = 3
+Query time (ms): 0.024591
+Match time (us): 2.14
+Scan time (us): ranges = 0.07, list = 1.03, total = 1.1
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.02143
+Match time (us): 2.66
+Scan time (us): ranges = 0.03, list = 0.8, total = 0.83
+True: 3, scanned range = 0, scanned list = 7
+Query time (ms): 0.00983
+Match time (us): 3.68
+Scan time (us): ranges = 0.06, list = 0.29, total = 0.35
+True: 0, scanned range = 0, scanned list = 1
+Query time (ms): 0.01941
+Match time (us): 4.38
+Scan time (us): ranges = 0.1, list = 0.41, total = 0.51
+True: 0, scanned range = 0, scanned list = 1
+Query time (ms): 0.02767
+Scan time (us): ranges = 294530, list = 0.07, total = 294530
+True: 1625, scanned range = 70629099, scanned list = 0
+Query time (ms): 304.425
+Match time (us): 4.16
+Scan time (us): ranges = 0.06, list = 1.26, total = 1.32
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01872
+Match time (us): 4.54
+Scan time (us): ranges = 0.05, list = 8.13, total = 8.18
+True: 144, scanned range = 0, scanned list = 146
+Query time (ms): 0.02029
+Match time (us): 5.051
+Scan time (us): ranges = 0.05, list = 16.27, total = 16.32
+True: 403, scanned range = 0, scanned list = 406
+Query time (ms): 0.031181
+Match time (us): 3.63
+Scan time (us): ranges = 0.04, list = 0.34, total = 0.38
+True: 0, scanned range = 0, scanned list = 1
+Query time (ms): 0.0108
+Scan time (us): ranges = 43976.3, list = 0.28, total = 43976.6
+True: 30, scanned range = 10442225, scanned list = 0
+Query time (ms): 49.9307
+Match time (us): 3.78
+Scan time (us): ranges = 0.04, list = 2.28, total = 2.32
+True: 1, scanned range = 0, scanned list = 17
+Query time (ms): 0.01802
+Match time (us): 3.46
+Scan time (us): ranges = 0.03, list = 3.61, total = 3.64
+True: 18, scanned range = 0, scanned list = 45
+Query time (ms): 0.01441
+Scan time (us): ranges = 294290, list = 0.07, total = 294290
+True: 150, scanned range = 70629099, scanned list = 0
+Query time (ms): 304.368
+Scan time (us): ranges = 367.475, list = 0.04, total = 367.515
+True: 6, scanned range = 85695, scanned list = 0
+Query time (ms): 1.74918
+Match time (us): 3.18
+Scan time (us): ranges = 0.04, list = 0.57, total = 0.61
+True: 0, scanned range = 0, scanned list = 4
+Query time (ms): 0.012371
+Match time (us): 2.18
+Scan time (us): ranges = 0.04, list = 2.7, total = 2.74
+True: 10, scanned range = 0, scanned list = 20
+Query time (ms): 0.0113
+Match time (us): 2.44
+Scan time (us): ranges = 0.06, list = 0.69, total = 0.75
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.0108
+Match time (us): 3.53
+Scan time (us): ranges = 0.05, list = 5.49, total = 5.54
+True: 41, scanned range = 0, scanned list = 50
+Query time (ms): 0.01775
+Match time (us): 5.32
+Scan time (us): ranges = 0.07, list = 8.76, total = 8.83
+True: 157, scanned range = 0, scanned list = 170
+Query time (ms): 0.032071
+Match time (us): 3.94
+Scan time (us): ranges = 0.03, list = 1.25, total = 1.28
+True: 5, scanned range = 0, scanned list = 9
+Query time (ms): 0.01867
+Match time (us): 2.94
+Scan time (us): ranges = 0.04, list = 0.24, total = 0.28
+True: 0, scanned range = 0, scanned list = 2
+Query time (ms): 0.00949
+Match time (us): 3.22
+Scan time (us): ranges = 0.11, list = 2.76, total = 2.87
+True: 15, scanned range = 0, scanned list = 16
+Query time (ms): 0.025212
+Scan time (us): ranges = 408.226, list = 0.06, total = 408.286
+True: 3, scanned range = 82259, scanned list = 0
+Query time (ms): 1.31165
+Match time (us): 5.41
+Scan time (us): ranges = 0.04, list = 56.69, total = 56.73
+True: 996, scanned range = 0, scanned list = 1131
+Query time (ms): 0.083671
+Match time (us): 3.42
+Scan time (us): ranges = 0.05, list = 3.57, total = 3.62
+True: 43, scanned range = 0, scanned list = 45
+Query time (ms): 0.0166
+Match time (us): 3.69
+Scan time (us): ranges = 0.05, list = 3.2, total = 3.25
+True: 22, scanned range = 0, scanned list = 26
+Query time (ms): 0.01522
+Match time (us): 3.25
+Scan time (us): ranges = 0.07, list = 6.37, total = 6.44
+True: 77, scanned range = 0, scanned list = 77
+Query time (ms): 0.02669
+Scan time (us): ranges = 34.301, list = 0.08, total = 34.381
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.201483
+Match time (us): 2.95
+Scan time (us): ranges = 0.04, list = 1.26, total = 1.3
+True: 5, scanned range = 0, scanned list = 7
+Query time (ms): 0.01211
+Match time (us): 3.2
+Scan time (us): ranges = 0.06, list = 0.28, total = 0.34
+True: 0, scanned range = 0, scanned list = 2
+Query time (ms): 0.0122
+Match time (us): 1.78
+Scan time (us): ranges = 0.04, list = 0.58, total = 0.62
+True: 2, scanned range = 0, scanned list = 3
+Query time (ms): 0.01009
+Match time (us): 2.92
+Scan time (us): ranges = 0.05, list = 2.02, total = 2.07
+True: 13, scanned range = 0, scanned list = 17
+Query time (ms): 0.01327
+Match time (us): 4.08
+Scan time (us): ranges = 0.06, list = 8.491, total = 8.551
+True: 131, scanned range = 0, scanned list = 136
+Query time (ms): 0.029701
+Match time (us): 3.14
+Scan time (us): ranges = 0.05, list = 1.51, total = 1.56
+True: 6, scanned range = 0, scanned list = 7
+Query time (ms): 0.0136
+Scan time (us): ranges = 44202.7, list = 0.11, total = 44202.8
+True: 96, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.9979
+Match time (us): 7.041
+Scan time (us): ranges = 0.06, list = 23.21, total = 23.27
+True: 286, scanned range = 0, scanned list = 317
+Query time (ms): 0.046321
+Scan time (us): ranges = 98.391, list = 0.05, total = 98.441
+True: 1, scanned range = 22820, scanned list = 0
+Query time (ms): 0.886302
+Scan time (us): ranges = 350.354, list = 0.04, total = 350.394
+True: 2, scanned range = 82259, scanned list = 0
+Query time (ms): 1.26991
+Match time (us): 3.04
+Scan time (us): ranges = 0.05, list = 0.4, total = 0.45
+True: 0, scanned range = 0, scanned list = 1
+Query time (ms): 0.01102
+Match time (us): 2.9
+Scan time (us): ranges = 0.04, list = 1.11, total = 1.15
+True: 5, scanned range = 0, scanned list = 10
+Query time (ms): 0.01071
+Match time (us): 14.9
+Scan time (us): ranges = 0.03, list = 450.097, total = 450.127
+True: 12131, scanned range = 0, scanned list = 14232
+Query time (ms): 0.502077
+Match time (us): 2.261
+Scan time (us): ranges = 0.04, list = 2.36, total = 2.4
+True: 21, scanned range = 0, scanned list = 29
+Query time (ms): 0.012261
+Match time (us): 2.36
+Scan time (us): ranges = 0.04, list = 0.76, total = 0.8
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01075
+Scan time (us): ranges = 43711, list = 0.33, total = 43711.3
+True: 40, scanned range = 10442225, scanned list = 0
+Query time (ms): 49.9389
+Match time (us): 4.17
+Scan time (us): ranges = 0.04, list = 1.4, total = 1.44
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01761
+Scan time (us): ranges = 64.601, list = 0.06, total = 64.661
+True: 3, scanned range = 11971, scanned list = 0
+Query time (ms): 0.553127
+Match time (us): 4.03
+Scan time (us): ranges = 0.04, list = 1.37, total = 1.41
+True: 9, scanned range = 0, scanned list = 18
+Query time (ms): 0.01388
+Match time (us): 1.82
+Scan time (us): ranges = 0.04, list = 0.59, total = 0.63
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01127
+Scan time (us): ranges = 462.527, list = 0.07, total = 462.597
+True: 872, scanned range = 85695, scanned list = 0
+Query time (ms): 1.67988
+Match time (us): 3.47
+Scan time (us): ranges = 0.04, list = 1.38, total = 1.42
+True: 1, scanned range = 0, scanned list = 16
+Query time (ms): 0.01436
+Match time (us): 2.5
+Scan time (us): ranges = 0.06, list = 0.4, total = 0.46
+True: 0, scanned range = 0, scanned list = 3
+Query time (ms): 0.01213
+Match time (us): 2.02
+Scan time (us): ranges = 0.05, list = 1.08, total = 1.13
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01149
+Match time (us): 3.41
+Scan time (us): ranges = 0.05, list = 3.44, total = 3.49
+True: 18, scanned range = 0, scanned list = 26
+Query time (ms): 0.01582
+Match time (us): 3.82
+Scan time (us): ranges = 0.08, list = 4.67, total = 4.75
+True: 33, scanned range = 0, scanned list = 37
+Query time (ms): 0.02813
+Match time (us): 5.6
+Scan time (us): ranges = 0.06, list = 2.891, total = 2.951
+True: 20, scanned range = 0, scanned list = 21
+Query time (ms): 0.030811
+Match time (us): 3.71
+Scan time (us): ranges = 0.06, list = 1.25, total = 1.31
+True: 6, scanned range = 0, scanned list = 10
+Query time (ms): 0.01813
+Match time (us): 2.08
+Scan time (us): ranges = 0.05, list = 0.66, total = 0.71
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01597
+Match time (us): 2.02
+Scan time (us): ranges = 0.06, list = 1.34, total = 1.4
+True: 10, scanned range = 0, scanned list = 12
+Query time (ms): 0.01679
+Match time (us): 2.1
+Scan time (us): ranges = 0.07, list = 0.77, total = 0.84
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.0379
+Match time (us): 3.94
+Scan time (us): ranges = 0.07, list = 6.511, total = 6.581
+True: 64, scanned range = 0, scanned list = 70
+Query time (ms): 0.033772
+Scan time (us): ranges = 393.735, list = 0.08, total = 393.815
+True: 4, scanned range = 79299, scanned list = 0
+Query time (ms): 1.21474
+Scan time (us): ranges = 422.255, list = 0.07, total = 422.325
+True: 1, scanned range = 85695, scanned list = 0
+Query time (ms): 1.21793
+Match time (us): 3.32
+Scan time (us): ranges = 0.05, list = 0.49, total = 0.54
+True: 1, scanned range = 0, scanned list = 1
+Query time (ms): 0.01192
+Match time (us): 4.9
+Scan time (us): ranges = 0.04, list = 1.34, total = 1.38
+True: 3, scanned range = 0, scanned list = 5
+Query time (ms): 0.01363
+Match time (us): 2.38
+Scan time (us): ranges = 0.04, list = 1.06, total = 1.1
+True: 5, scanned range = 0, scanned list = 6
+Query time (ms): 0.01125
+Match time (us): 1.02
+Scan time (us): ranges = 0.04, list = 0.9, total = 0.94
+True: 6, scanned range = 0, scanned list = 6
+Query time (ms): 0.00893
+Match time (us): 3
+Scan time (us): ranges = 0.04, list = 3.03, total = 3.07
+True: 55, scanned range = 0, scanned list = 61
+Query time (ms): 0.01425
+Match time (us): 3.16
+Scan time (us): ranges = 0.05, list = 1.11, total = 1.16
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01266
+Match time (us): 2.05
+Scan time (us): ranges = 0.04, list = 0.58, total = 0.62
+True: 2, scanned range = 0, scanned list = 3
+Query time (ms): 0.010681
+Scan time (us): ranges = 43694.1, list = 0.32, total = 43694.4
+True: 8, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.6113
+Match time (us): 5.42
+Scan time (us): ranges = 0.04, list = 1.12, total = 1.16
+True: 1, scanned range = 0, scanned list = 3
+Query time (ms): 0.01782
+Match time (us): 3.17
+Scan time (us): ranges = 0.07, list = 1.03, total = 1.1
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.012
+Match time (us): 5.01
+Scan time (us): ranges = 0.04, list = 9.691, total = 9.731
+True: 218, scanned range = 0, scanned list = 222
+Query time (ms): 0.022401
+Scan time (us): ranges = 691739, list = 0.16, total = 691739
+True: 136113, scanned range = 165694909, scanned list = 0
+Query time (ms): 705.94
+Match time (us): 5.361
+Scan time (us): ranges = 0.03, list = 0.5, total = 0.53
+True: 0, scanned range = 0, scanned list = 2
+Query time (ms): 0.018511
+Match time (us): 4.47
+Scan time (us): ranges = 0.06, list = 2.04, total = 2.1
+True: 5, scanned range = 0, scanned list = 6
+Query time (ms): 0.0145
+Match time (us): 5.3
+Scan time (us): ranges = 0.06, list = 10.15, total = 10.21
+True: 101, scanned range = 0, scanned list = 117
+Query time (ms): 0.02501
+Match time (us): 3.72
+Scan time (us): ranges = 0.03, list = 0.56, total = 0.59
+True: 1, scanned range = 0, scanned list = 3
+Query time (ms): 0.01305
+Match time (us): 2.71
+Scan time (us): ranges = 0.04, list = 1.04, total = 1.08
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01401
+Match time (us): 3.35
+Scan time (us): ranges = 0.04, list = 1.66, total = 1.7
+True: 2, scanned range = 0, scanned list = 11
+Query time (ms): 0.0241
+Match time (us): 4.17
+Scan time (us): ranges = 0.03, list = 6.36, total = 6.39
+True: 52, scanned range = 0, scanned list = 63
+Query time (ms): 0.01784
+Match time (us): 6.86
+Scan time (us): ranges = 0.06, list = 82.422, total = 82.482
+True: 1754, scanned range = 0, scanned list = 2036
+Query time (ms): 0.116413
+Match time (us): 2.89
+Scan time (us): ranges = 0.04, list = 5.25, total = 5.29
+True: 69, scanned range = 0, scanned list = 72
+Query time (ms): 0.01531
+Match time (us): 2.34
+Scan time (us): ranges = 0.05, list = 2.24, total = 2.29
+True: 24, scanned range = 0, scanned list = 27
+Query time (ms): 0.01226
+Match time (us): 3.86
+Scan time (us): ranges = 0.03, list = 10.651, total = 10.681
+True: 43, scanned range = 0, scanned list = 240
+Query time (ms): 0.029511
+Scan time (us): ranges = 43427.1, list = 0.26, total = 43427.3
+True: 60, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.6542
+Match time (us): 4.91
+Scan time (us): ranges = 0.04, list = 2.15, total = 2.19
+True: 10, scanned range = 0, scanned list = 18
+Query time (ms): 0.01996
+Match time (us): 3.71
+Scan time (us): ranges = 0.04, list = 0.35, total = 0.39
+True: 0, scanned range = 0, scanned list = 1
+Query time (ms): 0.01101
+Match time (us): 4.25
+Scan time (us): ranges = 0.04, list = 3.72, total = 3.76
+True: 26, scanned range = 0, scanned list = 27
+Query time (ms): 0.016611
+Match time (us): 2.94
+Scan time (us): ranges = 0.04, list = 1.09, total = 1.13
+True: 3, scanned range = 0, scanned list = 3
+Query time (ms): 0.01212
+Match time (us): 3.74
+Scan time (us): ranges = 0.04, list = 3.48, total = 3.52
+True: 25, scanned range = 0, scanned list = 25
+Query time (ms): 0.01744
+Match time (us): 3.14
+Scan time (us): ranges = 0.04, list = 1.78, total = 1.82
+True: 6, scanned range = 0, scanned list = 10
+Query time (ms): 0.01159
+Match time (us): 2.691
+Scan time (us): ranges = 0.03, list = 1.8, total = 1.83
+True: 3, scanned range = 0, scanned list = 31
+Query time (ms): 0.011051
+Match time (us): 3.07
+Scan time (us): ranges = 0.04, list = 1.06, total = 1.1
+True: 4, scanned range = 0, scanned list = 4
+Query time (ms): 0.01134
+Match time (us): 2.18
+Scan time (us): ranges = 0.04, list = 0.99, total = 1.03
+True: 6, scanned range = 0, scanned list = 9
+Query time (ms): 0.00924
+Match time (us): 2.29
+Scan time (us): ranges = 0.05, list = 1.57, total = 1.62
+True: 15, scanned range = 0, scanned list = 21
+Query time (ms): 0.01169
+Match time (us): 2.64
+Scan time (us): ranges = 0.07, list = 1.57, total = 1.64
+True: 14, scanned range = 0, scanned list = 16
+Query time (ms): 0.01025
+Scan time (us): ranges = 339.465, list = 0.08, total = 339.545
+True: 8, scanned range = 79299, scanned list = 0
+Query time (ms): 1.8228
+Match time (us): 2.55
+Scan time (us): ranges = 0.06, list = 0.68, total = 0.74
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.0105
+Match time (us): 1.74
+Scan time (us): ranges = 0.04, list = 0.38, total = 0.42
+True: 0, scanned range = 0, scanned list = 3
+Query time (ms): 0.00827
+Match time (us): 2.03
+Scan time (us): ranges = 0.04, list = 1.19, total = 1.23
+True: 6, scanned range = 0, scanned list = 15
+Query time (ms): 0.0098
+Match time (us): 3.41
+Scan time (us): ranges = 0.03, list = 6.5, total = 6.53
+True: 65, scanned range = 0, scanned list = 67
+Query time (ms): 0.01746
+Scan time (us): ranges = 295999, list = 0.07, total = 295999
+True: 248, scanned range = 70629099, scanned list = 0
+Query time (ms): 306.111
+Scan time (us): ranges = 367.846, list = 0.04, total = 367.886
+True: 8, scanned range = 85695, scanned list = 0
+Query time (ms): 1.85209
+Match time (us): 3.45
+Scan time (us): ranges = 0.04, list = 2.9, total = 2.94
+True: 30, scanned range = 0, scanned list = 33
+Query time (ms): 0.01468
+Match time (us): 2.78
+Scan time (us): ranges = 0.04, list = 4.49, total = 4.53
+True: 23, scanned range = 0, scanned list = 43
+Query time (ms): 0.013581
+Match time (us): 3
+Scan time (us): ranges = 0.03, list = 0.96, total = 0.99
+True: 4, scanned range = 0, scanned list = 10
+Query time (ms): 0.01139
+Scan time (us): ranges = 43840, list = 0.17, total = 43840.2
+True: 23, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.8968
+Match time (us): 6.41
+Scan time (us): ranges = 0.04, list = 14.12, total = 14.16
+True: 254, scanned range = 0, scanned list = 302
+Query time (ms): 0.03335
+Scan time (us): ranges = 43783.8, list = 0.2, total = 43784
+True: 23, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.9576
+Scan time (us): ranges = 354.046, list = 0.03, total = 354.076
+True: 2, scanned range = 77583, scanned list = 0
+Query time (ms): 1.83584
+Match time (us): 4.57
+Scan time (us): ranges = 0.04, list = 0.62, total = 0.66
+True: 0, scanned range = 0, scanned list = 2
+Query time (ms): 0.01378
+Scan time (us): ranges = 43446.2, list = 0.44, total = 43446.6
+True: 46, scanned range = 10448035, scanned list = 0
+Query time (ms): 49.5917
+Match time (us): 3.98
+Scan time (us): ranges = 0.03, list = 0.7, total = 0.73
+True: 0, scanned range = 0, scanned list = 4
+Query time (ms): 0.015561
+Scan time (us): ranges = 8.38, list = 0.04, total = 8.42
+True: 0, scanned range = 1902, scanned list = 0
+Query time (ms): 0.02304
+Match time (us): 4.67
+Scan time (us): ranges = 0.06, list = 2.61, total = 2.67
+True: 6, scanned range = 0, scanned list = 22
+Query time (ms): 0.01373
+Scan time (us): ranges = 349.365, list = 0.06, total = 349.425
+True: 19, scanned range = 82259, scanned list = 0
+Query time (ms): 1.78621
+Scan time (us): ranges = 294853, list = 0.06, total = 294853
+True: 1237, scanned range = 70629099, scanned list = 0
+Query time (ms): 304.78
+Match time (us): 5.67
+Scan time (us): ranges = 0.05, list = 1.96, total = 2.01
+True: 6, scanned range = 0, scanned list = 12
+Query time (ms): 0.01885
+Match time (us): 2.73
+Scan time (us): ranges = 0.04, list = 1.29, total = 1.33
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01055
+Match time (us): 3.7
+Scan time (us): ranges = 0.05, list = 3.3, total = 3.35
+True: 16, scanned range = 0, scanned list = 16
+Query time (ms): 0.0159
+Match time (us): 3.24
+Scan time (us): ranges = 0.04, list = 0.89, total = 0.93
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01167
+Scan time (us): ranges = 348.554, list = 0.06, total = 348.614
+True: 2, scanned range = 82259, scanned list = 0
+Query time (ms): 1.8173
+Match time (us): 2.65
+Scan time (us): ranges = 0.04, list = 0.71, total = 0.75
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01053
+Match time (us): 4.36
+Scan time (us): ranges = 0.04, list = 9.321, total = 9.361
+True: 83, scanned range = 0, scanned list = 94
+Query time (ms): 0.021061
+Match time (us): 2.93
+Scan time (us): ranges = 0.04, list = 0.96, total = 1
+True: 4, scanned range = 0, scanned list = 5
+Query time (ms): 0.00998
+Match time (us): 3.3
+Scan time (us): ranges = 0.05, list = 0.36, total = 0.41
+True: 1, scanned range = 0, scanned list = 2
+Query time (ms): 0.01108
+Match time (us): 2.5
+Scan time (us): ranges = 0.08, list = 0.9, total = 0.98
+True: 3, scanned range = 0, scanned list = 9
+Query time (ms): 0.01905
+Match time (us): 2.96
+Scan time (us): ranges = 0.03, list = 0.61, total = 0.64
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01021
+Match time (us): 3.24
+Scan time (us): ranges = 0.06, list = 2.9, total = 2.96
+True: 16, scanned range = 0, scanned list = 29
+Query time (ms): 0.02041
+Match time (us): 4.88
+Scan time (us): ranges = 0.05, list = 15.62, total = 15.67
+True: 234, scanned range = 0, scanned list = 265
+Query time (ms): 0.040161
+Scan time (us): ranges = 423.676, list = 0.09, total = 423.766
+True: 0, scanned range = 82259, scanned list = 0
+Query time (ms): 1.23723
+Scan time (us): ranges = 386.795, list = 0.04, total = 386.835
+True: 1, scanned range = 77583, scanned list = 0
+Query time (ms): 1.18514
+Scan time (us): ranges = 378.545, list = 0.06, total = 378.605
+True: 2, scanned range = 82259, scanned list = 0
+Query time (ms): 1.13809
+Match time (us): 2.86
+Scan time (us): ranges = 0.04, list = 1.5, total = 1.54
+True: 9, scanned range = 0, scanned list = 13
+Query time (ms): 0.01161
+Match time (us): 2.42
+Scan time (us): ranges = 0.03, list = 2.08, total = 2.11
+True: 18, scanned range = 0, scanned list = 28
+Query time (ms): 0.01097
+Match time (us): 1.82
+Scan time (us): ranges = 0.04, list = 0.82, total = 0.86
+True: 2, scanned range = 0, scanned list = 4
+Query time (ms): 0.00885
+Scan time (us): ranges = 442.136, list = 0.08, total = 442.216
+True: 4, scanned range = 77583, scanned list = 0
+Query time (ms): 1.21651
+Match time (us): 2.45
+Scan time (us): ranges = 0.05, list = 1.33, total = 1.38
+True: 4, scanned range = 0, scanned list = 6
+Query time (ms): 0.01388
+Scan time (us): ranges = 43503.3, list = 0.06, total = 43503.4
+True: 7, scanned range = 10442225, scanned list = 0
+Query time (ms): 49.3981
+Match time (us): 3.72
+Scan time (us): ranges = 0.06, list = 1.621, total = 1.681
+True: 0, scanned range = 0, scanned list = 21
+Query time (ms): 0.017061
+Match time (us): 4.41
+Scan time (us): ranges = 0.06, list = 0.43, total = 0.49
+True: 0, scanned range = 0, scanned list = 1
+Query time (ms): 0.01279
+Scan time (us): ranges = 43521.7, list = 0.37, total = 43522
+True: 154, scanned range = 10448035, scanned list = 0
+Query time (ms): 49.8208
+Match time (us): 6.3
+Scan time (us): ranges = 0.06, list = 16.771, total = 16.831
+True: 268, scanned range = 0, scanned list = 272
+Query time (ms): 0.035441
+Scan time (us): ranges = 43851.4, list = 0.17, total = 43851.6
+True: 19, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.8796
+Scan time (us): ranges = 43470.5, list = 0.28, total = 43470.8
+True: 11, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.7933
+Scan time (us): ranges = 374.386, list = 0.04, total = 374.426
+True: 3, scanned range = 85695, scanned list = 0
+Query time (ms): 1.89115
+Match time (us): 4.09
+Scan time (us): ranges = 0.06, list = 1.58, total = 1.64
+True: 8, scanned range = 0, scanned list = 8
+Query time (ms): 0.01513
+Match time (us): 3.38
+Scan time (us): ranges = 0.05, list = 2.81, total = 2.86
+True: 14, scanned range = 0, scanned list = 15
+Query time (ms): 0.02113
+Match time (us): 2.86
+Scan time (us): ranges = 0.05, list = 0.96, total = 1.01
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01873
+Scan time (us): ranges = 409.346, list = 0.06, total = 409.406
+True: 4, scanned range = 82259, scanned list = 0
+Query time (ms): 1.2264
+Match time (us): 2.68
+Scan time (us): ranges = 0.04, list = 0.49, total = 0.53
+True: 1, scanned range = 0, scanned list = 1
+Query time (ms): 0.01152
+Scan time (us): ranges = 7.86, list = 0.06, total = 7.92
+True: 2, scanned range = 1141, scanned list = 0
+Query time (ms): 0.087491
+Match time (us): 4.78
+Scan time (us): ranges = 0.04, list = 2.01, total = 2.05
+True: 7, scanned range = 0, scanned list = 8
+Query time (ms): 0.01671
+Match time (us): 4.63
+Scan time (us): ranges = 0.13, list = 12.73, total = 12.86
+True: 265, scanned range = 0, scanned list = 271
+Query time (ms): 0.04392
+Scan time (us): ranges = 43888.1, list = 0.19, total = 43888.3
+True: 6, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.6455
+Scan time (us): ranges = 360.785, list = 0.03, total = 360.815
+True: 1, scanned range = 85695, scanned list = 0
+Query time (ms): 1.72964
+Match time (us): 3.12
+Scan time (us): ranges = 0.04, list = 1.16, total = 1.2
+True: 3, scanned range = 0, scanned list = 9
+Query time (ms): 0.01303
+Match time (us): 2.92
+Scan time (us): ranges = 0.06, list = 0.67, total = 0.73
+True: 3, scanned range = 0, scanned list = 3
+Query time (ms): 0.00964
+Scan time (us): ranges = 43986.3, list = 0.2, total = 43986.5
+True: 111, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.5476
+Scan time (us): ranges = 336.904, list = 0.06, total = 336.964
+True: 0, scanned range = 79299, scanned list = 0
+Query time (ms): 1.70801
+Match time (us): 6.741
+Scan time (us): ranges = 0.04, list = 60.29, total = 60.33
+True: 1536, scanned range = 0, scanned list = 1768
+Query time (ms): 0.087252
+Match time (us): 2.83
+Scan time (us): ranges = 0.06, list = 4.78, total = 4.84
+True: 57, scanned range = 0, scanned list = 66
+Query time (ms): 0.01536
+Match time (us): 2.67
+Scan time (us): ranges = 0.06, list = 1.99, total = 2.05
+True: 17, scanned range = 0, scanned list = 18
+Query time (ms): 0.01311
+Scan time (us): ranges = 62.371, list = 0.06, total = 62.431
+True: 6, scanned range = 11971, scanned list = 0
+Query time (ms): 0.330465
+Match time (us): 3.11
+Scan time (us): ranges = 0.05, list = 1.66, total = 1.71
+True: 10, scanned range = 0, scanned list = 10
+Query time (ms): 0.013701
+Scan time (us): ranges = 374.166, list = 0.06, total = 374.226
+True: 3, scanned range = 82259, scanned list = 0
+Query time (ms): 1.2255
+Match time (us): 4.17
+Scan time (us): ranges = 0.04, list = 4.63, total = 4.67
+True: 29, scanned range = 0, scanned list = 66
+Query time (ms): 0.01643
+Match time (us): 2.94
+Scan time (us): ranges = 0.04, list = 1.93, total = 1.97
+True: 18, scanned range = 0, scanned list = 33
+Query time (ms): 0.01272
+Match time (us): 189.682
+Scan time (us): ranges = 0.07, list = 5226.63, total = 5226.7
+True: 196945, scanned range = 0, scanned list = 234112
+Query time (ms): 5.99507
+Match time (us): 6.56
+Scan time (us): ranges = 0.13, list = 35.031, total = 35.161
+True: 586, scanned range = 0, scanned list = 684
+Query time (ms): 0.057101
+Scan time (us): ranges = 295179, list = 0.06, total = 295179
+True: 126, scanned range = 70629099, scanned list = 0
+Query time (ms): 305.346
+Match time (us): 4.75
+Scan time (us): ranges = 0.04, list = 1.09, total = 1.13
+True: 4, scanned range = 0, scanned list = 8
+Query time (ms): 0.017711
+Scan time (us): ranges = 76.861, list = 0.09, total = 76.951
+True: 3, scanned range = 11971, scanned list = 0
+Query time (ms): 0.545628
+Scan time (us): ranges = 445.326, list = 0.08, total = 445.406
+True: 2, scanned range = 82259, scanned list = 0
+Query time (ms): 1.75845
+Match time (us): 3.16
+Scan time (us): ranges = 0.06, list = 1.15, total = 1.21
+True: 5, scanned range = 0, scanned list = 6
+Query time (ms): 0.01423
+Match time (us): 3.12
+Scan time (us): ranges = 0.06, list = 0.851, total = 0.911
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.013841
+Scan time (us): ranges = 43824.5, list = 0.26, total = 43824.8
+True: 17, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.6095
+Match time (us): 6.23
+Scan time (us): ranges = 0.04, list = 17.761, total = 17.801
+True: 204, scanned range = 0, scanned list = 278
+Query time (ms): 0.038661
+Scan time (us): ranges = 442.956, list = 0.07, total = 443.026
+True: 9, scanned range = 85695, scanned list = 0
+Query time (ms): 1.91767
+Match time (us): 3.24
+Scan time (us): ranges = 0.04, list = 17.221, total = 17.261
+True: 323, scanned range = 0, scanned list = 348
+Query time (ms): 0.041331
+Match time (us): 4.211
+Scan time (us): ranges = 0.04, list = 1.2, total = 1.24
+True: 5, scanned range = 0, scanned list = 5
+Query time (ms): 0.017291
+Match time (us): 3.92
+Scan time (us): ranges = 0.04, list = 0.83, total = 0.87
+True: 4, scanned range = 0, scanned list = 6
+Query time (ms): 0.01249
+Scan time (us): ranges = 420.367, list = 0.06, total = 420.427
+True: 12, scanned range = 85695, scanned list = 0
+Query time (ms): 1.2822
+Scan time (us): ranges = 43989.2, list = 0.24, total = 43989.4
+True: 22, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.6904
+Match time (us): 3.45
+Scan time (us): ranges = 0.04, list = 1.62, total = 1.66
+True: 3, scanned range = 0, scanned list = 15
+Query time (ms): 0.017011
+Match time (us): 5.12
+Scan time (us): ranges = 0.03, list = 2.54, total = 2.57
+True: 9, scanned range = 0, scanned list = 15
+Query time (ms): 0.01488
+Scan time (us): ranges = 35.391, list = 0.05, total = 35.441
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.309594
+Scan time (us): ranges = 350.475, list = 0.05, total = 350.525
+True: 5, scanned range = 82259, scanned list = 0
+Query time (ms): 1.6681
+Match time (us): 4.04
+Scan time (us): ranges = 0.04, list = 1.26, total = 1.3
+True: 8, scanned range = 0, scanned list = 8
+Query time (ms): 0.01366
+Match time (us): 2.94
+Scan time (us): ranges = 0.03, list = 1.92, total = 1.95
+True: 9, scanned range = 0, scanned list = 13
+Query time (ms): 0.011221
+Match time (us): 1.11
+Scan time (us): ranges = 0.04, list = 0.95, total = 0.99
+True: 3, scanned range = 0, scanned list = 9
+Query time (ms): 0.00848
+Scan time (us): ranges = 43539.3, list = 0.06, total = 43539.3
+True: 49, scanned range = 10442225, scanned list = 0
+Query time (ms): 49.5385
+Scan time (us): ranges = 29.11, list = 0.05, total = 29.16
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.299474
+Match time (us): 3.86
+Scan time (us): ranges = 0.06, list = 3.12, total = 3.18
+True: 36, scanned range = 0, scanned list = 38
+Query time (ms): 0.01597
+Match time (us): 3.53
+Scan time (us): ranges = 0.05, list = 1.24, total = 1.29
+True: 10, scanned range = 0, scanned list = 12
+Query time (ms): 0.01387
+Match time (us): 2.26
+Scan time (us): ranges = 0.06, list = 1.201, total = 1.261
+True: 6, scanned range = 0, scanned list = 9
+Query time (ms): 0.009951
+Match time (us): 0.95
+Scan time (us): ranges = 0.03, list = 0.74, total = 0.77
+True: 3, scanned range = 0, scanned list = 12
+Query time (ms): 0.00948
+Match time (us): 2.78
+Scan time (us): ranges = 0.04, list = 2.01, total = 2.05
+True: 9, scanned range = 0, scanned list = 15
+Query time (ms): 0.01281
+Match time (us): 4.43
+Scan time (us): ranges = 0.05, list = 6.13, total = 6.18
+True: 41, scanned range = 0, scanned list = 49
+Query time (ms): 0.01963
+Scan time (us): ranges = 294906, list = 0.07, total = 294906
+True: 209, scanned range = 70629099, scanned list = 0
+Query time (ms): 304.927
+Scan time (us): ranges = 355.744, list = 0.06, total = 355.804
+True: 4, scanned range = 82259, scanned list = 0
+Query time (ms): 1.84016
+Match time (us): 4.44
+Scan time (us): ranges = 0.04, list = 0.42, total = 0.46
+True: 0, scanned range = 0, scanned list = 1
+Query time (ms): 0.013431
+Match time (us): 4.2
+Scan time (us): ranges = 0.04, list = 1.4, total = 1.44
+True: 3, scanned range = 0, scanned list = 7
+Query time (ms): 0.01342
+Match time (us): 4.74
+Scan time (us): ranges = 0.07, list = 28.24, total = 28.31
+True: 523, scanned range = 0, scanned list = 600
+Query time (ms): 0.056841
+Match time (us): 3.31
+Scan time (us): ranges = 0.06, list = 0.99, total = 1.05
+True: 1, scanned range = 0, scanned list = 4
+Query time (ms): 0.01223
+Scan time (us): ranges = 295082, list = 0.35, total = 295083
+True: 652, scanned range = 70629099, scanned list = 0
+Query time (ms): 305.097
+Scan time (us): ranges = 349.185, list = 0.04, total = 349.225
+True: 6, scanned range = 82259, scanned list = 0
+Query time (ms): 1.81324
+Scan time (us): ranges = 405.475, list = 0.05, total = 405.525
+True: 7, scanned range = 82259, scanned list = 0
+Query time (ms): 1.19308
+Match time (us): 8.5
+Scan time (us): ranges = 0.06, list = 93.092, total = 93.152
+True: 1641, scanned range = 0, scanned list = 2007
+Query time (ms): 0.126413
+Match time (us): 4.4
+Scan time (us): ranges = 0.05, list = 2.4, total = 2.45
+True: 11, scanned range = 0, scanned list = 16
+Query time (ms): 0.0166
+Match time (us): 3.98
+Scan time (us): ranges = 0.05, list = 1.02, total = 1.07
+True: 6, scanned range = 0, scanned list = 6
+Query time (ms): 0.013661
+Scan time (us): ranges = 391.846, list = 0.05, total = 391.896
+True: 16, scanned range = 85695, scanned list = 0
+Query time (ms): 1.19354
+Match time (us): 3.97
+Scan time (us): ranges = 0.04, list = 3.64, total = 3.68
+True: 19, scanned range = 0, scanned list = 29
+Query time (ms): 0.01501
+Match time (us): 2.49
+Scan time (us): ranges = 0.04, list = 0.79, total = 0.83
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.00938
+Match time (us): 3.04
+Scan time (us): ranges = 0.03, list = 0.73, total = 0.76
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01004
+Match time (us): 3.41
+Scan time (us): ranges = 0.03, list = 1.84, total = 1.87
+True: 14, scanned range = 0, scanned list = 29
+Query time (ms): 0.012231
+Match time (us): 4.19
+Scan time (us): ranges = 0.04, list = 6.41, total = 6.45
+True: 72, scanned range = 0, scanned list = 78
+Query time (ms): 0.02669
+Match time (us): 3.69
+Scan time (us): ranges = 0.04, list = 3.61, total = 3.65
+True: 51, scanned range = 0, scanned list = 70
+Query time (ms): 0.01385
+Match time (us): 1.81
+Scan time (us): ranges = 0.05, list = 0.74, total = 0.79
+True: 6, scanned range = 0, scanned list = 7
+Query time (ms): 0.01003
+Scan time (us): ranges = 66.931, list = 0.05, total = 66.981
+True: 21, scanned range = 11971, scanned list = 0
+Query time (ms): 0.308344
+Match time (us): 2.87
+Scan time (us): ranges = 0.07, list = 0.87, total = 0.94
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.012851
+Scan time (us): ranges = 294900, list = 0.08, total = 294900
+True: 313, scanned range = 70629099, scanned list = 0
+Query time (ms): 304.952
+Match time (us): 6.62
+Scan time (us): ranges = 0.04, list = 10.76, total = 10.8
+True: 195, scanned range = 0, scanned list = 195
+Query time (ms): 0.03093
+Match time (us): 4.61
+Scan time (us): ranges = 0.03, list = 20.62, total = 20.65
+True: 481, scanned range = 0, scanned list = 539
+Query time (ms): 0.033921
+Match time (us): 3
+Scan time (us): ranges = 0.03, list = 1, total = 1.03
+True: 6, scanned range = 0, scanned list = 9
+Query time (ms): 0.01069
+Scan time (us): ranges = 295400, list = 0.3, total = 295401
+True: 54, scanned range = 70629099, scanned list = 0
+Query time (ms): 305.413
+Match time (us): 5.92
+Scan time (us): ranges = 0.05, list = 6.3, total = 6.35
+True: 39, scanned range = 0, scanned list = 72
+Query time (ms): 0.025161
+Scan time (us): ranges = 47593.9, list = 0.17, total = 47594.1
+True: 54, scanned range = 10448035, scanned list = 0
+Query time (ms): 53.6582
+Match time (us): 4.03
+Scan time (us): ranges = 0.08, list = 1.45, total = 1.53
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01776
+Match time (us): 4.38
+Scan time (us): ranges = 0.04, list = 3.99, total = 4.03
+True: 27, scanned range = 0, scanned list = 27
+Query time (ms): 0.01739
+Match time (us): 4.501
+Scan time (us): ranges = 0.06, list = 6.65, total = 6.71
+True: 51, scanned range = 0, scanned list = 69
+Query time (ms): 0.019751
+Match time (us): 5.01
+Scan time (us): ranges = 0.04, list = 2.21, total = 2.25
+True: 17, scanned range = 0, scanned list = 17
+Query time (ms): 0.01638
+Scan time (us): ranges = 34.82, list = 0.05, total = 34.87
+True: 6, scanned range = 6269, scanned list = 0
+Query time (ms): 0.339205
+Match time (us): 5.481
+Scan time (us): ranges = 0.07, list = 10.5, total = 10.57
+True: 98, scanned range = 0, scanned list = 300
+Query time (ms): 0.027161
+Match time (us): 2.59
+Scan time (us): ranges = 0.06, list = 0.74, total = 0.8
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01124
+Match time (us): 2.48
+Scan time (us): ranges = 0.06, list = 2.29, total = 2.35
+True: 9, scanned range = 0, scanned list = 23
+Query time (ms): 0.01269
+Match time (us): 3.31
+Scan time (us): ranges = 0.06, list = 2.94, total = 3
+True: 28, scanned range = 0, scanned list = 28
+Query time (ms): 0.017031
+Match time (us): 2.29
+Scan time (us): ranges = 0.06, list = 1.55, total = 1.61
+True: 12, scanned range = 0, scanned list = 14
+Query time (ms): 0.01691
+Scan time (us): ranges = 44624.7, list = 0.2, total = 44624.9
+True: 5, scanned range = 10431201, scanned list = 0
+Query time (ms): 51.1262
+Match time (us): 4.06
+Scan time (us): ranges = 0.05, list = 1.08, total = 1.13
+True: 4, scanned range = 0, scanned list = 8
+Query time (ms): 0.01679
+Match time (us): 2.56
+Scan time (us): ranges = 0.04, list = 1.93, total = 1.97
+True: 21, scanned range = 0, scanned list = 24
+Query time (ms): 0.01061
+Scan time (us): ranges = 421.775, list = 0.06, total = 421.835
+True: 5, scanned range = 85695, scanned list = 0
+Query time (ms): 1.91181
+Match time (us): 4.78
+Scan time (us): ranges = 0.08, list = 1.18, total = 1.26
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01594
+Match time (us): 3.82
+Scan time (us): ranges = 0.04, list = 1.76, total = 1.8
+True: 8, scanned range = 0, scanned list = 12
+Query time (ms): 0.01434
+Match time (us): 4.04
+Scan time (us): ranges = 0.05, list = 4.28, total = 4.33
+True: 60, scanned range = 0, scanned list = 62
+Query time (ms): 0.01733
+Match time (us): 2.59
+Scan time (us): ranges = 0.04, list = 3.441, total = 3.481
+True: 21, scanned range = 0, scanned list = 25
+Query time (ms): 0.015021
+Match time (us): 5.83
+Scan time (us): ranges = 0.04, list = 58.332, total = 58.372
+True: 1260, scanned range = 0, scanned list = 1463
+Query time (ms): 0.094502
+Match time (us): 6.67
+Scan time (us): ranges = 0.08, list = 127.862, total = 127.942
+True: 1933, scanned range = 0, scanned list = 2260
+Query time (ms): 0.167022
+Match time (us): 2.77
+Scan time (us): ranges = 0.07, list = 1.71, total = 1.78
+True: 3, scanned range = 0, scanned list = 9
+Query time (ms): 0.01444
+Match time (us): 3.71
+Scan time (us): ranges = 0.05, list = 1.42, total = 1.47
+True: 6, scanned range = 0, scanned list = 10
+Query time (ms): 0.022961
+Scan time (us): ranges = 43708.8, list = 0.09, total = 43708.9
+True: 611, scanned range = 10446855, scanned list = 0
+Query time (ms): 49.6464
+Match time (us): 5.04
+Scan time (us): ranges = 0.05, list = 1.56, total = 1.61
+True: 4, scanned range = 0, scanned list = 8
+Query time (ms): 0.01959
+Match time (us): 5.51
+Scan time (us): ranges = 0.04, list = 8.12, total = 8.16
+True: 108, scanned range = 0, scanned list = 110
+Query time (ms): 0.035981
+Match time (us): 4.65
+Scan time (us): ranges = 0.08, list = 1.58, total = 1.66
+True: 4, scanned range = 0, scanned list = 6
+Query time (ms): 0.01664
+Match time (us): 3.16
+Scan time (us): ranges = 0.04, list = 1.54, total = 1.58
+True: 6, scanned range = 0, scanned list = 12
+Query time (ms): 0.012
+Match time (us): 2.19
+Scan time (us): ranges = 0.04, list = 1.2, total = 1.24
+True: 6, scanned range = 0, scanned list = 9
+Query time (ms): 0.01069
+Match time (us): 5.11
+Scan time (us): ranges = 0.05, list = 12.43, total = 12.48
+True: 181, scanned range = 0, scanned list = 228
+Query time (ms): 0.027811
+Match time (us): 4.9
+Scan time (us): ranges = 0.1, list = 16.561, total = 16.661
+True: 169, scanned range = 0, scanned list = 210
+Query time (ms): 0.067682
+Match time (us): 2.55
+Scan time (us): ranges = 0.04, list = 1.29, total = 1.33
+True: 9, scanned range = 0, scanned list = 12
+Query time (ms): 0.01379
+Match time (us): 5.13
+Scan time (us): ranges = 0.14, list = 3.84, total = 3.98
+True: 4, scanned range = 0, scanned list = 38
+Query time (ms): 0.02062
+Match time (us): 2.95
+Scan time (us): ranges = 0.04, list = 1, total = 1.04
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.017151
+Scan time (us): ranges = 47205, list = 0.28, total = 47205.3
+True: 9, scanned range = 10442225, scanned list = 0
+Query time (ms): 53.7759
+Match time (us): 5.69
+Scan time (us): ranges = 0.09, list = 3.7, total = 3.79
+True: 29, scanned range = 0, scanned list = 33
+Query time (ms): 0.02292
+Scan time (us): ranges = 46101, list = 0.26, total = 46101.3
+True: 50, scanned range = 10448035, scanned list = 0
+Query time (ms): 52.6913
+Match time (us): 6.35
+Scan time (us): ranges = 0.05, list = 5.351, total = 5.401
+True: 41, scanned range = 0, scanned list = 46
+Query time (ms): 0.023871
+Match time (us): 3.24
+Scan time (us): ranges = 0.03, list = 0.46, total = 0.49
+True: 0, scanned range = 0, scanned list = 3
+Query time (ms): 0.01192
+Match time (us): 3.79
+Scan time (us): ranges = 0.03, list = 0.82, total = 0.85
+True: 1, scanned range = 0, scanned list = 4
+Query time (ms): 0.01095
+Match time (us): 3.34
+Scan time (us): ranges = 0.04, list = 1.32, total = 1.36
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01123
+Match time (us): 2.81
+Scan time (us): ranges = 0.03, list = 2.01, total = 2.04
+True: 3, scanned range = 0, scanned list = 23
+Query time (ms): 0.0109
+Scan time (us): ranges = 330.616, list = 0.07, total = 330.686
+True: 4, scanned range = 77583, scanned list = 0
+Query time (ms): 1.69218
+Match time (us): 4.34
+Scan time (us): ranges = 0.03, list = 2.05, total = 2.08
+True: 7, scanned range = 0, scanned list = 11
+Query time (ms): 0.01445
+Scan time (us): ranges = 43417.4, list = 0.28, total = 43417.7
+True: 35, scanned range = 10448035, scanned list = 0
+Query time (ms): 49.5418
+Match time (us): 3.72
+Scan time (us): ranges = 0.06, list = 1.39, total = 1.45
+True: 3, scanned range = 0, scanned list = 7
+Query time (ms): 0.0169
+Match time (us): 5.4
+Scan time (us): ranges = 0.04, list = 2.08, total = 2.12
+True: 10, scanned range = 0, scanned list = 12
+Query time (ms): 0.01526
+Match time (us): 3.38
+Scan time (us): ranges = 0.06, list = 2.041, total = 2.101
+True: 1, scanned range = 0, scanned list = 35
+Query time (ms): 0.011841
+Match time (us): 2.16
+Scan time (us): ranges = 0.03, list = 1.87, total = 1.9
+True: 13, scanned range = 0, scanned list = 19
+Query time (ms): 0.01039
+Match time (us): 4.42
+Scan time (us): ranges = 0.04, list = 4.5, total = 4.54
+True: 30, scanned range = 0, scanned list = 71
+Query time (ms): 0.01509
+Scan time (us): ranges = 436.867, list = 0.08, total = 436.947
+True: 2, scanned range = 85695, scanned list = 0
+Query time (ms): 1.81761
+Match time (us): 4.47
+Scan time (us): ranges = 0.05, list = 0.52, total = 0.57
+True: 0, scanned range = 0, scanned list = 3
+Query time (ms): 0.01377
+Match time (us): 3.601
+Scan time (us): ranges = 0.04, list = 0.49, total = 0.53
+True: 0, scanned range = 0, scanned list = 3
+Query time (ms): 0.012491
+Match time (us): 3.05
+Scan time (us): ranges = 0.04, list = 6.2, total = 6.24
+True: 83, scanned range = 0, scanned list = 89
+Query time (ms): 0.02039
+Match time (us): 1.73
+Scan time (us): ranges = 0.07, list = 1.141, total = 1.211
+True: 3, scanned range = 0, scanned list = 12
+Query time (ms): 0.027001
+Match time (us): 2.6
+Scan time (us): ranges = 0.04, list = 0.87, total = 0.91
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01139
+Match time (us): 3.79
+Scan time (us): ranges = 0.04, list = 8.03, total = 8.07
+True: 58, scanned range = 0, scanned list = 175
+Query time (ms): 0.02068
+Match time (us): 2.3
+Scan time (us): ranges = 0.07, list = 0.69, total = 0.76
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01065
+Match time (us): 2.7
+Scan time (us): ranges = 0.04, list = 0.57, total = 0.61
+True: 2, scanned range = 0, scanned list = 4
+Query time (ms): 0.012961
+Scan time (us): ranges = 34.07, list = 0.07, total = 34.14
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.240783
+Scan time (us): ranges = 61.83, list = 0.06, total = 61.89
+True: 3, scanned range = 11971, scanned list = 0
+Query time (ms): 0.309655
+Match time (us): 1.93
+Scan time (us): ranges = 0.06, list = 0.88, total = 0.94
+True: 4, scanned range = 0, scanned list = 4
+Query time (ms): 0.01172
+Match time (us): 3.96
+Scan time (us): ranges = 0.06, list = 4.32, total = 4.38
+True: 39, scanned range = 0, scanned list = 41
+Query time (ms): 0.01804
+Match time (us): 4.56
+Scan time (us): ranges = 0.04, list = 12.581, total = 12.621
+True: 144, scanned range = 0, scanned list = 158
+Query time (ms): 0.035991
+Match time (us): 3.64
+Scan time (us): ranges = 0.05, list = 1.73, total = 1.78
+True: 6, scanned range = 0, scanned list = 19
+Query time (ms): 0.01311
+Scan time (us): ranges = 116.912, list = 0.05, total = 116.962
+True: 9, scanned range = 22820, scanned list = 0
+Query time (ms): 0.557288
+Match time (us): 3.9
+Scan time (us): ranges = 0.06, list = 8.71, total = 8.77
+True: 165, scanned range = 0, scanned list = 168
+Query time (ms): 0.02185
+Match time (us): 2.63
+Scan time (us): ranges = 0.06, list = 2.7, total = 2.76
+True: 22, scanned range = 0, scanned list = 23
+Query time (ms): 0.01356
+Match time (us): 3.38
+Scan time (us): ranges = 0.05, list = 1.66, total = 1.71
+True: 11, scanned range = 0, scanned list = 16
+Query time (ms): 0.01525
+Match time (us): 3.08
+Scan time (us): ranges = 0.04, list = 8.09, total = 8.13
+True: 139, scanned range = 0, scanned list = 139
+Query time (ms): 0.02943
+Match time (us): 2.841
+Scan time (us): ranges = 0.04, list = 1.3, total = 1.34
+True: 6, scanned range = 0, scanned list = 9
+Query time (ms): 0.012371
+Match time (us): 1.28
+Scan time (us): ranges = 0.04, list = 1.05, total = 1.09
+True: 20, scanned range = 0, scanned list = 20
+Query time (ms): 0.01038
+Match time (us): 2.42
+Scan time (us): ranges = 0.05, list = 1.59, total = 1.64
+True: 10, scanned range = 0, scanned list = 14
+Query time (ms): 0.01104
+Scan time (us): ranges = 44260.2, list = 0.2, total = 44260.4
+True: 6, scanned range = 10431201, scanned list = 0
+Query time (ms): 50.0701
+Scan time (us): ranges = 417.097, list = 0.03, total = 417.127
+True: 9, scanned range = 85695, scanned list = 0
+Query time (ms): 1.92057
+Match time (us): 3.15
+Scan time (us): ranges = 0.07, list = 0.41, total = 0.48
+True: 0, scanned range = 0, scanned list = 2
+Query time (ms): 0.0122
+Match time (us): 3.71
+Scan time (us): ranges = 0.03, list = 1.09, total = 1.12
+True: 6, scanned range = 0, scanned list = 7
+Query time (ms): 0.01204
+Match time (us): 3.01
+Scan time (us): ranges = 0.03, list = 0.69, total = 0.72
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.00965
+Scan time (us): ranges = 43933, list = 0.12, total = 43933.1
+True: 9, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.6315
+Match time (us): 6.09
+Scan time (us): ranges = 0.04, list = 8.54, total = 8.58
+True: 180, scanned range = 0, scanned list = 192
+Query time (ms): 0.026881
+Match time (us): 3.6
+Scan time (us): ranges = 0.03, list = 1.02, total = 1.05
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.0131
+Match time (us): 4.39
+Scan time (us): ranges = 0.03, list = 4.43, total = 4.46
+True: 30, scanned range = 0, scanned list = 36
+Query time (ms): 0.01694
+Scan time (us): ranges = 43796.8, list = 0.27, total = 43797
+True: 21, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.6364
+Match time (us): 7.76
+Scan time (us): ranges = 0.04, list = 33.381, total = 33.421
+True: 481, scanned range = 0, scanned list = 553
+Query time (ms): 0.054511
+Match time (us): 6.54
+Scan time (us): ranges = 0.03, list = 25.37, total = 25.4
+True: 614, scanned range = 0, scanned list = 726
+Query time (ms): 0.049161
+Match time (us): 5.69
+Scan time (us): ranges = 0.05, list = 1.4, total = 1.45
+True: 5, scanned range = 0, scanned list = 14
+Query time (ms): 0.01639
+Match time (us): 3.57
+Scan time (us): ranges = 0.04, list = 2.66, total = 2.7
+True: 39, scanned range = 0, scanned list = 41
+Query time (ms): 0.01378
+Scan time (us): ranges = 7.87, list = 0.07, total = 7.94
+True: 4, scanned range = 1141, scanned list = 0
+Query time (ms): 0.176282
+Match time (us): 3.801
+Scan time (us): ranges = 0.03, list = 0.4, total = 0.43
+True: 0, scanned range = 0, scanned list = 1
+Query time (ms): 0.011861
+Match time (us): 2.21
+Scan time (us): ranges = 0.04, list = 1.35, total = 1.39
+True: 6, scanned range = 0, scanned list = 9
+Query time (ms): 0.01083
+Match time (us): 2.92
+Scan time (us): ranges = 0.07, list = 2.48, total = 2.55
+True: 22, scanned range = 0, scanned list = 25
+Query time (ms): 0.01252
+Match time (us): 2.43
+Scan time (us): ranges = 0.04, list = 0.6, total = 0.64
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.00938
+Match time (us): 1.72
+Scan time (us): ranges = 0.04, list = 0.56, total = 0.6
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.00814
+Match time (us): 5.39
+Scan time (us): ranges = 0.04, list = 71.89, total = 71.93
+True: 963, scanned range = 0, scanned list = 1129
+Query time (ms): 0.105442
+Match time (us): 2.88
+Scan time (us): ranges = 0.04, list = 1.46, total = 1.5
+True: 6, scanned range = 0, scanned list = 6
+Query time (ms): 0.01305
+Match time (us): 3.54
+Scan time (us): ranges = 0.05, list = 2.82, total = 2.87
+True: 10, scanned range = 0, scanned list = 18
+Query time (ms): 0.01641
+Match time (us): 1.92
+Scan time (us): ranges = 0.04, list = 0.36, total = 0.4
+True: 0, scanned range = 0, scanned list = 3
+Query time (ms): 0.01111
+Match time (us): 2.37
+Scan time (us): ranges = 0.04, list = 0.21, total = 0.25
+True: 0, scanned range = 0, scanned list = 2
+Query time (ms): 0.01005
+Match time (us): 2.34
+Scan time (us): ranges = 0.17, list = 1.64, total = 1.81
+True: 4, scanned range = 0, scanned list = 4
+Query time (ms): 0.01597
+Match time (us): 2.84
+Scan time (us): ranges = 0.05, list = 0.75, total = 0.8
+True: 0, scanned range = 0, scanned list = 3
+Query time (ms): 0.01604
+Match time (us): 2.21
+Scan time (us): ranges = 0.05, list = 1.01, total = 1.06
+True: 3, scanned range = 0, scanned list = 9
+Query time (ms): 0.01415
+Match time (us): 3.33
+Scan time (us): ranges = 0.05, list = 2.18, total = 2.23
+True: 8, scanned range = 0, scanned list = 10
+Query time (ms): 0.01571
+Match time (us): 4.82
+Scan time (us): ranges = 0.1, list = 5.7, total = 5.8
+True: 55, scanned range = 0, scanned list = 69
+Query time (ms): 0.03087
+Match time (us): 6.86
+Scan time (us): ranges = 0.07, list = 10.701, total = 10.771
+True: 108, scanned range = 0, scanned list = 284
+Query time (ms): 0.036191
+Match time (us): 2.49
+Scan time (us): ranges = 0.05, list = 0.88, total = 0.93
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.0115
+Match time (us): 1.95
+Scan time (us): ranges = 0.04, list = 0.9, total = 0.94
+True: 4, scanned range = 0, scanned list = 8
+Query time (ms): 0.01034
+Scan time (us): ranges = 43979.7, list = 0.38, total = 43980.1
+True: 99, scanned range = 10442225, scanned list = 0
+Query time (ms): 50.067
+Scan time (us): ranges = 43977.3, list = 0.18, total = 43977.5
+True: 12, scanned range = 10442225, scanned list = 0
+Query time (ms): 50.0367
+Scan time (us): ranges = 43868, list = 0.19, total = 43868.2
+True: 59, scanned range = 10448035, scanned list = 0
+Query time (ms): 49.9606
+Match time (us): 4.72
+Scan time (us): ranges = 0.04, list = 3.86, total = 3.9
+True: 6, scanned range = 0, scanned list = 39
+Query time (ms): 0.02001
+Scan time (us): ranges = 378.546, list = 0.06, total = 378.606
+True: 4, scanned range = 85695, scanned list = 0
+Query time (ms): 1.85376
+Match time (us): 3.44
+Scan time (us): ranges = 0.04, list = 1.96, total = 2
+True: 4, scanned range = 0, scanned list = 13
+Query time (ms): 0.01398
+Match time (us): 2.57
+Scan time (us): ranges = 0.04, list = 1.78, total = 1.82
+True: 11, scanned range = 0, scanned list = 11
+Query time (ms): 0.01137
+Match time (us): 3.18
+Scan time (us): ranges = 0.04, list = 0.49, total = 0.53
+True: 2, scanned range = 0, scanned list = 3
+Query time (ms): 0.00989
+Match time (us): 41.151
+Scan time (us): ranges = 0.07, list = 1638.07, total = 1638.14
+True: 45341, scanned range = 0, scanned list = 53300
+Query time (ms): 1.79292
+Match time (us): 2.85
+Scan time (us): ranges = 0.04, list = 0.75, total = 0.79
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.0109
+Match time (us): 3.07
+Scan time (us): ranges = 0.04, list = 3.36, total = 3.4
+True: 45, scanned range = 0, scanned list = 57
+Query time (ms): 0.0128
+Match time (us): 3.07
+Scan time (us): ranges = 0.04, list = 7.911, total = 7.951
+True: 89, scanned range = 0, scanned list = 108
+Query time (ms): 0.017521
+Match time (us): 2.97
+Scan time (us): ranges = 0.04, list = 0.84, total = 0.88
+True: 4, scanned range = 0, scanned list = 6
+Query time (ms): 0.011541
+Match time (us): 7.09
+Scan time (us): ranges = 0.07, list = 160.332, total = 160.402
+True: 3774, scanned range = 0, scanned list = 4925
+Query time (ms): 0.201432
+Match time (us): 2.47
+Scan time (us): ranges = 0.05, list = 2.48, total = 2.53
+True: 21, scanned range = 0, scanned list = 29
+Query time (ms): 0.01374
+Match time (us): 1.95
+Scan time (us): ranges = 0.05, list = 1.05, total = 1.1
+True: 6, scanned range = 0, scanned list = 8
+Query time (ms): 0.01144
+Match time (us): 3.48
+Scan time (us): ranges = 0.04, list = 2.05, total = 2.09
+True: 30, scanned range = 0, scanned list = 34
+Query time (ms): 0.01356
+Match time (us): 6.52
+Scan time (us): ranges = 0.04, list = 192.283, total = 192.323
+True: 3836, scanned range = 0, scanned list = 5548
+Query time (ms): 0.230653
+Match time (us): 3.15
+Scan time (us): ranges = 0.05, list = 1.14, total = 1.19
+True: 0, scanned range = 0, scanned list = 9
+Query time (ms): 0.01329
+Match time (us): 2.821
+Scan time (us): ranges = 0.06, list = 1.14, total = 1.2
+True: 4, scanned range = 0, scanned list = 8
+Query time (ms): 0.013161
+Match time (us): 2.46
+Scan time (us): ranges = 0.04, list = 2.72, total = 2.76
+True: 15, scanned range = 0, scanned list = 17
+Query time (ms): 0.01261
+Scan time (us): ranges = 34.14, list = 0.08, total = 34.22
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.276414
+Match time (us): 4.71
+Scan time (us): ranges = 0.04, list = 1.06, total = 1.1
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01382
+Match time (us): 3.05
+Scan time (us): ranges = 0.04, list = 1.42, total = 1.46
+True: 6, scanned range = 0, scanned list = 6
+Query time (ms): 0.01396
+Match time (us): 2.13
+Scan time (us): ranges = 0.05, list = 1.36, total = 1.41
+True: 12, scanned range = 0, scanned list = 15
+Query time (ms): 0.01172
+Match time (us): 2.71
+Scan time (us): ranges = 0.04, list = 2.42, total = 2.46
+True: 26, scanned range = 0, scanned list = 27
+Query time (ms): 0.013
+Match time (us): 1.83
+Scan time (us): ranges = 0.04, list = 0.84, total = 0.88
+True: 0, scanned range = 0, scanned list = 11
+Query time (ms): 0.012131
+Scan time (us): ranges = 117.191, list = 0.07, total = 117.261
+True: 0, scanned range = 22820, scanned list = 0
+Query time (ms): 0.775751
+Scan time (us): ranges = 43704.3, list = 0.08, total = 43704.4
+True: 49, scanned range = 10448035, scanned list = 0
+Query time (ms): 49.6249
+Match time (us): 4.7
+Scan time (us): ranges = 0.04, list = 0.79, total = 0.83
+True: 0, scanned range = 0, scanned list = 4
+Query time (ms): 0.016851
+Match time (us): 4.52
+Scan time (us): ranges = 0.04, list = 4.95, total = 4.99
+True: 18, scanned range = 0, scanned list = 69
+Query time (ms): 0.01923
+Match time (us): 3.63
+Scan time (us): ranges = 0.03, list = 1.82, total = 1.85
+True: 13, scanned range = 0, scanned list = 13
+Query time (ms): 0.01309
+Scan time (us): ranges = 294143, list = 0.36, total = 294144
+True: 194, scanned range = 70629099, scanned list = 0
+Query time (ms): 304.221
+Scan time (us): ranges = 349.095, list = 0.06, total = 349.155
+True: 2, scanned range = 82259, scanned list = 0
+Query time (ms): 1.81361
+Scan time (us): ranges = 43746.7, list = 0.19, total = 43746.9
+True: 9, scanned range = 10448035, scanned list = 0
+Query time (ms): 49.7859
+Match time (us): 4.97
+Scan time (us): ranges = 0.05, list = 2.38, total = 2.43
+True: 4, scanned range = 0, scanned list = 30
+Query time (ms): 0.01869
+Match time (us): 3.63
+Scan time (us): ranges = 0.04, list = 0.55, total = 0.59
+True: 0, scanned range = 0, scanned list = 3
+Query time (ms): 0.011931
+Match time (us): 3.56
+Scan time (us): ranges = 0.03, list = 1.59, total = 1.62
+True: 8, scanned range = 0, scanned list = 10
+Query time (ms): 0.0129
+Match time (us): 3.72
+Scan time (us): ranges = 0.04, list = 3.95, total = 3.99
+True: 24, scanned range = 0, scanned list = 30
+Query time (ms): 0.01445
+Match time (us): 2.17
+Scan time (us): ranges = 0.03, list = 1.05, total = 1.08
+True: 0, scanned range = 0, scanned list = 8
+Query time (ms): 0.00906
+Scan time (us): ranges = 334.014, list = 0.07, total = 334.084
+True: 176, scanned range = 77583, scanned list = 0
+Query time (ms): 1.82252
+Match time (us): 3.04
+Scan time (us): ranges = 0.04, list = 1.05, total = 1.09
+True: 6, scanned range = 0, scanned list = 8
+Query time (ms): 0.01154
+Scan time (us): ranges = 2.75, list = 0.04, total = 2.79
+True: 2, scanned range = 411, scanned list = 0
+Query time (ms): 0.00815
+Match time (us): 2.16
+Scan time (us): ranges = 0.07, list = 3.35, total = 3.42
+True: 9, scanned range = 0, scanned list = 130
+Query time (ms): 0.01225
+Match time (us): 4.11
+Scan time (us): ranges = 0.03, list = 58.741, total = 58.771
+True: 1324, scanned range = 0, scanned list = 1467
+Query time (ms): 0.080701
+Scan time (us): ranges = 7.14, list = 0.05, total = 7.19
+True: 8, scanned range = 1141, scanned list = 0
+Query time (ms): 0.064031
+Match time (us): 2.97
+Scan time (us): ranges = 0.04, list = 1.2, total = 1.24
+True: 3, scanned range = 0, scanned list = 9
+Query time (ms): 0.01127
+Match time (us): 5.47
+Scan time (us): ranges = 0.07, list = 11.821, total = 11.891
+True: 465, scanned range = 0, scanned list = 472
+Query time (ms): 0.038472
+Match time (us): 4.39
+Scan time (us): ranges = 0.05, list = 8.49, total = 8.54
+True: 80, scanned range = 0, scanned list = 83
+Query time (ms): 0.02694
+Match time (us): 6.04
+Scan time (us): ranges = 0.04, list = 137.292, total = 137.332
+True: 3295, scanned range = 0, scanned list = 3831
+Query time (ms): 0.166682
+Match time (us): 3.49
+Scan time (us): ranges = 0.06, list = 0.36, total = 0.42
+True: 0, scanned range = 0, scanned list = 1
+Query time (ms): 0.015291
+Match time (us): 2.77
+Scan time (us): ranges = 0.06, list = 2.28, total = 2.34
+True: 9, scanned range = 0, scanned list = 12
+Query time (ms): 0.01577
+Match time (us): 2.18
+Scan time (us): ranges = 0.04, list = 0.74, total = 0.78
+True: 4, scanned range = 0, scanned list = 4
+Query time (ms): 0.0103
+Match time (us): 2.3
+Scan time (us): ranges = 0.05, list = 0.52, total = 0.57
+True: 2, scanned range = 0, scanned list = 4
+Query time (ms): 0.01112
+Match time (us): 3.28
+Scan time (us): ranges = 0.07, list = 1.45, total = 1.52
+True: 2, scanned range = 0, scanned list = 5
+Query time (ms): 0.018261
+Match time (us): 4.64
+Scan time (us): ranges = 0.1, list = 3.87, total = 3.97
+True: 23, scanned range = 0, scanned list = 23
+Query time (ms): 0.03862
+Match time (us): 2.66
+Scan time (us): ranges = 0.09, list = 1.79, total = 1.88
+True: 5, scanned range = 0, scanned list = 7
+Query time (ms): 0.033431
+Scan time (us): ranges = 371.455, list = 0.06, total = 371.515
+True: 16, scanned range = 85695, scanned list = 0
+Query time (ms): 1.26581
+Match time (us): 4.57
+Scan time (us): ranges = 0.04, list = 23.331, total = 23.371
+True: 430, scanned range = 0, scanned list = 532
+Query time (ms): 0.036671
+Scan time (us): ranges = 28.73, list = 0.05, total = 28.78
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.143992
+Scan time (us): ranges = 436.145, list = 0.05, total = 436.195
+True: 2, scanned range = 85695, scanned list = 0
+Query time (ms): 1.2373
+Match time (us): 4.911
+Scan time (us): ranges = 0.04, list = 28.63, total = 28.67
+True: 432, scanned range = 0, scanned list = 559
+Query time (ms): 0.044091
+Scan time (us): ranges = 426.945, list = 0.05, total = 426.995
+True: 6, scanned range = 85695, scanned list = 0
+Query time (ms): 1.19597
+Match time (us): 3.78
+Scan time (us): ranges = 0.03, list = 52.091, total = 52.121
+True: 898, scanned range = 0, scanned list = 1173
+Query time (ms): 0.073201
+Match time (us): 2.12
+Scan time (us): ranges = 0.04, list = 0.38, total = 0.42
+True: 0, scanned range = 0, scanned list = 2
+Query time (ms): 0.00953
+Match time (us): 2.47
+Scan time (us): ranges = 0.07, list = 2, total = 2.07
+True: 9, scanned range = 0, scanned list = 17
+Query time (ms): 0.01092
+Scan time (us): ranges = 394.785, list = 0.07, total = 394.855
+True: 2, scanned range = 79299, scanned list = 0
+Query time (ms): 1.16635
+Scan time (us): ranges = 10.05, list = 0.05, total = 10.1
+True: 0, scanned range = 1902, scanned list = 0
+Query time (ms): 0.0196
+Scan time (us): ranges = 61.551, list = 0.04, total = 61.591
+True: 3, scanned range = 11971, scanned list = 0
+Query time (ms): 0.301585
+Match time (us): 2.95
+Scan time (us): ranges = 0.07, list = 2.95, total = 3.02
+True: 2, scanned range = 0, scanned list = 68
+Query time (ms): 0.01426
+Match time (us): 2.65
+Scan time (us): ranges = 0.04, list = 0.74, total = 0.78
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01161
+Scan time (us): ranges = 696417, list = 0.15, total = 696417
+True: 5593, scanned range = 165694909, scanned list = 0
+Query time (ms): 708.743
+Match time (us): 4.29
+Scan time (us): ranges = 0.04, list = 0.51, total = 0.55
+True: 0, scanned range = 0, scanned list = 2
+Query time (ms): 0.01757
+Scan time (us): ranges = 390.436, list = 0.05, total = 390.486
+True: 8, scanned range = 85695, scanned list = 0
+Query time (ms): 1.85289
+Match time (us): 3.29
+Scan time (us): ranges = 0.04, list = 1.25, total = 1.29
+True: 1, scanned range = 0, scanned list = 5
+Query time (ms): 0.01244
+Match time (us): 2.74
+Scan time (us): ranges = 0.03, list = 1.83, total = 1.86
+True: 0, scanned range = 0, scanned list = 18
+Query time (ms): 0.0115
+Scan time (us): ranges = 431.186, list = 0.07, total = 431.256
+True: 2, scanned range = 85695, scanned list = 0
+Query time (ms): 1.21663
+Match time (us): 3.15
+Scan time (us): ranges = 0.04, list = 5.6, total = 5.64
+True: 50, scanned range = 0, scanned list = 54
+Query time (ms): 0.01794
+Match time (us): 4.38
+Scan time (us): ranges = 0.05, list = 8.79, total = 8.84
+True: 87, scanned range = 0, scanned list = 126
+Query time (ms): 0.02227
+Match time (us): 4.28
+Scan time (us): ranges = 0.05, list = 32.341, total = 32.391
+True: 411, scanned range = 0, scanned list = 583
+Query time (ms): 0.058521
+Scan time (us): ranges = 117.991, list = 0.08, total = 118.071
+True: 3, scanned range = 22820, scanned list = 0
+Query time (ms): 0.590089
+Match time (us): 4.29
+Scan time (us): ranges = 0.05, list = 9.95, total = 10
+True: 139, scanned range = 0, scanned list = 162
+Query time (ms): 0.03393
+Match time (us): 3.57
+Scan time (us): ranges = 0.04, list = 5.82, total = 5.86
+True: 74, scanned range = 0, scanned list = 76
+Query time (ms): 0.01843
+Match time (us): 3.93
+Scan time (us): ranges = 0.04, list = 0.35, total = 0.39
+True: 0, scanned range = 0, scanned list = 1
+Query time (ms): 0.01165
+Match time (us): 2.52
+Scan time (us): ranges = 0.06, list = 1.01, total = 1.07
+True: 5, scanned range = 0, scanned list = 6
+Query time (ms): 0.01065
+Scan time (us): ranges = 296132, list = 0.38, total = 296133
+True: 318, scanned range = 70629099, scanned list = 0
+Query time (ms): 307.041
+Match time (us): 5.8
+Scan time (us): ranges = 0.04, list = 2.11, total = 2.15
+True: 5, scanned range = 0, scanned list = 10
+Query time (ms): 0.02017
+Scan time (us): ranges = 119.041, list = 0.05, total = 119.091
+True: 0, scanned range = 22820, scanned list = 0
+Query time (ms): 0.948803
+Match time (us): 3.731
+Scan time (us): ranges = 0.05, list = 2.93, total = 2.98
+True: 4, scanned range = 0, scanned list = 94
+Query time (ms): 0.017361
+Match time (us): 3.19
+Scan time (us): ranges = 0.04, list = 1.4, total = 1.44
+True: 7, scanned range = 0, scanned list = 8
+Query time (ms): 0.01291
+Match time (us): 3.24
+Scan time (us): ranges = 0.07, list = 0.84, total = 0.91
+True: 2, scanned range = 0, scanned list = 5
+Query time (ms): 0.01135
+Match time (us): 2.94
+Scan time (us): ranges = 0.05, list = 1.37, total = 1.42
+True: 8, scanned range = 0, scanned list = 10
+Query time (ms): 0.01264
+Match time (us): 2.54
+Scan time (us): ranges = 0.05, list = 0.87, total = 0.92
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.011971
+Scan time (us): ranges = 400.157, list = 0.05, total = 400.207
+True: 364, scanned range = 79299, scanned list = 0
+Query time (ms): 1.58589
+Match time (us): 2.11
+Scan time (us): ranges = 0.03, list = 1.55, total = 1.58
+True: 7, scanned range = 0, scanned list = 11
+Query time (ms): 0.0108
+Match time (us): 3.43
+Scan time (us): ranges = 0.04, list = 2.68, total = 2.72
+True: 17, scanned range = 0, scanned list = 25
+Query time (ms): 0.01268
+Match time (us): 2.34
+Scan time (us): ranges = 0.03, list = 1.99, total = 2.02
+True: 15, scanned range = 0, scanned list = 20
+Query time (ms): 0.01046
+Match time (us): 2.121
+Scan time (us): ranges = 0.03, list = 2.8, total = 2.83
+True: 30, scanned range = 0, scanned list = 30
+Query time (ms): 0.011261
+Scan time (us): ranges = 690703, list = 0.36, total = 690703
+True: 2754, scanned range = 165694909, scanned list = 0
+Query time (ms): 703.174
+Match time (us): 4.71
+Scan time (us): ranges = 0.03, list = 1.47, total = 1.5
+True: 5, scanned range = 0, scanned list = 9
+Query time (ms): 0.01852
+Match time (us): 3.89
+Scan time (us): ranges = 0.03, list = 0.91, total = 0.94
+True: 5, scanned range = 0, scanned list = 9
+Query time (ms): 0.01224
+Match time (us): 5.03
+Scan time (us): ranges = 0.06, list = 11.59, total = 11.65
+True: 49, scanned range = 0, scanned list = 273
+Query time (ms): 0.0258
+Match time (us): 3.18
+Scan time (us): ranges = 0.03, list = 1.1, total = 1.13
+True: 2, scanned range = 0, scanned list = 6
+Query time (ms): 0.01033
+Scan time (us): ranges = 382.785, list = 0.07, total = 382.855
+True: 2, scanned range = 79299, scanned list = 0
+Query time (ms): 1.78508
+Match time (us): 4.11
+Scan time (us): ranges = 0.03, list = 3.13, total = 3.16
+True: 21, scanned range = 0, scanned list = 26
+Query time (ms): 0.01496
+Scan time (us): ranges = 43880.9, list = 0.13, total = 43881.1
+True: 70, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.9823
+Scan time (us): ranges = 43761.5, list = 0.29, total = 43761.8
+True: 7, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.7901
+Scan time (us): ranges = 63.97, list = 0.07, total = 64.04
+True: 3, scanned range = 11971, scanned list = 0
+Query time (ms): 0.577988
+Match time (us): 4.31
+Scan time (us): ranges = 0.05, list = 0.78, total = 0.83
+True: 2, scanned range = 0, scanned list = 3
+Query time (ms): 0.015461
+Match time (us): 2.53
+Scan time (us): ranges = 0.04, list = 0.83, total = 0.87
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.0119
+Match time (us): 5.93
+Scan time (us): ranges = 0.04, list = 33.861, total = 33.901
+True: 279, scanned range = 0, scanned list = 850
+Query time (ms): 0.066441
+Match time (us): 8.55
+Scan time (us): ranges = 0.11, list = 20.79, total = 20.9
+True: 89, scanned range = 0, scanned list = 512
+Query time (ms): 0.061181
+Match time (us): 3.4
+Scan time (us): ranges = 0.09, list = 3.52, total = 3.61
+True: 19, scanned range = 0, scanned list = 19
+Query time (ms): 0.01925
+Scan time (us): ranges = 43836.4, list = 0.23, total = 43836.7
+True: 101, scanned range = 10448035, scanned list = 0
+Query time (ms): 49.7469
+Match time (us): 5.58
+Scan time (us): ranges = 0.07, list = 3.93, total = 4
+True: 18, scanned range = 0, scanned list = 28
+Query time (ms): 0.02222
+Scan time (us): ranges = 100.582, list = 0.04, total = 100.622
+True: 120, scanned range = 22820, scanned list = 0
+Query time (ms): 0.915624
+Match time (us): 3.76
+Scan time (us): ranges = 0.04, list = 1.58, total = 1.62
+True: 5, scanned range = 0, scanned list = 15
+Query time (ms): 0.01225
+Match time (us): 3.31
+Scan time (us): ranges = 0.03, list = 1.33, total = 1.36
+True: 2, scanned range = 0, scanned list = 11
+Query time (ms): 0.01152
+Match time (us): 3.36
+Scan time (us): ranges = 0.04, list = 2.2, total = 2.24
+True: 4, scanned range = 0, scanned list = 16
+Query time (ms): 0.012911
+Match time (us): 2.33
+Scan time (us): ranges = 0.06, list = 2.07, total = 2.13
+True: 12, scanned range = 0, scanned list = 24
+Query time (ms): 0.01068
+Match time (us): 5.37
+Scan time (us): ranges = 0.04, list = 93.481, total = 93.521
+True: 2297, scanned range = 0, scanned list = 2845
+Query time (ms): 0.121021
+Match time (us): 2.41
+Scan time (us): ranges = 0.04, list = 1.17, total = 1.21
+True: 4, scanned range = 0, scanned list = 6
+Query time (ms): 0.011011
+Match time (us): 1.72
+Scan time (us): ranges = 0.06, list = 0.76, total = 0.82
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.00872
+Match time (us): 5.82
+Scan time (us): ranges = 0.07, list = 34.41, total = 34.48
+True: 613, scanned range = 0, scanned list = 671
+Query time (ms): 0.066841
+Match time (us): 3.07
+Scan time (us): ranges = 0.06, list = 4.05, total = 4.11
+True: 28, scanned range = 0, scanned list = 28
+Query time (ms): 0.01883
+Match time (us): 3.34
+Scan time (us): ranges = 0.09, list = 13.341, total = 13.431
+True: 22, scanned range = 0, scanned list = 122
+Query time (ms): 0.054051
+Match time (us): 3.93
+Scan time (us): ranges = 0.08, list = 2.76, total = 2.84
+True: 16, scanned range = 0, scanned list = 17
+Query time (ms): 0.03213
+Match time (us): 4.08
+Scan time (us): ranges = 0.07, list = 5.97, total = 6.04
+True: 24, scanned range = 0, scanned list = 39
+Query time (ms): 0.032372
+Scan time (us): ranges = 116.182, list = 0.07, total = 116.252
+True: 29, scanned range = 22820, scanned list = 0
+Query time (ms): 0.563247
+Match time (us): 3.58
+Scan time (us): ranges = 0.05, list = 0.73, total = 0.78
+True: 2, scanned range = 0, scanned list = 4
+Query time (ms): 0.01266
+Match time (us): 2.361
+Scan time (us): ranges = 0.04, list = 1.05, total = 1.09
+True: 4, scanned range = 0, scanned list = 12
+Query time (ms): 0.012071
+Match time (us): 6.33
+Scan time (us): ranges = 0.05, list = 107.621, total = 107.671
+True: 2417, scanned range = 0, scanned list = 2712
+Query time (ms): 0.137181
+Scan time (us): ranges = 61.761, list = 0.05, total = 61.811
+True: 30, scanned range = 11971, scanned list = 0
+Query time (ms): 0.300243
+Scan time (us): ranges = 366.044, list = 0.06, total = 366.104
+True: 27, scanned range = 85695, scanned list = 0
+Query time (ms): 1.27388
+Match time (us): 2.73
+Scan time (us): ranges = 0.04, list = 0.65, total = 0.69
+True: 2, scanned range = 0, scanned list = 4
+Query time (ms): 0.01086
+Match time (us): 1.81
+Scan time (us): ranges = 0.04, list = 0.3, total = 0.34
+True: 0, scanned range = 0, scanned list = 1
+Query time (ms): 0.00817
+Match time (us): 1.71
+Scan time (us): ranges = 0.03, list = 0.39, total = 0.42
+True: 0, scanned range = 0, scanned list = 3
+Query time (ms): 0.00826
+Match time (us): 4.86
+Scan time (us): ranges = 0.04, list = 10.53, total = 10.57
+True: 157, scanned range = 0, scanned list = 174
+Query time (ms): 0.031751
+Scan time (us): ranges = 414.446, list = 0.06, total = 414.506
+True: 218, scanned range = 82259, scanned list = 0
+Query time (ms): 1.20606
+Match time (us): 5.28
+Scan time (us): ranges = 0.05, list = 61.101, total = 61.151
+True: 607, scanned range = 0, scanned list = 2015
+Query time (ms): 0.088011
+Match time (us): 2.76
+Scan time (us): ranges = 0.05, list = 3.76, total = 3.81
+True: 2, scanned range = 0, scanned list = 176
+Query time (ms): 0.01539
+Match time (us): 4.19
+Scan time (us): ranges = 0.04, list = 8.03, total = 8.07
+True: 105, scanned range = 0, scanned list = 109
+Query time (ms): 0.03043
+Match time (us): 2.67
+Scan time (us): ranges = 0.05, list = 1.34, total = 1.39
+True: 6, scanned range = 0, scanned list = 10
+Query time (ms): 0.01139
+Match time (us): 2.13
+Scan time (us): ranges = 0.05, list = 1.6, total = 1.65
+True: 13, scanned range = 0, scanned list = 15
+Query time (ms): 0.012311
+Match time (us): 2.57
+Scan time (us): ranges = 0.05, list = 0.58, total = 0.63
+True: 3, scanned range = 0, scanned list = 4
+Query time (ms): 0.0111
+Scan time (us): ranges = 294683, list = 0.24, total = 294683
+True: 144, scanned range = 70629099, scanned list = 0
+Query time (ms): 304.633
+Match time (us): 6.73
+Scan time (us): ranges = 0.05, list = 19.281, total = 19.331
+True: 436, scanned range = 0, scanned list = 443
+Query time (ms): 0.042081
+Match time (us): 3.52
+Scan time (us): ranges = 0.05, list = 1.12, total = 1.17
+True: 3, scanned range = 0, scanned list = 12
+Query time (ms): 0.01513
+Match time (us): 5.05
+Scan time (us): ranges = 0.04, list = 3.86, total = 3.9
+True: 2, scanned range = 0, scanned list = 105
+Query time (ms): 0.01747
+Match time (us): 3.76
+Scan time (us): ranges = 0.05, list = 1.7, total = 1.75
+True: 9, scanned range = 0, scanned list = 9
+Query time (ms): 0.01463
+Match time (us): 2.98
+Scan time (us): ranges = 0.05, list = 0.5, total = 0.55
+True: 1, scanned range = 0, scanned list = 2
+Query time (ms): 0.012261
+Match time (us): 2.53
+Scan time (us): ranges = 0.04, list = 3.37, total = 3.41
+True: 30, scanned range = 0, scanned list = 30
+Query time (ms): 0.01331
+Match time (us): 2.57
+Scan time (us): ranges = 0.05, list = 1.69, total = 1.74
+True: 3, scanned range = 0, scanned list = 23
+Query time (ms): 0.01243
+Match time (us): 4.11
+Scan time (us): ranges = 0.05, list = 1.32, total = 1.37
+True: 6, scanned range = 0, scanned list = 10
+Query time (ms): 0.012551
+Match time (us): 2.61
+Scan time (us): ranges = 0.06, list = 1.08, total = 1.14
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.0131
+Match time (us): 3.64
+Scan time (us): ranges = 0.04, list = 8.91, total = 8.95
+True: 87, scanned range = 0, scanned list = 97
+Query time (ms): 0.02016
+Match time (us): 4.54
+Scan time (us): ranges = 0.04, list = 4.25, total = 4.29
+True: 27, scanned range = 0, scanned list = 27
+Query time (ms): 0.01654
+Match time (us): 1.46
+Scan time (us): ranges = 0.05, list = 1.38, total = 1.43
+True: 5, scanned range = 0, scanned list = 5
+Query time (ms): 0.01125
+Match time (us): 3.21
+Scan time (us): ranges = 0.07, list = 5.741, total = 5.811
+True: 39, scanned range = 0, scanned list = 62
+Query time (ms): 0.018511
+Match time (us): 3.07
+Scan time (us): ranges = 0.05, list = 3.47, total = 3.52
+True: 36, scanned range = 0, scanned list = 39
+Query time (ms): 0.03344
+Scan time (us): ranges = 43608.1, list = 0.36, total = 43608.4
+True: 13, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.4283
+Scan time (us): ranges = 43827.5, list = 0.09, total = 43827.6
+True: 82, scanned range = 10448035, scanned list = 0
+Query time (ms): 49.7095
+Match time (us): 5.2
+Scan time (us): ranges = 0.05, list = 0.81, total = 0.86
+True: 0, scanned range = 0, scanned list = 2
+Query time (ms): 0.01888
+Scan time (us): ranges = 295324, list = 0.24, total = 295325
+True: 117, scanned range = 70629099, scanned list = 0
+Query time (ms): 304.957
+Scan time (us): ranges = 69.501, list = 0.08, total = 69.581
+True: 3, scanned range = 11971, scanned list = 0
+Query time (ms): 0.477327
+Match time (us): 5.76
+Scan time (us): ranges = 0.06, list = 5.79, total = 5.85
+True: 18, scanned range = 0, scanned list = 54
+Query time (ms): 0.02374
+Match time (us): 5.321
+Scan time (us): ranges = 0.04, list = 4.96, total = 5
+True: 48, scanned range = 0, scanned list = 52
+Query time (ms): 0.020151
+Scan time (us): ranges = 43615.3, list = 0.09, total = 43615.4
+True: 28, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.555
+Match time (us): 5.47
+Scan time (us): ranges = 0.04, list = 8.71, total = 8.75
+True: 101, scanned range = 0, scanned list = 103
+Query time (ms): 0.03697
+Scan time (us): ranges = 99.451, list = 0.04, total = 99.491
+True: 6, scanned range = 22820, scanned list = 0
+Query time (ms): 0.784871
+Match time (us): 4.37
+Scan time (us): ranges = 0.04, list = 6.53, total = 6.57
+True: 108, scanned range = 0, scanned list = 144
+Query time (ms): 0.01938
+Match time (us): 3.051
+Scan time (us): ranges = 0.04, list = 1.24, total = 1.28
+True: 3, scanned range = 0, scanned list = 7
+Query time (ms): 0.011201
+Match time (us): 3.64
+Scan time (us): ranges = 0.04, list = 1.52, total = 1.56
+True: 12, scanned range = 0, scanned list = 13
+Query time (ms): 0.01157
+Match time (us): 3.34
+Scan time (us): ranges = 0.04, list = 0.53, total = 0.57
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.00987
+Match time (us): 2.64
+Scan time (us): ranges = 0.06, list = 0.71, total = 0.77
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.00954
+Scan time (us): ranges = 296199, list = 0.26, total = 296199
+True: 72, scanned range = 70629099, scanned list = 0
+Query time (ms): 306.127
+Match time (us): 6.05
+Scan time (us): ranges = 0.04, list = 2.71, total = 2.75
+True: 12, scanned range = 0, scanned list = 15
+Query time (ms): 0.020471
+Match time (us): 3.89
+Scan time (us): ranges = 0.06, list = 0.75, total = 0.81
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01195
+Scan time (us): ranges = 433.026, list = 0.06, total = 433.086
+True: 13, scanned range = 85695, scanned list = 0
+Query time (ms): 1.77262
+Match time (us): 5.08
+Scan time (us): ranges = 0.04, list = 3.38, total = 3.42
+True: 18, scanned range = 0, scanned list = 34
+Query time (ms): 0.01859
+Match time (us): 2.41
+Scan time (us): ranges = 0.04, list = 2.33, total = 2.37
+True: 18, scanned range = 0, scanned list = 24
+Query time (ms): 0.01255
+Scan time (us): ranges = 43864, list = 0.28, total = 43864.3
+True: 8, scanned range = 10448035, scanned list = 0
+Query time (ms): 49.6531
+Match time (us): 128.303
+Scan time (us): ranges = 0.09, list = 3551.43, total = 3551.52
+True: 123574, scanned range = 0, scanned list = 148142
+Query time (ms): 3.96374
+Match time (us): 3.87
+Scan time (us): ranges = 0.05, list = 1.761, total = 1.811
+True: 8, scanned range = 0, scanned list = 11
+Query time (ms): 0.015971
+Match time (us): 2.34
+Scan time (us): ranges = 0.03, list = 0.98, total = 1.01
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01025
+Match time (us): 2.55
+Scan time (us): ranges = 0.04, list = 0.87, total = 0.91
+True: 9, scanned range = 0, scanned list = 12
+Query time (ms): 0.01022
+Match time (us): 4.43
+Scan time (us): ranges = 0.03, list = 3.34, total = 3.37
+True: 11, scanned range = 0, scanned list = 81
+Query time (ms): 0.01585
+Match time (us): 3.73
+Scan time (us): ranges = 0.03, list = 1.53, total = 1.56
+True: 2, scanned range = 0, scanned list = 24
+Query time (ms): 0.01148
+Match time (us): 2.6
+Scan time (us): ranges = 0.04, list = 1.49, total = 1.53
+True: 6, scanned range = 0, scanned list = 10
+Query time (ms): 0.01339
+Scan time (us): ranges = 429.667, list = 0.08, total = 429.747
+True: 7, scanned range = 85695, scanned list = 0
+Query time (ms): 1.9401
+Scan time (us): ranges = 38.38, list = 0.06, total = 38.44
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.195292
+Match time (us): 4.51
+Scan time (us): ranges = 0.04, list = 0.99, total = 1.03
+True: 1, scanned range = 0, scanned list = 5
+Query time (ms): 0.01467
+Match time (us): 2.58
+Scan time (us): ranges = 0.09, list = 0.89, total = 0.98
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01309
+Match time (us): 4.1
+Scan time (us): ranges = 0.05, list = 2.94, total = 2.99
+True: 20, scanned range = 0, scanned list = 21
+Query time (ms): 0.01638
+Match time (us): 1.68
+Scan time (us): ranges = 0.08, list = 0.28, total = 0.36
+True: 0, scanned range = 0, scanned list = 3
+Query time (ms): 0.00934
+Scan time (us): ranges = 43385.8, list = 0.19, total = 43386
+True: 12, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.2826
+Match time (us): 6.95
+Scan time (us): ranges = 0.05, list = 2.6, total = 2.65
+True: 2, scanned range = 0, scanned list = 11
+Query time (ms): 0.03557
+Match time (us): 4.63
+Scan time (us): ranges = 0.04, list = 2.131, total = 2.171
+True: 10, scanned range = 0, scanned list = 13
+Query time (ms): 0.016131
+Match time (us): 3.66
+Scan time (us): ranges = 0.04, list = 1.06, total = 1.1
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01404
+Match time (us): 2.4
+Scan time (us): ranges = 0.04, list = 1.01, total = 1.05
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01043
+Match time (us): 1.88
+Scan time (us): ranges = 0.04, list = 1.24, total = 1.28
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01046
+Match time (us): 4.35
+Scan time (us): ranges = 0.06, list = 1.06, total = 1.12
+True: 2, scanned range = 0, scanned list = 4
+Query time (ms): 0.01241
+Match time (us): 2
+Scan time (us): ranges = 0.04, list = 0.73, total = 0.77
+True: 2, scanned range = 0, scanned list = 4
+Query time (ms): 0.0099
+Scan time (us): ranges = 340.094, list = 0.07, total = 340.164
+True: 0, scanned range = 79299, scanned list = 0
+Query time (ms): 2.02852
+Match time (us): 2.64
+Scan time (us): ranges = 0.03, list = 1.17, total = 1.2
+True: 0, scanned range = 0, scanned list = 26
+Query time (ms): 0.0112
+Match time (us): 50.77
+Scan time (us): ranges = 0.08, list = 1809.18, total = 1809.27
+True: 54802, scanned range = 0, scanned list = 68167
+Query time (ms): 2.00483
+Scan time (us): ranges = 41.79, list = 0.06, total = 41.85
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.248595
+Match time (us): 5.11
+Scan time (us): ranges = 0.04, list = 12.55, total = 12.59
+True: 238, scanned range = 0, scanned list = 245
+Query time (ms): 0.02829
+Match time (us): 2.61
+Scan time (us): ranges = 0.03, list = 1.26, total = 1.29
+True: 10, scanned range = 0, scanned list = 11
+Query time (ms): 0.01025
+Match time (us): 4.55
+Scan time (us): ranges = 0.04, list = 69.261, total = 69.301
+True: 1014, scanned range = 0, scanned list = 1127
+Query time (ms): 0.101422
+Match time (us): 4.04
+Scan time (us): ranges = 0.07, list = 3.51, total = 3.58
+True: 17, scanned range = 0, scanned list = 21
+Query time (ms): 0.01856
+Match time (us): 3.21
+Scan time (us): ranges = 0.05, list = 0.48, total = 0.53
+True: 2, scanned range = 0, scanned list = 3
+Query time (ms): 0.0114
+Scan time (us): ranges = 348.214, list = 0.06, total = 348.274
+True: 6, scanned range = 82259, scanned list = 0
+Query time (ms): 1.50005
+Match time (us): 2.25
+Scan time (us): ranges = 0.03, list = 0.76, total = 0.79
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01039
+Match time (us): 3.06
+Scan time (us): ranges = 0.04, list = 4.4, total = 4.44
+True: 31, scanned range = 0, scanned list = 36
+Query time (ms): 0.01462
+Scan time (us): ranges = 352.915, list = 0.07, total = 352.985
+True: 8, scanned range = 85695, scanned list = 0
+Query time (ms): 1.11511
+Scan time (us): ranges = 350.226, list = 0.05, total = 350.276
+True: 8, scanned range = 85695, scanned list = 0
+Query time (ms): 1.02719
+Scan time (us): ranges = 687639, list = 0.07, total = 687639
+True: 30802, scanned range = 165694909, scanned list = 0
+Query time (ms): 701.442
+Match time (us): 4.29
+Scan time (us): ranges = 0.05, list = 2.14, total = 2.19
+True: 3, scanned range = 0, scanned list = 7
+Query time (ms): 0.01828
+Match time (us): 2.88
+Scan time (us): ranges = 0.03, list = 1, total = 1.03
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01172
+Match time (us): 2.74
+Scan time (us): ranges = 0.03, list = 1.28, total = 1.31
+True: 4, scanned range = 0, scanned list = 4
+Query time (ms): 0.01058
+Match time (us): 3.22
+Scan time (us): ranges = 0.06, list = 1.68, total = 1.74
+True: 3, scanned range = 0, scanned list = 7
+Query time (ms): 0.012581
+Match time (us): 2.34
+Scan time (us): ranges = 0.04, list = 2.66, total = 2.7
+True: 26, scanned range = 0, scanned list = 28
+Query time (ms): 0.01267
+Scan time (us): ranges = 43738.2, list = 0.26, total = 43738.4
+True: 189, scanned range = 10448035, scanned list = 0
+Query time (ms): 49.9621
+Match time (us): 5.06
+Scan time (us): ranges = 0.06, list = 1.75, total = 1.81
+True: 6, scanned range = 0, scanned list = 9
+Query time (ms): 0.032961
+Scan time (us): ranges = 43333.6, list = 0.29, total = 43333.9
+True: 218, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.5928
+Scan time (us): ranges = 37.341, list = 0.07, total = 37.411
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.344334
+Match time (us): 3.02
+Scan time (us): ranges = 0.04, list = 0.8, total = 0.84
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01248
+Match time (us): 3.65
+Scan time (us): ranges = 0.04, list = 0.42, total = 0.46
+True: 0, scanned range = 0, scanned list = 5
+Query time (ms): 0.01152
+Match time (us): 2.37
+Scan time (us): ranges = 0.06, list = 1.81, total = 1.87
+True: 5, scanned range = 0, scanned list = 8
+Query time (ms): 0.012321
+Match time (us): 3.18
+Scan time (us): ranges = 0.04, list = 0.63, total = 0.67
+True: 2, scanned range = 0, scanned list = 3
+Query time (ms): 0.01057
+Match time (us): 4.28
+Scan time (us): ranges = 0.04, list = 10.901, total = 10.941
+True: 164, scanned range = 0, scanned list = 177
+Query time (ms): 0.023791
+Scan time (us): ranges = 63.591, list = 0.06, total = 63.651
+True: 30, scanned range = 11971, scanned list = 0
+Query time (ms): 0.407575
+Scan time (us): ranges = 32.71, list = 0.04, total = 32.75
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.178503
+Match time (us): 3.17
+Scan time (us): ranges = 0.05, list = 1.05, total = 1.1
+True: 2, scanned range = 0, scanned list = 6
+Query time (ms): 0.01228
+Match time (us): 1.38
+Scan time (us): ranges = 0.07, list = 0.34, total = 0.41
+True: 0, scanned range = 0, scanned list = 3
+Query time (ms): 0.0113
+Match time (us): 4.061
+Scan time (us): ranges = 0.04, list = 11.48, total = 11.52
+True: 103, scanned range = 0, scanned list = 111
+Query time (ms): 0.032342
+Match time (us): 3.72
+Scan time (us): ranges = 0.06, list = 7.55, total = 7.61
+True: 38, scanned range = 0, scanned list = 102
+Query time (ms): 0.0352
+Scan time (us): ranges = 292230, list = 0.3, total = 292230
+True: 443, scanned range = 70629099, scanned list = 0
+Query time (ms): 302.061
+Scan time (us): ranges = 340.724, list = 0.06, total = 340.784
+True: 2, scanned range = 79299, scanned list = 0
+Query time (ms): 1.78861
+Match time (us): 4.46
+Scan time (us): ranges = 0.04, list = 0.74, total = 0.78
+True: 0, scanned range = 0, scanned list = 1
+Query time (ms): 0.01382
+Match time (us): 3.3
+Scan time (us): ranges = 0.04, list = 0.48, total = 0.52
+True: 0, scanned range = 0, scanned list = 5
+Query time (ms): 0.0109
+Match time (us): 2.28
+Scan time (us): ranges = 0.03, list = 0.75, total = 0.78
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.0091
+Scan time (us): ranges = 43024.9, list = 0.15, total = 43025
+True: 37, scanned range = 10442225, scanned list = 0
+Query time (ms): 48.959
+Match time (us): 4.81
+Scan time (us): ranges = 0.05, list = 3.69, total = 3.74
+True: 6, scanned range = 0, scanned list = 114
+Query time (ms): 0.020661
+Scan time (us): ranges = 43241.3, list = 0.36, total = 43241.7
+True: 4, scanned range = 10448035, scanned list = 0
+Query time (ms): 49.2094
+Scan time (us): ranges = 63.841, list = 0.06, total = 63.901
+True: 6, scanned range = 11971, scanned list = 0
+Query time (ms): 0.558958
+Scan time (us): ranges = 427.836, list = 0.04, total = 427.876
+True: 10, scanned range = 85695, scanned list = 0
+Query time (ms): 1.63501
+Match time (us): 4.15
+Scan time (us): ranges = 0.09, list = 2.27, total = 2.36
+True: 12, scanned range = 0, scanned list = 27
+Query time (ms): 0.017021
+Match time (us): 2.29
+Scan time (us): ranges = 0.03, list = 1.09, total = 1.12
+True: 6, scanned range = 0, scanned list = 9
+Query time (ms): 0.00947
+Match time (us): 3.08
+Scan time (us): ranges = 0.04, list = 1.03, total = 1.07
+True: 10, scanned range = 0, scanned list = 15
+Query time (ms): 0.01076
+Match time (us): 2.66
+Scan time (us): ranges = 0.04, list = 0.58, total = 0.62
+True: 2, scanned range = 0, scanned list = 3
+Query time (ms): 0.01079
+Match time (us): 3.19
+Scan time (us): ranges = 0.05, list = 3.27, total = 3.32
+True: 18, scanned range = 0, scanned list = 19
+Query time (ms): 0.02741
+Match time (us): 2.4
+Scan time (us): ranges = 0.04, list = 1.21, total = 1.25
+True: 4, scanned range = 0, scanned list = 5
+Query time (ms): 0.01046
+Match time (us): 1.78
+Scan time (us): ranges = 0.04, list = 0.52, total = 0.56
+True: 2, scanned range = 0, scanned list = 3
+Query time (ms): 0.0083
+Scan time (us): ranges = 384.266, list = 0.07, total = 384.336
+True: 4, scanned range = 77583, scanned list = 0
+Query time (ms): 1.18866
+Match time (us): 3.12
+Scan time (us): ranges = 0.04, list = 3.18, total = 3.22
+True: 37, scanned range = 0, scanned list = 39
+Query time (ms): 0.01585
+Match time (us): 1.96
+Scan time (us): ranges = 0.04, list = 1.79, total = 1.83
+True: 10, scanned range = 0, scanned list = 11
+Query time (ms): 0.01135
+Scan time (us): ranges = 60.75, list = 0.05, total = 60.8
+True: 6, scanned range = 11971, scanned list = 0
+Query time (ms): 0.328834
+Match time (us): 3.38
+Scan time (us): ranges = 0.04, list = 0.6, total = 0.64
+True: 2, scanned range = 0, scanned list = 2
+Query time (ms): 0.01244
+Match time (us): 3.15
+Scan time (us): ranges = 0.08, list = 8.15, total = 8.23
+True: 87, scanned range = 0, scanned list = 91
+Query time (ms): 0.02912
+Match time (us): 4.491
+Scan time (us): ranges = 0.04, list = 6.16, total = 6.2
+True: 15, scanned range = 0, scanned list = 152
+Query time (ms): 0.018821
+Scan time (us): ranges = 397.705, list = 0.07, total = 397.775
+True: 4, scanned range = 85695, scanned list = 0
+Query time (ms): 1.23838
+Match time (us): 2.8
+Scan time (us): ranges = 0.04, list = 1.03, total = 1.07
+True: 10, scanned range = 0, scanned list = 10
+Query time (ms): 0.01068
+Match time (us): 2.63
+Scan time (us): ranges = 0.04, list = 0.96, total = 1
+True: 4, scanned range = 0, scanned list = 7
+Query time (ms): 0.00981
+Match time (us): 4.89
+Scan time (us): ranges = 0.03, list = 86.182, total = 86.212
+True: 1929, scanned range = 0, scanned list = 2130
+Query time (ms): 0.113352
+Scan time (us): ranges = 344.924, list = 0.05, total = 344.974
+True: 3, scanned range = 82259, scanned list = 0
+Query time (ms): 1.03478
+Match time (us): 3.46
+Scan time (us): ranges = 0.04, list = 1.36, total = 1.4
+True: 3, scanned range = 0, scanned list = 9
+Query time (ms): 0.01165
+Match time (us): 2.59
+Scan time (us): ranges = 0.03, list = 0.89, total = 0.92
+True: 3, scanned range = 0, scanned list = 7
+Query time (ms): 0.00985
+Scan time (us): ranges = 388.436, list = 0.07, total = 388.506
+True: 4, scanned range = 77583, scanned list = 0
+Query time (ms): 1.09448
+Scan time (us): ranges = 356.255, list = 0.05, total = 356.305
+True: 0, scanned range = 85695, scanned list = 0
+Query time (ms): 1.21258
+Match time (us): 3.23
+Scan time (us): ranges = 0.06, list = 2.23, total = 2.29
+True: 15, scanned range = 0, scanned list = 19
+Query time (ms): 0.01344
+Match time (us): 2.94
+Scan time (us): ranges = 0.03, list = 1.89, total = 1.92
+True: 8, scanned range = 0, scanned list = 16
+Query time (ms): 0.01237
+Match time (us): 2.42
+Scan time (us): ranges = 0.04, list = 0.78, total = 0.82
+True: 2, scanned range = 0, scanned list = 6
+Query time (ms): 0.01014
+Match time (us): 1.97
+Scan time (us): ranges = 0.04, list = 0.96, total = 1
+True: 11, scanned range = 0, scanned list = 15
+Query time (ms): 0.00935
+Match time (us): 3.6
+Scan time (us): ranges = 0.05, list = 6.03, total = 6.08
+True: 157, scanned range = 0, scanned list = 159
+Query time (ms): 0.017611
+Match time (us): 2.59
+Scan time (us): ranges = 0.03, list = 0.54, total = 0.57
+True: 2, scanned range = 0, scanned list = 6
+Query time (ms): 0.01015
+Scan time (us): ranges = 43812.9, list = 0.19, total = 43813.1
+True: 50, scanned range = 10431201, scanned list = 0
+Query time (ms): 49.5509
+Match time (us): 3.99
+Scan time (us): ranges = 0.06, list = 2.22, total = 2.28
+True: 9, scanned range = 0, scanned list = 18
+Query time (ms): 0.01755
+Match time (us): 4.01
+Scan time (us): ranges = 0.04, list = 1.88, total = 1.92
+True: 5, scanned range = 0, scanned list = 8
+Query time (ms): 0.01408
+Match time (us): 6.04
+Scan time (us): ranges = 0.05, list = 13.751, total = 13.801
+True: 257, scanned range = 0, scanned list = 264
+Query time (ms): 0.054331
+Match time (us): 4.24
+Scan time (us): ranges = 0.07, list = 6.18, total = 6.25
+True: 56, scanned range = 0, scanned list = 59
+Query time (ms): 0.02531
+Match time (us): 1.92
+Scan time (us): ranges = 0.03, list = 0.77, total = 0.8
+True: 2, scanned range = 0, scanned list = 2
+Query time (ms): 0.00978
+Match time (us): 2.881
+Scan time (us): ranges = 0.06, list = 1.11, total = 1.17
+True: 8, scanned range = 0, scanned list = 9
+Query time (ms): 0.018101
+Match time (us): 3.09
+Scan time (us): ranges = 0.07, list = 1.25, total = 1.32
+True: 1, scanned range = 0, scanned list = 14
+Query time (ms): 0.01739
+Match time (us): 2.91
+Scan time (us): ranges = 0.04, list = 0.62, total = 0.66
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.016401
+Match time (us): 2.15
+Scan time (us): ranges = 0.04, list = 0.81, total = 0.85
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.00893
+Match time (us): 3.731
+Scan time (us): ranges = 0.06, list = 1.63, total = 1.69
+True: 11, scanned range = 0, scanned list = 19
+Query time (ms): 0.018691
+Match time (us): 2.86
+Scan time (us): ranges = 0.05, list = 3.01, total = 3.06
+True: 39, scanned range = 0, scanned list = 39
+Query time (ms): 0.01909
+Match time (us): 3.46
+Scan time (us): ranges = 0.06, list = 2.22, total = 2.28
+True: 19, scanned range = 0, scanned list = 25
+Query time (ms): 0.01894
+Match time (us): 4.91
+Scan time (us): ranges = 0.05, list = 4.14, total = 4.19
+True: 4, scanned range = 0, scanned list = 136
+Query time (ms): 0.022801
+Scan time (us): ranges = 354.164, list = 0.06, total = 354.224
+True: 19, scanned range = 82259, scanned list = 0
+Query time (ms): 1.70156
+Scan time (us): ranges = 28.481, list = 0.03, total = 28.511
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.188804
+Match time (us): 2.33
+Scan time (us): ranges = 0.04, list = 0.72, total = 0.76
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01007
+Match time (us): 2.75
+Scan time (us): ranges = 0.04, list = 0.32, total = 0.36
+True: 1, scanned range = 0, scanned list = 1
+Query time (ms): 0.01038
+Match time (us): 1.41
+Scan time (us): ranges = 0.04, list = 0.53, total = 0.57
+True: 0, scanned range = 0, scanned list = 5
+Query time (ms): 0.00836
+Scan time (us): ranges = 682570, list = 0.08, total = 682570
+True: 7261, scanned range = 165694909, scanned list = 0
+Query time (ms): 694.76
+Match time (us): 6.83
+Scan time (us): ranges = 0.03, list = 5.89, total = 5.92
+True: 49, scanned range = 0, scanned list = 52
+Query time (ms): 0.02536
+Match time (us): 3.66
+Scan time (us): ranges = 0.07, list = 3.01, total = 3.08
+True: 45, scanned range = 0, scanned list = 85
+Query time (ms): 0.01516
+Match time (us): 2.29
+Scan time (us): ranges = 0.06, list = 1.12, total = 1.18
+True: 14, scanned range = 0, scanned list = 14
+Query time (ms): 0.01043
+Scan time (us): ranges = 395.856, list = 0.08, total = 395.936
+True: 0, scanned range = 77583, scanned list = 0
+Query time (ms): 1.88075
+Scan time (us): ranges = 408.276, list = 0.07, total = 408.346
+True: 1, scanned range = 82259, scanned list = 0
+Query time (ms): 1.34876
+Match time (us): 3.11
+Scan time (us): ranges = 0.06, list = 4.94, total = 5
+True: 8, scanned range = 0, scanned list = 172
+Query time (ms): 0.01774
+Match time (us): 6.39
+Scan time (us): ranges = 0.05, list = 72.272, total = 72.322
+True: 2079, scanned range = 0, scanned list = 2290
+Query time (ms): 0.107933
+Scan time (us): ranges = 35.13, list = 0.08, total = 35.21
+True: 3, scanned range = 6269, scanned list = 0
+Query time (ms): 0.215052
+Match time (us): 4.01
+Scan time (us): ranges = 0.05, list = 4.13, total = 4.18
+True: 29, scanned range = 0, scanned list = 29
+Query time (ms): 0.01783
+Match time (us): 4.04
+Scan time (us): ranges = 0.07, list = 3.26, total = 3.33
+True: 15, scanned range = 0, scanned list = 17
+Query time (ms): 0.0252
+Scan time (us): ranges = 376.106, list = 0.06, total = 376.166
+True: 7, scanned range = 85695, scanned list = 0
+Query time (ms): 1.23404
+Match time (us): 2.86
+Scan time (us): ranges = 0.06, list = 1.04, total = 1.1
+True: 5, scanned range = 0, scanned list = 5
+Query time (ms): 0.01104
+Match time (us): 3.42
+Scan time (us): ranges = 0.04, list = 0.531, total = 0.571
+True: 2, scanned range = 0, scanned list = 4
+Query time (ms): 0.011881
+Match time (us): 1.48
+Scan time (us): ranges = 0.04, list = 0.84, total = 0.88
+True: 8, scanned range = 0, scanned list = 8
+Query time (ms): 0.00846
+Match time (us): 2.21
+Scan time (us): ranges = 0.04, list = 1.02, total = 1.06
+True: 3, scanned range = 0, scanned list = 4
+Query time (ms): 0.01057
+Match time (us): 2.36
+Scan time (us): ranges = 0.03, list = 0.78, total = 0.81
+True: 2, scanned range = 0, scanned list = 11
+Query time (ms): 0.00988
+Match time (us): 2.58
+Scan time (us): ranges = 0.06, list = 0.71, total = 0.77
+True: 4, scanned range = 0, scanned list = 8
+Query time (ms): 0.01911
+Match time (us): 1.87
+Scan time (us): ranges = 0.03, list = 1.911, total = 1.941
+True: 21, scanned range = 0, scanned list = 24
+Query time (ms): 0.010471
+Match time (us): 2.61
+Scan time (us): ranges = 0.04, list = 1.89, total = 1.93
+True: 17, scanned range = 0, scanned list = 25
+Query time (ms): 0.01147
+Match time (us): 1.7
+Scan time (us): ranges = 0.04, list = 0.39, total = 0.43
+True: 0, scanned range = 0, scanned list = 4
+Query time (ms): 0.00876
+Match time (us): 2.52
+Scan time (us): ranges = 0.03, list = 0.69, total = 0.72
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.00919
+Match time (us): 2.4
+Scan time (us): ranges = 0.05, list = 5.63, total = 5.68
+True: 58, scanned range = 0, scanned list = 84
+Query time (ms): 0.01507
+Match time (us): 3.92
+Scan time (us): ranges = 0.06, list = 7.18, total = 7.24
+True: 14, scanned range = 0, scanned list = 193
+Query time (ms): 0.025351
+Match time (us): 1.44
+Scan time (us): ranges = 0.05, list = 0.38, total = 0.43
+True: 2, scanned range = 0, scanned list = 2
+Query time (ms): 0.00871
+Match time (us): 2.24
+Scan time (us): ranges = 0.05, list = 0.72, total = 0.77
+True: 3, scanned range = 0, scanned list = 6
+Query time (ms): 0.01037
+Total points returned by queries: 1116811
+Total queries: 1000
+Avg range query time (ns): 1.66019e+07
+Total points scanned: 3749544776 (range), 637522 (list)

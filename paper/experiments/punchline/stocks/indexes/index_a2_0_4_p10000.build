@@ -1,0 +1,39 @@
+CompositeIndex {
+	OctreeIndex {
+		10000
+		0 4
+	}
+	CombinedCorrelationIndex {
+		MappedCorrelationIndex {
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a2_0_4_p10000.k1.2_4.mapping
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a2_0_4_p10000.k1.2_4.targets
+		}
+		BucketedSecondaryIndex {
+			2
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a2_0_4_p10000.k1.2_4.mapping
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a2_0_4_p10000.k1.2_4.outliers
+		}
+	}
+	CombinedCorrelationIndex {
+		MappedCorrelationIndex {
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a2_0_4_p10000.k1.3_4.mapping
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a2_0_4_p10000.k1.3_4.targets
+		}
+		BucketedSecondaryIndex {
+			3
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a2_0_4_p10000.k1.3_4.mapping
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a2_0_4_p10000.k1.3_4.outliers
+		}
+	}
+	CombinedCorrelationIndex {
+		MappedCorrelationIndex {
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a2_0_4_p10000.k1.5_4.mapping
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a2_0_4_p10000.k1.5_4.targets
+		}
+		BucketedSecondaryIndex {
+			5
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a2_0_4_p10000.k1.5_4.mapping
+			/home/ubuntu/correlations/continuous/stocks/compressed/stocks_a2_0_4_p10000.k1.5_4.outliers
+		}
+	}
+}
